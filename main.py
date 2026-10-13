@@ -12,8 +12,9 @@ from selenium.webdriver.support import expected_conditions as EC
 # ==========================================
 # Configurações e Credenciais Seguras
 # ==========================================
-USUARIO = os.getenv("SISTEMA_LOGIN", "samuel.silva")
-SENHA = os.getenv("SISTEMA_SENHA", "9888")
+# Se a secret estiver vazia ou não configurada, usa o valor padrão:
+USUARIO = (os.getenv("SISTEMA_LOGIN") or "").strip() or "samuel.silva"
+SENHA = (os.getenv("SISTEMA_SENHA") or "").strip() or "9888"
 URL = "https://bigmais.dext.com.br/dxt_com/dxt_con_prd/index.php?menu_ativo=6&aplic_ativa=3"
 CAMINHO_DB = "estoque_bigmais.db"
 DATA_HOJE = date.today().strftime("%Y-%m-%d")
@@ -33,24 +34,36 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1920,1080")
+options.add_argument("--ignore-certificate-errors")
+options.add_argument("--allow-running-insecure-content")
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2})
 
 driver = webdriver.Chrome(options=options)
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 15)
 
 try:
-    print("🔐 Realizando login no sistema...")
+    print(f"🔐 Acessando o sistema com o usuário: {USUARIO}...")
     driver.get(URL)
-    wait.until(EC.presence_of_element_located((By.ID, "login"))).send_keys(USUARIO)
-    driver.find_element(By.ID, "password").send_keys(SENHA)
+    time.sleep(2)
+    print(f"📍 URL carregada: {driver.current_url} | Título: {driver.title}")
+
+    # Preenche login e senha
+    campo_login = wait.until(EC.presence_of_element_located((By.ID, "login")))
+    campo_login.clear()
+    campo_login.send_keys(USUARIO)
+
+    campo_senha = driver.find_element(By.ID, "password")
+    campo_senha.clear()
+    campo_senha.send_keys(SENHA)
 
     try:
         driver.find_element(By.CSS_SELECTOR, "input[type='submit'], button[type='submit']").click()
     except Exception:
-        driver.find_element(By.ID, "password").send_keys(Keys.RETURN)
+        campo_senha.send_keys(Keys.RETURN)
 
-    time.sleep(2)
-    print("✅ Login efetuado com sucesso!\n")
+    time.sleep(3)
+    print(f"✅ Login efetuado! Página atual: {driver.current_url} | Título: {driver.title}\n")
 
     # ==========================================
     # Banco de Dados Local
@@ -74,14 +87,17 @@ try:
     # Captura de Lojas
     # ==========================================
     driver.get(URL)
-    time.sleep(1.5)
-    driver.find_element(By.CSS_SELECTOR, "button.dropdown-toggle, div.dropdown button").click()
+    time.sleep(2)
+    print(f"🏢 Acessando consulta de produtos: {driver.current_url}")
+
+    botao_dropdown = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.dropdown-toggle, div.dropdown button")))
+    botao_dropdown.click()
 
     elementos_lojas = wait.until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.dropdown-menu.inner span.text"))
     )
     lista_lojas = [el.text.strip() for el in elementos_lojas if el.text.strip() and el.text.strip() != "Selecione"]
-    print(f"🏢 Lojas encontradas: {len(lista_lojas)} unidades\n")
+    print(f"🏢 Lojas encontradas: {len(lista_lojas)} unidades: {lista_lojas}\n")
 
     # ==========================================
     # Varredura de Estoque
@@ -139,7 +155,14 @@ try:
     print("\n✨ Atualização de estoque concluída com sucesso!")
 
 except Exception as e:
-    print(f"\n❌ Erro durante a execução: {e}")
+    print(f"\n❌ Erro durante a execução: {type(e).__name__} - {e}")
+    try:
+        print(f"📍 URL final: {driver.current_url}")
+        print(f"📄 Título: {driver.title}")
+        print("🔍 Trecho HTML da tela no momento do erro:")
+        print(driver.page_source[:1000])
+    except Exception:
+        pass
     raise e
 
 finally:
