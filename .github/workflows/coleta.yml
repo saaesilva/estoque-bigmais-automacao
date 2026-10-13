@@ -1,0 +1,42 @@
+name: Coleta Automática de Estoque Big Mais
+
+on:
+  schedule:
+    # Executa a cada 30 minutos (UTC)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Permite disparar manualmente pelo botão "Run workflow"
+
+jobs:
+  executar-coleta:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite comitar o banco atualizado de volta no repositório
+
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar ambiente Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependências
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Script de Coleta
+        env:
+          SISTEMA_LOGIN: ${{ secrets.SISTEMA_LOGIN }}
+          SISTEMA_SENHA: ${{ secrets.SISTEMA_SENHA }}
+        run: |
+          python main.py
+
+      - name: Salvar Banco Atualizado no Repositório
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add estoque_bigmais.db
+          git diff --staged --quiet || (git commit -m "Auto: atualização de estoque [skip ci]" && git push)
