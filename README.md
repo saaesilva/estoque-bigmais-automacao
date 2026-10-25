@@ -1,64 +1,38 @@
-# 🤖 Coleta Automática de Estoque — Big Mais
+# Coleta Automática de Estoque - Big Mais
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://www.python.org/)
-[![Selenium](https://img.shields.io/badge/Selenium-Headless-green?style=flat-square&logo=selenium)](https://www.selenium.dev/)
-[![SQLite](https://img.shields.io/badge/SQLite-Database-07405E?style=flat-square&logo=sqlite)](https://www.sqlite.org/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated_Cron-2088FF?style=flat-square&logo=github-actions)](https://github.com/features/actions)
+Automação periódica com Python, Selenium Headless e GitHub Actions para consulta e persistência de dados de estoque e indicadores comerciais do sistema Dext em um banco de dados SQLite (`estoque_bigmais.db`).
 
-> Automação em Python desenvolvida para monitorar e extrair periodicamente posições de estoque de produtos em sistemas legados (Dext), persistindo o histórico em um banco SQLite de forma 100% autônoma via GitHub Actions.
+## ⚙️ Como Funciona
+- **Agendamento Inteligente:** O GitHub Actions executa periodicamente entre **04:59 AM e 22:00 PM** (Horário de Brasília). A automação para após as 22:00 e retorna às 04:59.
+- **Navegação Headless:** Login automatizado consumindo credenciais criptografadas via GitHub Secrets.
+- **Varredura Multi-loja:** Varre todas as lojas cadastradas e pesquisa a lista com 278 códigos de produtos.
+- **Extração Completa:** Coleta posição de estoque e indicadores detalhados:
+  - `preco_venda` (UN 1)
+  - `margem_pdv` (Val. Margem PDV)
+  - `dias_estoque` (Dias de Estoque)
+  - `data_ult_compra` (Data Última Compra)
+  - `data_ult_venda` (Data Última Venda)
+  - `idade_estoque` (Idade Estoque)
+- **Persistência Estruturada:** Atualiza ou insere na tabela `estoque_atual` do SQLite.
+- **Auto-commit:** O GitHub Actions faz commit automático do arquivo `estoque_bigmais.db` atualizado de volta no repositório.
 
----
+## 🗄️ Estrutura da Tabela `estoque_atual`
+| Campo | Tipo | Descrição |
+|---|---|---|
+| `id` | INTEGER | Identificador auto-incremental |
+| `loja` | TEXT | Nome da unidade/loja |
+| `codigo` | TEXT | Código do produto |
+| `descricao` | TEXT | Descrição do item |
+| `estoque` | INTEGER | Quantidade física atual |
+| `preco_venda` | REAL | Preço unitário de venda (UN 1) |
+| `margem_pdv` | REAL | Percentual de Margem PDV (%) |
+| `dias_estoque` | REAL | Giro / Dias de cobertura de estoque |
+| `data_ult_compra` | TEXT | Data e intervalo da última compra |
+| `data_ult_venda` | TEXT | Data da última venda |
+| `idade_estoque` | TEXT | Tempo de permanência do estoque |
+| `data_coleta` | TEXT | Data da última sincronização (`YYYY-MM-DD`) |
 
-## ⚙️ Arquitetura e Funcionamento
-
-1. **Agendamento em Nuvem (CI/CD)**: O GitHub Actions dispara o fluxo a cada 30 minutos via **cron** sem necessidade de servidor local dedicado.
-2. **Navegação Headless**: Inicialização automatizada do Google Chrome em modo headless com Selenium.
-3. **Autenticação Segura**: Login automatizado consumindo credenciais criptografadas via GitHub Secrets.
-4. **Varredura Multi-loja**: Itera por todas as lojas cadastradas, consultando códigos de produtos pré-definidos.
-5. **Persistência**: Gravação estruturada dos dados na tabela `estoque_atual` do banco `estoque_bigmais.db`.
-6. **Auto-commit**: O workflow do GitHub Actions comita o banco atualizado de volta no repositório com as novas coletas.
-
----
-
-## 🔐 Configuração de Variáveis de Ambiente (GitHub Secrets)
-
-Para execução segura sem expor senhas no código-fonte, configure em seu repositório:
-**Settings > Secrets and variables > Actions > New repository secret**:
-
-- `SISTEMA_LOGIN`: Usuário de acesso ao sistema
-- `SISTEMA_SENHA`: Senha de acesso ao sistema
-
----
-
-## 🛠️ Execução Local
-
-### Pré-requisitos
-- Python 3.10+
-- Google Chrome instalado
-
-### Passo a Passo
-
-```bash
-# Clone o repositório
-git clone https://github.com/saaesilva/estoque-bigmais-automacao.git
-cd estoque-bigmais-automacao
-
-# Crie e ative um ambiente virtual
-python -m venv venv
-# No Windows:
-.\venv\Scripts\activate
-
-# Instale os requisitos
-pip install -r requirements.txt
-
-# Defina as variáveis de ambiente e execute
-$env:SISTEMA_LOGIN="seu_usuario"
-$env:SISTEMA_SENHA="sua_senha"
-python main.py
-```
-
----
-
-## 👤 Autor
-
-Desenvolvido por **[Samuel Silva](https://github.com/saaesilva)**.
+## 🔒 Variáveis Secretas (GitHub Secrets)
+Configuradas em **Settings > Secrets and variables > Actions > New repository secret**:
+- `SISTEMA_LOGIN`: Usuário de acesso ao sistema.
+- `SISTEMA_SENHA`: Senha de acesso ao sistema.
