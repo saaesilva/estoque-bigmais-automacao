@@ -144,6 +144,7 @@ try:
             descricao TEXT,
             estoque INTEGER,
             preco_venda REAL,
+            custo_liquido REAL,
             margem_pdv REAL,
             dias_estoque REAL,
             data_ult_compra TEXT,
@@ -158,6 +159,7 @@ try:
     # Garante compatibilidade adicionando colunas caso a tabela já exista
     colunas_novas = [
         ("preco_venda", "REAL"),
+        ("custo_liquido", "REAL"),
         ("margem_pdv", "REAL"),
         ("dias_estoque", "REAL"),
         ("data_ult_compra", "TEXT"),
@@ -233,7 +235,12 @@ try:
                         # Extrai todos os dados estruturados do DOM
                         dados = driver.execute_script("""
                             function normalizar(t) {
-                                return (t || '').toLowerCase().trim().replace(/\\s+/g, ' ');
+                                return (t || '')
+                                    .toLowerCase()
+                                    .normalize('NFD')
+                                    .replace(/[\u0300-\u036f]/g, '')
+                                    .trim()
+                                    .replace(/\\s+/g, ' ');
                             }
 
                             let descricao = '';
@@ -256,6 +263,13 @@ try:
                                         if (el.nextElementSibling && el.nextElementSibling.innerText) {
                                             return el.nextElementSibling.innerText.trim();
                                         }
+                                        if (el.parentElement && el.parentElement.nextElementSibling) {
+                                            const idx = Array.from(el.parentElement.children).indexOf(el);
+                                            const nextRowCell = el.parentElement.nextElementSibling.children[idx];
+                                            if (nextRowCell && nextRowCell.innerText) {
+                                                return nextRowCell.innerText.trim();
+                                            }
+                                        }
                                     }
                                 }
                                 return '';
@@ -276,6 +290,7 @@ try:
                                 descricao: descricao,
                                 estoque: estoque,
                                 preco_venda: precoVenda,
+                                custo_liquido: extrairValor('Custo Líquido') || extrairValor('Custo Liquido'),
                                 margem_pdv: extrairValor('Val. Margem PDV'),
                                 dias_estoque: extrairValor('Dias de Estoque'),
                                 data_ult_compra: extrairValor('Data Ult Compra'),
@@ -285,6 +300,7 @@ try:
                         """)
 
                         preco_venda = limpar_valor_numerico(dados.get("preco_venda"))
+                        custo_liquido = limpar_valor_numerico(dados.get("custo_liquido"))
                         margem_pdv = limpar_valor_numerico(dados.get("margem_pdv"))
                         dias_estoque = limpar_valor_numerico(dados.get("dias_estoque"))
                         data_ult_compra = limpar_texto(dados.get("data_ult_compra"))
@@ -296,13 +312,13 @@ try:
                         cursor.execute("""
                             INSERT OR REPLACE INTO estoque_atual (
                                 loja, codigo, descricao, estoque,
-                                preco_venda, margem_pdv, dias_estoque,
+                                preco_venda, custo_liquido, margem_pdv, dias_estoque,
                                 data_ult_compra, data_ult_venda, idade_estoque,
                                 data_coleta
-                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                         """, (
                             nome_loja, codigo_produto, descricao, estoque,
-                            preco_venda, margem_pdv, dias_estoque,
+                            preco_venda, custo_liquido, margem_pdv, dias_estoque,
                             data_ult_compra, data_ult_venda, idade_estoque,
                             DATA_HOJE
                         ))
