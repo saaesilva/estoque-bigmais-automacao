@@ -85,6 +85,63 @@ def limpar_texto(texto):
         return ""
     return re.sub(r"\s+", " ", str(texto)).strip()
 
+def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
+    import json
+    try:
+        conn = sqlite3.connect(caminho_db)
+        conn.row_factory = sqlite3.Row
+        cur = conn.cursor()
+        rows = cur.execute("SELECT * FROM estoque_atual ORDER BY loja, codigo").fetchall()
+        lista = []
+        for r in rows:
+            data_venda = r['data_ult_venda'] or ""
+            idade = r['idade_estoque'] or ""
+            dias_sem_venda = None
+            if data_venda:
+                m = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_venda, re.I)
+                if m:
+                    dias_sem_venda = int(m.group(1))
+            if dias_sem_venda is None and idade:
+                m = re.search(r'(\d+)\s*Dias?', idade, re.I)
+                if m:
+                    dias_sem_venda = int(m.group(1))
+            
+            dias_str = "S/ Venda" if dias_sem_venda is None else ("Hoje (0 dias)" if dias_sem_venda == 0 else f"{dias_sem_venda} dias")
+            data_compra = r['data_ult_compra'] or ""
+            m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
+            m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
+            ult_compra_str = "-"
+            if m_compra:
+                ult_compra_str = f"{m_compra.group(1)} ({m_compra_dias.group(1)}d)" if m_compra_dias else m_compra.group(1)
+
+            margem_val = r['margem_pdv']
+            margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
+
+            lista.append({
+                "loja": r['loja'] or "",
+                "codigo": str(r['codigo'] or "").strip(),
+                "descricao": (r['descricao'] or "").strip(),
+                "nome": (r['descricao'] or "").strip(),
+                "estoque": int(r['estoque'] or 0),
+                "preco_venda": float(r['preco_venda'] or 0.0),
+                "custo_liquido": float(r['custo_liquido'] or 0.0),
+                "margem_pdv": margem_str,
+                "data_ult_compra": data_compra,
+                "data_ult_venda": data_venda,
+                "ult_compra_str": ult_compra_str,
+                "dias_sem_venda": dias_sem_venda,
+                "dias_sem_venda_str": dias_str,
+                "idade_estoque": idade,
+                "dias_estoque": float(r['dias_estoque'] or 0.0) if r['dias_estoque'] else 0.0,
+                "data_coleta": r['data_coleta'] or ""
+            })
+        conn.close()
+        with open(caminho_json, "w", encoding="utf-8") as f:
+            json.dump(lista, f, ensure_ascii=False, indent=2)
+        print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
+    except Exception as e:
+        print(f"⚠️ Erro ao exportar JSON de estoque: {e}", flush=True)
+
 # ==========================================
 # Configuração Headless para o Servidor Linux
 # ==========================================
@@ -331,6 +388,7 @@ try:
                 pass
 
     conn.close()
+    exportar_json(CAMINHO_DB, "estoque_bigmais.json")
     print("\n✨ Atualização de estoque e indicadores concluída com sucesso!", flush=True)
 
 except Exception as e:
