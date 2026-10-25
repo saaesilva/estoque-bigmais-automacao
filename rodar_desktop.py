@@ -40,6 +40,28 @@ URL = "https://bigmais.dext.com.br/dxt_com/dxt_con_prd/index.php?menu_ativo=6&ap
 CAMINHO_DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "estoque_bigmais.db")
 CAMINHO_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "estoque_bigmais.json")
 
+def extrair_unidade(descricao):
+    d = (descricao or "").upper().strip()
+    if re.search(r'\b(KG|QUILO|KILO)\b', d) and not re.search(r'\b\d+\s*KG\b', d):
+        return "KG", "kg", "Quilo"
+    elif re.search(r'\b(BDJ|BANDEJA|BANDEJAS|BJA)\b', d):
+        return "BDJ", "bdj", "Bandeja"
+    elif re.search(r'\b(PCT|PACOTE|PACOTES|FITO|SACO)\b', d):
+        return "PCT", "pct", "Pacote"
+    elif re.search(r'\b(CX|CAIXA|CAIXAS)\b', d):
+        return "CX", "cx", "Caixa"
+    elif re.search(r'\b(MC|MACO|MAÇO|MAÇOS|MOLHO|MOLHOS)\b', d):
+        return "MC", "mc", "Maço"
+    elif re.search(r'\b(DZ|DUZIA|DÚZIA)\b', d):
+        return "DZ", "dz", "Dúzia"
+    elif re.search(r'\b(UN|UND|UNIDADE|UNIDADES)\b', d):
+        return "UN", "un", "Unidade"
+    elif "FITO" in d:
+        return "PCT", "pct", "Pacote"
+    elif re.search(r'\b\d+\s*G\b', d):
+        return "BDJ", "bdj", "Bandeja"
+    return "UN", "un", "Unidade"
+
 def exportar_json(caminho_db, caminho_json):
     try:
         conn = sqlite3.connect(caminho_db)
@@ -71,12 +93,27 @@ def exportar_json(caminho_db, caminho_json):
             margem_val = r['margem_pdv']
             margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
 
+            desc = (r['descricao'] or "").strip()
+            u_tipo, u_sigla, u_rotulo = extrair_unidade(desc)
+            raw_est = r['estoque'] or 0
+            if u_tipo == 'KG' and raw_est > 500:
+                estoque_num = round(raw_est / 1000.0, 3)
+                estoque_str = f"{estoque_num:.2f} {u_sigla}".replace('.', ',')
+            else:
+                estoque_num = int(raw_est)
+                estoque_str = f"{int(estoque_num)} {u_sigla}"
+
             lista.append({
                 "loja": r['loja'] or "",
                 "codigo": str(r['codigo'] or "").strip(),
-                "descricao": (r['descricao'] or "").strip(),
-                "nome": (r['descricao'] or "").strip(),
-                "estoque": int(r['estoque'] or 0),
+                "descricao": desc,
+                "nome": desc,
+                "unidade": u_tipo,
+                "unidade_sigla": u_sigla,
+                "unidade_rotulo": u_rotulo,
+                "estoque": estoque_num,
+                "estoque_raw": int(raw_est),
+                "estoque_formatado": estoque_str,
                 "preco_venda": float(r['preco_venda'] or 0.0),
                 "custo_liquido": float(r['custo_liquido'] or 0.0),
                 "margem_pdv": margem_str,
