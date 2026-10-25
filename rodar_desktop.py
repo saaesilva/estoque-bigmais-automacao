@@ -153,6 +153,30 @@ def upload_db_to_github(token, repo, local_file_path, target_repo_path="estoque_
         print(f"❌ [GitHub] Falha ao enviar para o repositório: {e.code} - {err_msg}")
         return False
 
+def baixar_db_do_github(token, repo, local_file_path, target_repo_path="estoque_bigmais.db"):
+    if os.path.exists(local_file_path):
+        return True
+    try:
+        print(f"📥 Baixando banco existente ({target_repo_path}) do GitHub...")
+        api_url = f"https://api.github.com/repos/{repo}/contents/{target_repo_path}"
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "Antigravity-Agent",
+            "X-GitHub-Api-Version": "2022-11-28"
+        }
+        req = urllib.request.Request(api_url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            content = base64.b64decode(data["content"])
+            with open(local_file_path, "wb") as f:
+                f.write(content)
+        print("✅ Banco existente sincronizado do GitHub com sucesso!")
+        return True
+    except Exception as e:
+        print(f"[!] Não foi possível baixar banco anterior do GitHub (um novo será criado se necessário): {e}")
+        return False
+
 def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload=False):
     from tqdm import tqdm
     from selenium import webdriver
@@ -160,6 +184,8 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
+
+    baixar_db_do_github(GITHUB_TOKEN, REPO, CAMINHO_DB)
 
     print("========================================================")
     print("   COLETA DE ESTOQUE BIG MAIS - MODO DESKTOP")
