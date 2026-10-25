@@ -8,6 +8,7 @@ Automação periódica com Python, Selenium Headless e GitHub Actions para consu
 - **Varredura Multi-loja:** Varre todas as lojas cadastradas e pesquisa a lista com 278 códigos de produtos.
 - **Extração Completa:** Coleta posição de estoque e indicadores detalhados:
   - `preco_venda` (UN 1)
+  - `custo_liquido` (Custo Líquido)
   - `margem_pdv` (Val. Margem PDV)
   - `dias_estoque` (Dias de Estoque)
   - `data_ult_compra` (Data Última Compra)
@@ -25,6 +26,7 @@ Automação periódica com Python, Selenium Headless e GitHub Actions para consu
 | `descricao` | TEXT | Descrição do item |
 | `estoque` | INTEGER | Quantidade física atual |
 | `preco_venda` | REAL | Preço unitário de venda (UN 1) |
+| `custo_liquido` | REAL | Custo líquido do item (R$) |
 | `margem_pdv` | REAL | Percentual de Margem PDV (%) |
 | `dias_estoque` | REAL | Giro / Dias de cobertura de estoque |
 | `data_ult_compra` | TEXT | Data e intervalo da última compra |
