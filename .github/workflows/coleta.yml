@@ -2,8 +2,11 @@ name: Coleta Automática de Estoque Big Mais
 
 on:
   schedule:
-    # Executa a cada 30 minutos (UTC)
-    - cron: '*/30 * * * *'
+    # 1. Disparo de abertura às 04:59 da manhã (Horário de Brasília: UTC-3 -> 07:59 UTC)
+    - cron: '59 7 * * *'
+    # 2. Execuções a cada 30 minutos das 05:00 às 22:00 BRT (08:00 às 01:00 UTC)
+    # Após as 22:00 BRT (01:00 UTC), nenhuma execução roda até as 04:59 AM
+    - cron: '0,30 0,1,8-23 * * *'
   workflow_dispatch: # Permite disparar manualmente pelo botão "Run workflow"
 
 jobs:
@@ -38,4 +41,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add estoque_bigmais.db
-          git diff --staged --quiet || (git commit -m "Auto: atualização de estoque [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "Auto: atualização de estoque e indicadores [skip ci]" && git push)
