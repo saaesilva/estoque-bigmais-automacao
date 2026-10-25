@@ -257,6 +257,57 @@ def baixar_db_do_github(token, repo, local_file_path, target_repo_path="estoque_
         print(f"[!] Não foi possível baixar banco anterior do GitHub (um novo será criado se necessário): {e}")
         return False
 
+def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
+    """
+    Prioriza produtos sem informações completas:
+    - Produtos sem preço de venda ou com preco_venda == 0
+    - Produtos sem custo líquido ou com custo_liquido == 0
+    - Produtos com descrição genérica ('PRODUTO %')
+    - Produtos sem data de última compra ou venda
+    - Produtos que ainda não foram coletados na data de hoje
+    """
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT codigo, descricao, estoque, preco_venda, custo_liquido,
+               data_ult_compra, data_ult_venda, data_coleta
+        FROM estoque_atual
+        WHERE loja = ?
+    """, (nome_loja,))
+    dados_loja = {str(r[0]).strip(): r for r in cursor.fetchall()}
+    data_hoje = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
+
+    def calcular_urgencia(cod):
+        cod_str = str(cod).strip()
+        if cod_str not in dados_loja:
+            return 1000
+
+        row = dados_loja[cod_str]
+        desc = (row[1] or "").strip()
+        preco = float(row[3] or 0.0)
+        custo = float(row[4] or 0.0)
+        ult_compra = (row[5] or "").strip()
+        ult_venda = (row[6] or "").strip()
+        data_col = (row[7] or "").strip()
+
+        score = 0
+        if preco <= 0.0:
+            score += 300
+        if custo <= 0.0:
+            score += 200
+        if desc.startswith("PRODUTO "):
+            score += 200
+        if not ult_compra or ult_compra == "-":
+            score += 100
+        if not ult_venda or ult_venda == "-":
+            score += 50
+        if data_col != data_hoje:
+            score += 150
+
+        return score
+
+    return sorted(codigos_produtos, key=calcular_urgencia, reverse=True)
+
+
 def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload=False):
     from tqdm import tqdm
     from selenium import webdriver
@@ -391,8 +442,11 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                     driver.find_element(By.XPATH, f"//ul[contains(@class, 'dropdown-menu')]//span[@class='text' and text()='{nome_loja}']").click()
                     time.sleep(1)
 
-                    for codigo_produto in produtos_para_coletar:
-                        barra.set_postfix_str(f"{nome_loja[:12]} | Cód: {codigo_produto}")
+                    # Prioriza produtos sem informação para coletar primeiro
+                    produtos_ordenados = ordenar_produtos_por_prioridade(conn, nome_loja, produtos_para_coletar)
+
+                    for codigo_produto in produtos_ordenados:
+                        barra.set_postfix_str(f"{nome_loja[:10]} | Cód: {codigo_produto}")
                         try:
                             # 1. Fecha eventuais modais anteriores e limpa a tabela para não herdar dados antigos
                             driver.execute_script("""
@@ -568,10 +622,22 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                             ))
                             conn.commit()
                             itens_coletados += 1
+
+                            # Atualiza o catálogo JSON incrementalmente a cada 5 produtos
+                            if itens_coletados % 5 == 0:
+                                exportar_json(CAMINHO_DB, CAMINHO_JSON)
                         except Exception:
                             pass
 
                         barra.update(1)
+
+                    # Ao finalizar a loja: exporta o JSON e sincroniza o progresso com o GitHub
+                    exportar_json(CAMINHO_DB, CAMINHO_JSON)
+                    if not sem_upload:
+                        print(f"\n☁️ [Loja {nome_loja}] Sincronizando progresso intermediário com o GitHub...")
+                        upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_DB, "estoque_bigmais.db")
+                        upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_JSON, "estoque_bigmais.json")
+
                 except Exception:
                     pass
 
