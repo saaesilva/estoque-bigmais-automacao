@@ -147,7 +147,14 @@ def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
                     estoque_num = round(raw_est / 1000.0, 3)
                 else:
                     estoque_num = round(float(raw_est), 3)
-                estoque_str = f"{estoque_num:,.3f} {u_sigla}".replace(',', 'X').replace('.', ',').replace('X', '.')
+                formatted = f"{estoque_num:.3f}".rstrip('0')
+                if formatted.endswith('.'):
+                    formatted += '00'
+                elif len(formatted.split('.')[1]) == 1:
+                    formatted += '0'
+                parts = formatted.split('.')
+                int_part = f"{int(parts[0]):,}".replace(',', '.')
+                estoque_str = f"{int_part},{parts[1]} {u_sigla}"
             else:
                 estoque_num = int(raw_est)
                 estoque_str = f"{int(estoque_num)} {u_sigla}"
