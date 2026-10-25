@@ -38,6 +38,63 @@ USUARIO = (os.getenv("SISTEMA_LOGIN") or "").strip() or "samuel.silva"
 SENHA = (os.getenv("SISTEMA_SENHA") or "").strip() or "9888"
 URL = "https://bigmais.dext.com.br/dxt_com/dxt_con_prd/index.php?menu_ativo=6&aplic_ativa=3"
 CAMINHO_DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "estoque_bigmais.db")
+CAMINHO_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "estoque_bigmais.json")
+
+def exportar_json(caminho_db, caminho_json):
+    try:
+        conn = sqlite3.connect(caminho_db)
+        conn.row_factory = sqlite3.Row
+        cur = conn.cursor()
+        rows = cur.execute("SELECT * FROM estoque_atual ORDER BY loja, codigo").fetchall()
+        lista = []
+        for r in rows:
+            data_venda = r['data_ult_venda'] or ""
+            idade = r['idade_estoque'] or ""
+            dias_sem_venda = None
+            if data_venda:
+                m = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_venda, re.I)
+                if m:
+                    dias_sem_venda = int(m.group(1))
+            if dias_sem_venda is None and idade:
+                m = re.search(r'(\d+)\s*Dias?', idade, re.I)
+                if m:
+                    dias_sem_venda = int(m.group(1))
+            
+            dias_str = "S/ Venda" if dias_sem_venda is None else ("Hoje (0 dias)" if dias_sem_venda == 0 else f"{dias_sem_venda} dias")
+            data_compra = r['data_ult_compra'] or ""
+            m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
+            m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
+            ult_compra_str = "-"
+            if m_compra:
+                ult_compra_str = f"{m_compra.group(1)} ({m_compra_dias.group(1)}d)" if m_compra_dias else m_compra.group(1)
+
+            margem_val = r['margem_pdv']
+            margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
+
+            lista.append({
+                "loja": r['loja'] or "",
+                "codigo": str(r['codigo'] or "").strip(),
+                "descricao": (r['descricao'] or "").strip(),
+                "nome": (r['descricao'] or "").strip(),
+                "estoque": int(r['estoque'] or 0),
+                "preco_venda": float(r['preco_venda'] or 0.0),
+                "custo_liquido": float(r['custo_liquido'] or 0.0),
+                "margem_pdv": margem_str,
+                "data_ult_compra": data_compra,
+                "data_ult_venda": data_venda,
+                "ult_compra_str": ult_compra_str,
+                "dias_sem_venda": dias_sem_venda,
+                "dias_sem_venda_str": dias_str,
+                "idade_estoque": idade,
+                "dias_estoque": float(r['dias_estoque'] or 0.0) if r['dias_estoque'] else 0.0,
+                "data_coleta": r['data_coleta'] or ""
+            })
+        conn.close()
+        with open(caminho_json, "w", encoding="utf-8") as f:
+            json.dump(lista, f, ensure_ascii=False, indent=2)
+        print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
+    except Exception as e:
+        print(f"⚠️ Erro ao exportar JSON de estoque: {e}", flush=True)
 
 FUSO_BR = timezone(timedelta(hours=-3))
 agora_br = datetime.now(FUSO_BR)
@@ -438,10 +495,12 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                     pass
 
         conn.close()
+        exportar_json(CAMINHO_DB, CAMINHO_JSON)
         print(f"\n✨ Coleta concluída com sucesso! Total de registros gravados: {itens_coletados}")
 
         if not sem_upload:
-            upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_DB)
+            upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_DB, "estoque_bigmais.db")
+            upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_JSON, "estoque_bigmais.json")
         else:
             print(f"ℹ️ Upload desativado via parâmetro (--sem-upload). Banco salvo em: {CAMINHO_DB}")
 
