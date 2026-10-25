@@ -144,7 +144,7 @@ def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
             raw_est = r['estoque'] or 0
             if u_tipo == 'KG':
                 if isinstance(raw_est, (int, float)) and int(raw_est) == raw_est:
-                    estoque_num = round(raw_est / 100.0, 3)
+                    estoque_num = round(raw_est / 1000.0, 3)
                 else:
                     estoque_num = round(float(raw_est), 3)
                 estoque_str = f"{estoque_num:,.3f} {u_sigla}".replace(',', 'X').replace('.', ',').replace('X', '.')
