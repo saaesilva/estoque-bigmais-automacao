@@ -56,8 +56,8 @@ goto FINALIZAR
 
 :OP4
 echo.
-echo Enviando arquivo atual para o GitHub...
-%PY% -c "from rodar_desktop import upload_db_to_github, GITHUB_TOKEN, REPO, CAMINHO_DB; upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_DB)"
+echo Exportando catalogo JSON e enviando arquivos para o GitHub...
+%PY% -c "from rodar_desktop import upload_db_to_github, exportar_json, GITHUB_TOKEN, REPO, CAMINHO_DB, CAMINHO_JSON; exportar_json(CAMINHO_DB, CAMINHO_JSON); upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_DB, 'estoque_bigmais.db'); upload_db_to_github(GITHUB_TOKEN, REPO, CAMINHO_JSON, 'estoque_bigmais.json')"
 goto FINALIZAR
 
 :FINALIZAR
