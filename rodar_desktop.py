@@ -113,6 +113,8 @@ def exportar_json(caminho_db, caminho_json):
                 sinal = "-" if is_neg else ""
                 estoque_str = f"{sinal}{int_fmt} {u_sigla}"
 
+            curva, giro = classificar_curva_produto(str(r['codigo'] or "").strip(), desc)
+
             lista.append({
                 "loja": r['loja'] or "",
                 "codigo": str(r['codigo'] or "").strip(),
@@ -121,6 +123,8 @@ def exportar_json(caminho_db, caminho_json):
                 "unidade": u_tipo,
                 "unidade_sigla": u_sigla,
                 "unidade_rotulo": u_rotulo,
+                "curva": curva,
+                "giro": giro,
                 "estoque": estoque_num,
                 "estoque_raw": estoque_num,
                 "estoque_formatado": estoque_str,
@@ -148,11 +152,11 @@ agora_br = datetime.now(FUSO_BR)
 DATA_HOJE = agora_br.strftime("%Y-%m-%d")
 
 try:
-    from produtos_catalogo import PRODUTOS_CANONICOS, CODIGOS_PRODUTOS
+    from produtos_catalogo import PRODUTOS_CANONICOS, CODIGOS_PRODUTOS, classificar_curva_produto, CODIGOS_CURVA_A
 except ImportError:
     import sys
     sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-    from produtos_catalogo import PRODUTOS_CANONICOS, CODIGOS_PRODUTOS
+    from produtos_catalogo import PRODUTOS_CANONICOS, CODIGOS_PRODUTOS, classificar_curva_produto, CODIGOS_CURVA_A
 
 
 def limpar_valor_numerico(texto):
@@ -259,12 +263,12 @@ def baixar_db_do_github(token, repo, local_file_path, target_repo_path="estoque_
 
 def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
     """
-    Prioriza produtos sem informações completas:
-    - Produtos sem preço de venda ou com preco_venda == 0
-    - Produtos sem custo líquido ou com custo_liquido == 0
-    - Produtos com descrição genérica ('PRODUTO %')
-    - Produtos sem data de última compra ou venda
-    - Produtos que ainda não foram coletados na data de hoje
+    Ordena produtos estrategicamente priorizando:
+    1. Curva A (Alto Giro - FLV essencial) e Curva B (Médio Giro)
+    2. Ruptura de Estoque (estoque <= 0 em itens de Alto Giro exige urgência máxima)
+    3. Giro ativo no dia (venda confirmada hoje ou ontem no ERP)
+    4. Produtos sem informações comerciais completas (preço, custo, última compra/venda)
+    5. Produtos que ainda não foram coletados na data de hoje
     """
     cursor = conn.cursor()
     cursor.execute("""
@@ -278,11 +282,17 @@ def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
 
     def calcular_urgencia(cod):
         cod_str = str(cod).strip()
+        desc_canonica = PRODUTOS_CANONICOS.get(cod_str, "")
+        curva, giro = classificar_curva_produto(cod_str, desc_canonica)
+
         if cod_str not in dados_loja:
-            return 1000
+            # Nunca coletado na loja: máxima prioridade, especialmente se Curva A
+            bonus_curva = 500 if curva == "A" else (200 if curva == "B" else 0)
+            return 2000 + bonus_curva
 
         row = dados_loja[cod_str]
-        desc = (row[1] or "").strip()
+        desc = (row[1] or desc_canonica).strip()
+        estoque = float(row[2] or 0.0)
         preco = float(row[3] or 0.0)
         custo = float(row[4] or 0.0)
         ult_compra = (row[5] or "").strip()
@@ -290,6 +300,37 @@ def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
         data_col = (row[7] or "").strip()
 
         score = 0
+
+        # 1. Prioridade por Curva ABC / Giro (Alto Giro sempre na frente)
+        if curva == "A":
+            score += 600
+        elif curva == "B":
+            score += 250
+        else: # C
+            score += 50
+
+        # 2. Ruptura de Estoque (Estoque zerado ou negativo)
+        if estoque <= 0.0:
+            if curva == "A":
+                score += 400 # Ruptura em Curva A é emergencial!
+            elif curva == "B":
+                score += 150
+            else:
+                score += 50
+
+        # 3. Giro ativo comprovado no PDV (venda diária recente)
+        if ult_venda:
+            m = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', ult_venda, re.I)
+            if m:
+                dias_venda = int(m.group(1))
+                if dias_venda == 0:
+                    score += 250 # Vendeu hoje!
+                elif dias_venda == 1:
+                    score += 120 # Vendeu ontem
+                elif dias_venda <= 3:
+                    score += 60
+
+        # 4. Dados comerciais ausentes ou incompletos
         if preco <= 0.0:
             score += 300
         if custo <= 0.0:
@@ -300,8 +341,10 @@ def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
             score += 100
         if not ult_venda or ult_venda == "-":
             score += 50
+
+        # 5. Desatualizado no dia de hoje
         if data_col != data_hoje:
-            score += 150
+            score += 200
 
         return score
 
@@ -538,7 +581,7 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                                 let tEst = celulas[4].innerText.trim();
                                                 if (tEst.includes(',') && tEst.includes('.')) {
                                                     if (tEst.lastIndexOf(',') > tEst.lastIndexOf('.')) {
-                                                        tEst = tEst.replace(/\./g, '').replace(',', '.');
+                                                        tEst = tEst.replace(/\\./g, '').replace(',', '.');
                                                     } else {
                                                         tEst = tEst.replace(/,/g, '');
                                                     }
