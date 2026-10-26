@@ -73,6 +73,43 @@ def extrair_unidade(descricao):
         return "BDJ", "bdj", "Bandeja"
     return "UN", "un", "Unidade"
 
+def calcular_dias_sem_venda(data_venda_str, data_referencia=None):
+    if not data_venda_str:
+        return None, "Sem Venda"
+    
+    texto = str(data_venda_str).strip()
+    if texto in ('( Dias )', '-', '', 'None', 'null'):
+        return None, "Sem Venda"
+
+    if data_referencia is None:
+        try:
+            data_referencia = datetime.now(timezone(timedelta(hours=-3))).date()
+        except Exception:
+            data_referencia = date.today()
+
+    # 1. Tenta extrair a data real DD/MM/YYYY
+    m_data = re.search(r'(\d{2})/(\d{2})/(\d{4})', texto)
+    if m_data:
+        try:
+            dia, mes, ano = int(m_data.group(1)), int(m_data.group(2)), int(m_data.group(3))
+            dt_venda = date(ano, mes, dia)
+            diff = (data_referencia - dt_venda).days
+            if diff >= 0:
+                dias_str = "Hoje (0 dias)" if diff == 0 else ("1 dia" if diff == 1 else f"{diff} dias")
+                return diff, dias_str
+        except Exception:
+            pass
+
+    # 2. Se tem número explícito em ( X Dias )
+    m_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', texto, re.I)
+    if m_dias:
+        d = int(m_dias.group(1))
+        dias_str = "Hoje (0 dias)" if d == 0 else ("1 dia" if d == 1 else f"{d} dias")
+        return d, dias_str
+
+    return None, "Sem Venda"
+
+
 def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
     import json
     try:
@@ -80,21 +117,13 @@ def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
         conn.row_factory = sqlite3.Row
         cur = conn.cursor()
         rows = cur.execute("SELECT * FROM estoque_atual ORDER BY loja, codigo").fetchall()
+        hoje_ref = datetime.now(timezone(timedelta(hours=-3))).date()
         lista = []
         for r in rows:
             data_venda = r['data_ult_venda'] or ""
             idade = r['idade_estoque'] or ""
-            dias_sem_venda = None
-            if data_venda:
-                m = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_venda, re.I)
-                if m:
-                    dias_sem_venda = int(m.group(1))
-            if dias_sem_venda is None and idade:
-                m = re.search(r'(\d+)\s*Dias?', idade, re.I)
-                if m:
-                    dias_sem_venda = int(m.group(1))
+            dias_sem_venda, dias_str = calcular_dias_sem_venda(data_venda, hoje_ref)
             
-            dias_str = "S/ Venda" if dias_sem_venda is None else ("Hoje (0 dias)" if dias_sem_venda == 0 else f"{dias_sem_venda} dias")
             data_compra = r['data_ult_compra'] or ""
             m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
             m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
@@ -153,6 +182,11 @@ def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
                 "data_coleta": r['data_coleta'] or ""
             })
         conn.close()
+        with open(caminho_json, "w", encoding="utf-8") as f:
+            json.dump(lista, f, ensure_ascii=False, indent=2)
+        print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
+    except Exception as e:
+        print(f"⚠️ Erro ao exportar JSON de estoque: {e}", flush=True)
         with open(caminho_json, "w", encoding="utf-8") as f:
             json.dump(lista, f, ensure_ascii=False, indent=2)
         print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
@@ -383,13 +417,11 @@ def executar_automacao():
                     for codigo_produto in produtos_ordenados:
                         barra.set_postfix_str(f"Loja: {nome_loja} | Cód: {codigo_produto}")
                         try:
-                            # 1. Fecha eventuais modais anteriores e limpa a tabela para não herdar dados antigos
+                            # 1. Remove ativamente modais anteriores do DOM para não vazar dados
                             driver.execute_script("""
-                                const modais = document.querySelectorAll('.modal.in, .modal.show');
-                                for (let m of modais) {
-                                    const btnClose = m.querySelector('[data-dismiss="modal"], .close');
-                                    if (btnClose) btnClose.click();
-                                }
+                                document.querySelectorAll('.modal, .modal-backdrop, [class*="modal"], [id*="modal"], [id*="Modal"]').forEach(el => {
+                                    try { el.remove(); } catch(e) {}
+                                });
                                 const tbody = document.querySelector('table.displayRelatorios tbody');
                                 if (tbody) tbody.innerHTML = '';
                             """)
@@ -444,7 +476,7 @@ def executar_automacao():
                                 """, codigo_produto)
                                 time.sleep(1.2)
 
-                                # Extrai dados do DOM
+                                # Extrai dados estritamente do modal ativo visível
                                 dados = driver.execute_script("""
                                     function normalizar(t) {
                                         return (t || '')
@@ -486,9 +518,22 @@ def executar_automacao():
                                         }
                                     }
 
+                                    function obterContainerModal() {
+                                        const modais = Array.from(document.querySelectorAll('.modal, [id*="modal"], [id*="Modal"], [class*="modal"]')).filter(m => {
+                                            try {
+                                                const s = window.getComputedStyle(m);
+                                                if (s.display === 'none' || s.visibility === 'hidden' || s.opacity === '0') return false;
+                                                return m.offsetWidth > 0 || m.offsetHeight > 0;
+                                            } catch(e) { return false; }
+                                        });
+                                        return modais.length > 0 ? modais[modais.length - 1] : null;
+                                    }
+                                    const modalAtivo = obterContainerModal();
+
                                     function extrairValor(rotulo) {
+                                        if (!modalAtivo) return '';
                                         const rotuloNorm = normalizar(rotulo);
-                                        const elementos = Array.from(document.querySelectorAll('th, td'));
+                                        const elementos = Array.from(modalAtivo.querySelectorAll('th, td'));
                                         for (let el of elementos) {
                                             if (normalizar(el.innerText) === rotuloNorm) {
                                                 if (el.nextElementSibling && el.nextElementSibling.innerText) {
@@ -507,12 +552,14 @@ def executar_automacao():
                                     }
 
                                     let precoVenda = '';
-                                    const ths = Array.from(document.querySelectorAll('th'));
-                                    for (let th of ths) {
-                                        if (th.innerText && th.innerText.trim() === 'UN 1') {
-                                            if (th.nextElementSibling && th.nextElementSibling.innerText) {
-                                                precoVenda = th.nextElementSibling.innerText.trim();
-                                                break;
+                                    if (modalAtivo) {
+                                        const ths = Array.from(modalAtivo.querySelectorAll('th'));
+                                        for (let th of ths) {
+                                            if (th.innerText && th.innerText.trim() === 'UN 1') {
+                                                if (th.nextElementSibling && th.nextElementSibling.innerText) {
+                                                    precoVenda = th.nextElementSibling.innerText.trim();
+                                                    break;
+                                                }
                                             }
                                         }
                                     }
