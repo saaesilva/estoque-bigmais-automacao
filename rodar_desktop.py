@@ -597,119 +597,188 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                     break
 
                             if achou_linha and ondbl:
-                                # 3. Dispara a requisição Jaxon de montagem dos dados comerciais
+                                # 3. Limpa o painel anterior para evitar vazamento de dados de outro produto
+                                driver.execute_script("const p = document.getElementById('idclearpainel'); if (p) p.innerHTML = '';")
                                 driver.execute_script(ondbl)
 
                                 # 4. Aguarda o painel ser atualizado para o código deste produto específico
-                                for _ in range(15):
+                                carregou = False
+                                for _ in range(25):
                                     time.sleep(0.2)
                                     carregou = driver.execute_script("""
                                         const cod = arguments[0];
                                         const p = document.getElementById('idclearpainel');
                                         if (!p) return false;
                                         const txt = p.innerText || '';
-                                        return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo'));
+                                        return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
                                     """, codigo_produto)
                                     if carregou:
                                         break
 
-                                # 5. Extrai dados comerciais reais diretamente de #idclearpainel
-                                dados = driver.execute_script(r"""
-                                    const p = document.getElementById('idclearpainel');
-                                    function normalizar(t) {
-                                        return (t || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').trim().replace(/\\s+/g, ' ');
+                                if not carregou:
+                                    # Tenta reexecutar ondbl caso a chamada inicial tenha demorado
+                                    driver.execute_script(ondbl)
+                                    for _ in range(15):
+                                        time.sleep(0.2)
+                                        carregou = driver.execute_script("""
+                                            const cod = arguments[0];
+                                            const p = document.getElementById('idclearpainel');
+                                            if (!p) return false;
+                                            const txt = p.innerText || '';
+                                            return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
+                                        """, codigo_produto)
+                                        if carregou:
+                                            break
+
+                                # 5. Extrai dados comerciais reais diretamente de #idclearpainel (apenas se for do produto atual)
+                                if not carregou:
+                                    dados = {
+                                        "custo_liquido": "",
+                                        "preco_venda": "",
+                                        "data_ult_venda": "",
+                                        "data_ult_compra": "",
+                                        "dias_estoque": "",
+                                        "idade_estoque": "",
+                                        "margem_pdv": ""
                                     }
-                                    const todos = Array.from(p.querySelectorAll('th, td, strong, label, b, div, span, p'));
-                                    function extrair(rotulo) {
-                                        const rNorm = normalizar(rotulo);
+                                else:
+                                    dados = driver.execute_script(r"""
+                                        const p = document.getElementById('idclearpainel');
+                                        function normalizar(t) {
+                                            return (t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim().replace(/\s+/g, ' ');
+                                        }
+                                        const todos = Array.from(p.querySelectorAll('th, td, strong, label, b, div, span, p'));
+
+                                        // Localiza especificamente o bloco 'Últimas Datas' da loja para não pegar dados de CDs ou Matriz
+                                        let ultDatasContainer = null;
                                         for (let el of todos) {
-                                            if (normalizar(el.innerText) === rNorm) {
-                                                if (el.nextElementSibling && el.nextElementSibling.innerText.trim()) {
-                                                    return el.nextElementSibling.innerText.trim();
-                                                }
+                                            if (normalizar(el.innerText) === 'ultimas datas') {
+                                                ultDatasContainer = el.closest('.card, .panel, .box, .widget, div') || el.parentElement;
+                                                break;
                                             }
                                         }
-                                        return '';
-                                    }
-                                    // 1. Busca ampla e precisa por Preço de Venda
-                                    let precoVenda = '';
 
-                                    // Procura por blocos ou tabelas que tenham "Preço de Venda"
-                                    const titulosPreco = todos.filter(el => {
-                                        const txt = normalizar(el.innerText);
-                                        return txt === 'preco de venda' || txt === 'precos de venda' || txt.startsWith('preco de venda');
-                                    });
-                                    for (let tit of titulosPreco) {
-                                        let container = tit.closest('.card, .panel, .box, .widget, div') || tit.parentElement;
-                                        if (container) {
-                                            const celulas = container.querySelectorAll('td, th, span, div, p');
-                                            for (let cel of celulas) {
-                                                const txt = (cel.innerText || '').trim();
-                                                const m = txt.match(/R\$\s*([0-9]+[.,][0-9]{2})/i);
-                                                if (m) {
-                                                    const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
-                                                    if (val > 0) {
-                                                        precoVenda = m[0];
-                                                        break;
+                                        function extrairData(rotulo) {
+                                            const rNorm = normalizar(rotulo);
+                                            const escopo = ultDatasContainer ? Array.from(ultDatasContainer.querySelectorAll('th, td, strong, label, b, div, span, p')) : todos;
+                                            for (let el of escopo) {
+                                                if (normalizar(el.innerText) === rNorm) {
+                                                    if (el.nextElementSibling && el.nextElementSibling.innerText.trim()) {
+                                                        return el.nextElementSibling.innerText.trim();
+                                                    }
+                                                    const tr = el.closest('tr');
+                                                    if (tr) {
+                                                        const tds = Array.from(tr.querySelectorAll('td, th'));
+                                                        const idx = tds.indexOf(el);
+                                                        if (idx !== -1 && idx + 1 < tds.length) {
+                                                            const txt = tds[idx + 1].innerText.trim();
+                                                            if (txt) return txt;
+                                                        }
                                                     }
                                                 }
                                             }
-                                            if (precoVenda) break;
+                                            return '';
                                         }
-                                    }
 
-                                    // Se não achou pelo bloco, busca por linhas com rótulos de unidade/preço (KG 1, UN 1, Preço 1, etc.)
-                                    if (!precoVenda) {
-                                        for (let el of todos) {
-                                            const t = (el.innerText || '').trim();
-                                            if (/^(UN|KG|BDJ|CX|PCT|MC|DZ|PT|FD|LT|CJ|UND|MÇ|PACOTE|BANDEJA|QUILO|KILO|PREÇO|PRECO)\s*[-]?\s*(\d+)?$/i.test(t) || /^Pre[çc]o\s*\d*$/i.test(t)) {
-                                                let next = el.nextElementSibling;
-                                                if (next && next.innerText) {
-                                                    const txtNext = next.innerText.trim();
-                                                    const m = txtNext.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtNext.match(/([0-9]+[.,][0-9]{2})/);
+                                        function extrair(rotulo) {
+                                            const rNorm = normalizar(rotulo);
+                                            for (let el of todos) {
+                                                if (normalizar(el.innerText) === rNorm) {
+                                                    if (el.nextElementSibling && el.nextElementSibling.innerText.trim()) {
+                                                        return el.nextElementSibling.innerText.trim();
+                                                    }
+                                                    const tr = el.closest('tr');
+                                                    if (tr) {
+                                                        const tds = Array.from(tr.querySelectorAll('td, th'));
+                                                        const idx = tds.indexOf(el);
+                                                        if (idx !== -1 && idx + 1 < tds.length) {
+                                                            const txt = tds[idx + 1].innerText.trim();
+                                                            if (txt) return txt;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            return '';
+                                        }
+                                        // 1. Busca ampla e precisa por Preço de Venda
+                                        let precoVenda = '';
+
+                                        // Procura por blocos ou tabelas que tenham "Preço de Venda"
+                                        const titulosPreco = todos.filter(el => {
+                                            const txt = normalizar(el.innerText);
+                                            return txt === 'preco de venda' || txt === 'precos de venda' || txt.startsWith('preco de venda');
+                                        });
+                                        for (let tit of titulosPreco) {
+                                            let container = tit.closest('.card, .panel, .box, .widget, div') || tit.parentElement;
+                                            if (container) {
+                                                const celulas = container.querySelectorAll('td, th, span, div, p');
+                                                for (let cel of celulas) {
+                                                    const txt = (cel.innerText || '').trim();
+                                                    const m = txt.match(/R\$\s*([0-9]+[.,][0-9]{2})/i);
                                                     if (m) {
                                                         const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
                                                         if (val > 0) {
-                                                            precoVenda = txtNext;
+                                                            precoVenda = m[0];
                                                             break;
                                                         }
                                                     }
                                                 }
-                                                const tr = el.closest('tr');
-                                                if (tr) {
-                                                    const tds = tr.querySelectorAll('td, th');
-                                                    for (let i = 0; i < tds.length; i++) {
-                                                        if (tds[i] === el || tds[i].contains(el)) {
-                                                            for (let j = i + 1; j < tds.length; j++) {
-                                                                const txtTd = (tds[j].innerText || '').trim();
-                                                                const m = txtTd.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtTd.match(/([0-9]+[.,][0-9]{2})/);
-                                                                if (m) {
-                                                                    const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
-                                                                    if (val > 0) {
-                                                                        precoVenda = txtTd;
-                                                                        break;
+                                                if (precoVenda) break;
+                                            }
+                                        }
+
+                                        // Se não achou pelo bloco, busca por linhas com rótulos de unidade/preço (KG 1, UN 1, Preço 1, etc.)
+                                        if (!precoVenda) {
+                                            for (let el of todos) {
+                                                const t = (el.innerText || '').trim();
+                                                if (/^(UN|KG|BDJ|CX|PCT|MC|DZ|PT|FD|LT|CJ|UND|MÇ|PACOTE|BANDEJA|QUILO|KILO|PREÇO|PRECO)\s*[-]?\s*(\d+)?$/i.test(t) || /^Pre[çc]o\s*\d*$/i.test(t)) {
+                                                    let next = el.nextElementSibling;
+                                                    if (next && next.innerText) {
+                                                        const txtNext = next.innerText.trim();
+                                                        const m = txtNext.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtNext.match(/([0-9]+[.,][0-9]{2})/);
+                                                        if (m) {
+                                                            const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
+                                                            if (val > 0) {
+                                                                precoVenda = txtNext;
+                                                                break;
+                                                            }
+                                                        }
+                                                    }
+                                                    const tr = el.closest('tr');
+                                                    if (tr) {
+                                                        const tds = tr.querySelectorAll('td, th');
+                                                        for (let i = 0; i < tds.length; i++) {
+                                                            if (tds[i] === el || tds[i].contains(el)) {
+                                                                for (let j = i + 1; j < tds.length; j++) {
+                                                                    const txtTd = (tds[j].innerText || '').trim();
+                                                                    const m = txtTd.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtTd.match(/([0-9]+[.,][0-9]{2})/);
+                                                                    if (m) {
+                                                                        const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
+                                                                        if (val > 0) {
+                                                                            precoVenda = txtTd;
+                                                                            break;
+                                                                        }
                                                                     }
                                                                 }
                                                             }
+                                                            if (precoVenda) break;
                                                         }
-                                                        if (precoVenda) break;
                                                     }
                                                 }
+                                                if (precoVenda) break;
                                             }
-                                            if (precoVenda) break;
                                         }
-                                    }
 
-                                    return {
-                                        custo_liquido: extrair('Custo Líquido') || extrair('Custo Liquido') || extrair('Custo Bruto'),
-                                        preco_venda: precoVenda,
-                                        data_ult_venda: extrair('Data Ult Venda'),
-                                        data_ult_compra: extrair('Data Ult Compra'),
-                                        dias_estoque: extrair('Dias de Estoque'),
-                                        idade_estoque: extrair('Idade Estoque'),
-                                        margem_pdv: extrair('Val. Margem PDV')
-                                    };
-                                """)
+                                        return {
+                                            custo_liquido: extrair('Custo Líquido') || extrair('Custo Liquido') || extrair('Custo Bruto'),
+                                            preco_venda: precoVenda,
+                                            data_ult_venda: extrairData('Data Ult Venda') || extrair('Data Ult Venda'),
+                                            data_ult_compra: extrairData('Data Ult Compra') || extrair('Data Ult Compra'),
+                                            dias_estoque: extrair('Dias de Estoque'),
+                                            idade_estoque: extrair('Idade Estoque'),
+                                            margem_pdv: extrair('Val. Margem PDV')
+                                        };
+                                    """)
 
                                 # Normaliza estoque
                                 tEst = est_tabela
