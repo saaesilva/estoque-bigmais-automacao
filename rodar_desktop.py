@@ -126,6 +126,8 @@ def exportar_json(caminho_db, caminho_json):
             u_tipo, u_sigla, u_rotulo = extrair_unidade(desc)
             raw_est = float(r['estoque'] or 0.0)
             if u_tipo == 'KG':
+                if (abs(raw_est) >= 1000 and int(raw_est) == raw_est) or abs(raw_est) >= 10000:
+                    raw_est = raw_est / 1000.0
                 estoque_num = round(raw_est, 3)
                 is_neg = estoque_num < 0
                 abs_val = abs(estoque_num)
@@ -616,6 +618,11 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                                     tEst = tEst.replace(',', '.');
                                                 }
                                                 estoque = parseFloat(tEst) || 0;
+                                                if (/\\b(KG|QUILO|KILO)\\b/i.test(descricao) && !/\\b\\d+\\s*KG\\b/i.test(descricao)) {
+                                                    if ((Math.abs(estoque) >= 1000 && Math.floor(estoque) === estoque) || Math.abs(estoque) >= 10000) {
+                                                        estoque = estoque / 1000;
+                                                    }
+                                                }
                                             }
                                             break;
                                         }
