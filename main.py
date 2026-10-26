@@ -3,7 +3,7 @@ import re
 import sys
 import sqlite3
 import time
-from datetime import datetime, timezone, timedelta, time as dtime
+from datetime import datetime, timezone, timedelta, time as dtime, date
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -186,11 +186,6 @@ def exportar_json(caminho_db, caminho_json="estoque_bigmais.json"):
                 "data_coleta": r['data_coleta'] or ""
             })
         conn.close()
-        with open(caminho_json, "w", encoding="utf-8") as f:
-            json.dump(lista, f, ensure_ascii=False, indent=2)
-        print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
-    except Exception as e:
-        print(f"⚠️ Erro ao exportar JSON de estoque: {e}", flush=True)
         with open(caminho_json, "w", encoding="utf-8") as f:
             json.dump(lista, f, ensure_ascii=False, indent=2)
         print(f"📦 Catálogo JSON exportado com sucesso: {caminho_json} ({len(lista)} registros)", flush=True)
