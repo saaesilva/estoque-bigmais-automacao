@@ -106,22 +106,17 @@ def exportar_json(caminho_db, caminho_json):
         cur = conn.cursor()
         rows = cur.execute("SELECT * FROM estoque_atual ORDER BY loja, codigo").fetchall()
         hoje_ref = datetime.now(timezone(timedelta(hours=-3))).date()
+        
+        # Mapeia precos de referencia positivos da rede por codigo
+        mapa_precos_rede = {}
+        for r in rows:
+            cod_s = str(r['codigo'] or "").strip()
+            pv = float(r['preco_venda'] or 0.0)
+            if pv > 0.0 and cod_s not in mapa_precos_rede:
+                mapa_precos_rede[cod_s] = pv
+
         lista = []
         for r in rows:
-            data_venda = r['data_ult_venda'] or ""
-            idade = r['idade_estoque'] or ""
-            dias_sem_venda, dias_str = calcular_dias_sem_venda(data_venda, hoje_ref)
-            
-            data_compra = r['data_ult_compra'] or ""
-            m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
-            m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
-            ult_compra_str = "-"
-            if m_compra:
-                ult_compra_str = f"{m_compra.group(1)} ({m_compra_dias.group(1)}d)" if m_compra_dias else m_compra.group(1)
-
-            margem_val = r['margem_pdv']
-            margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
-
             desc = (r['descricao'] or "").strip()
             u_tipo, u_sigla, u_rotulo = extrair_unidade(desc)
             raw_est = float(r['estoque'] or 0.0)
@@ -146,6 +141,45 @@ def exportar_json(caminho_db, caminho_json):
                 sinal = "-" if is_neg else ""
                 estoque_str = f"{sinal}{int_fmt} {u_sigla}"
 
+            data_venda = r['data_ult_venda'] or ""
+            idade = r['idade_estoque'] or ""
+            
+            # Se o produto nao tem estoque (zerado ou negativo), dias sem venda deve ser nulo e '-'
+            if estoque_num <= 0:
+                dias_sem_venda = None
+                dias_str = "-"
+            else:
+                dias_sem_venda, dias_str = calcular_dias_sem_venda(data_venda, hoje_ref)
+            
+            data_compra = r['data_ult_compra'] or ""
+            m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
+            m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
+            ult_compra_str = "-"
+            if m_compra:
+                ult_compra_str = f"{m_compra.group(1)} ({m_compra_dias.group(1)}d)" if m_compra_dias else m_compra.group(1)
+
+            margem_val = r['margem_pdv']
+            margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
+
+            preco_venda_val = float(r['preco_venda'] or 0.0)
+            custo_liq_val = float(r['custo_liquido'] or 0.0)
+            
+            # Se o produto esta com estoque mas sem preco, calcula por custo/margem ou herda de outra loja
+            if preco_venda_val <= 0.0:
+                if custo_liq_val > 0.0 and margem_val is not None:
+                    try:
+                        m_f = float(margem_val)
+                        if 0.0 < m_f < 100.0:
+                            calc_p = round(custo_liq_val / (1.0 - m_f / 100.0), 2)
+                            if round(calc_p * 100) % 100 == 99:
+                                calc_p -= 0.01
+                            preco_venda_val = calc_p
+                    except Exception:
+                        pass
+                cod_s = str(r['codigo'] or "").strip()
+                if preco_venda_val <= 0.0 and cod_s in mapa_precos_rede:
+                    preco_venda_val = mapa_precos_rede[cod_s]
+
             curva, giro = classificar_curva_produto(str(r['codigo'] or "").strip(), desc)
 
             lista.append({
@@ -161,8 +195,8 @@ def exportar_json(caminho_db, caminho_json):
                 "estoque": estoque_num,
                 "estoque_raw": estoque_num,
                 "estoque_formatado": estoque_str,
-                "preco_venda": float(r['preco_venda'] or 0.0),
-                "custo_liquido": float(r['custo_liquido'] or 0.0),
+                "preco_venda": preco_venda_val,
+                "custo_liquido": custo_liq_val,
                 "margem_pdv": margem_str,
                 "data_ult_compra": data_compra,
                 "data_ult_venda": data_venda,
@@ -580,7 +614,7 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         break
 
                                 # 5. Extrai dados comerciais reais diretamente de #idclearpainel
-                                dados = driver.execute_script("""
+                                dados = driver.execute_script(r"""
                                     const p = document.getElementById('idclearpainel');
                                     function normalizar(t) {
                                         return (t || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').trim().replace(/\\s+/g, ' ');
@@ -597,16 +631,75 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         }
                                         return '';
                                     }
+                                    // 1. Busca ampla e precisa por Preço de Venda
                                     let precoVenda = '';
-                                    for (let el of todos) {
-                                        const t = el.innerText.trim();
-                                        if (/^(UN|KG|BDJ|CX|PCT|MC|DZ)\\s*1$/i.test(t)) {
-                                            if (el.nextElementSibling && el.nextElementSibling.innerText) {
-                                                precoVenda = el.nextElementSibling.innerText.trim();
-                                                break;
+
+                                    // Procura por blocos ou tabelas que tenham "Preço de Venda"
+                                    const titulosPreco = todos.filter(el => {
+                                        const txt = normalizar(el.innerText);
+                                        return txt === 'preco de venda' || txt === 'precos de venda' || txt.startsWith('preco de venda');
+                                    });
+                                    for (let tit of titulosPreco) {
+                                        let container = tit.closest('.card, .panel, .box, .widget, div') || tit.parentElement;
+                                        if (container) {
+                                            const celulas = container.querySelectorAll('td, th, span, div, p');
+                                            for (let cel of celulas) {
+                                                const txt = (cel.innerText || '').trim();
+                                                const m = txt.match(/R\$\s*([0-9]+[.,][0-9]{2})/i);
+                                                if (m) {
+                                                    const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
+                                                    if (val > 0) {
+                                                        precoVenda = m[0];
+                                                        break;
+                                                    }
+                                                }
                                             }
+                                            if (precoVenda) break;
                                         }
                                     }
+
+                                    // Se não achou pelo bloco, busca por linhas com rótulos de unidade/preço (KG 1, UN 1, Preço 1, etc.)
+                                    if (!precoVenda) {
+                                        for (let el of todos) {
+                                            const t = (el.innerText || '').trim();
+                                            if (/^(UN|KG|BDJ|CX|PCT|MC|DZ|PT|FD|LT|CJ|UND|MÇ|PACOTE|BANDEJA|QUILO|KILO|PREÇO|PRECO)\s*[-]?\s*(\d+)?$/i.test(t) || /^Pre[çc]o\s*\d*$/i.test(t)) {
+                                                let next = el.nextElementSibling;
+                                                if (next && next.innerText) {
+                                                    const txtNext = next.innerText.trim();
+                                                    const m = txtNext.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtNext.match(/([0-9]+[.,][0-9]{2})/);
+                                                    if (m) {
+                                                        const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
+                                                        if (val > 0) {
+                                                            precoVenda = txtNext;
+                                                            break;
+                                                        }
+                                                    }
+                                                }
+                                                const tr = el.closest('tr');
+                                                if (tr) {
+                                                    const tds = tr.querySelectorAll('td, th');
+                                                    for (let i = 0; i < tds.length; i++) {
+                                                        if (tds[i] === el || tds[i].contains(el)) {
+                                                            for (let j = i + 1; j < tds.length; j++) {
+                                                                const txtTd = (tds[j].innerText || '').trim();
+                                                                const m = txtTd.match(/R\$\s*([0-9]+[.,][0-9]{2})/i) || txtTd.match(/([0-9]+[.,][0-9]{2})/);
+                                                                if (m) {
+                                                                    const val = parseFloat(m[1].replace('.', '').replace(',', '.'));
+                                                                    if (val > 0) {
+                                                                        precoVenda = txtTd;
+                                                                        break;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        if (precoVenda) break;
+                                                    }
+                                                }
+                                            }
+                                            if (precoVenda) break;
+                                        }
+                                    }
+
                                     return {
                                         custo_liquido: extrair('Custo Líquido') || extrair('Custo Liquido') || extrair('Custo Bruto'),
                                         preco_venda: precoVenda,
@@ -648,6 +741,20 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                 data_ult_compra = limpar_texto(dados.get("data_ult_compra"))
                                 data_ult_venda = limpar_texto(dados.get("data_ult_venda"))
                                 idade_estoque = limpar_texto(dados.get("idade_estoque"))
+
+                                # Fallback 1: se o preço veio zerado mas temos custo e margem PDV, calcula o preço exato
+                                if preco_venda <= 0.0 and custo_liquido > 0.0 and 0.0 < margem_pdv < 100.0:
+                                    calc_p = round(custo_liquido / (1.0 - margem_pdv / 100.0), 2)
+                                    if round(calc_p * 100) % 100 == 99:
+                                        calc_p -= 0.01
+                                    preco_venda = calc_p
+
+                                # Fallback 2: se ainda estiver zerado e o produto tem estoque, busca preço de referência da rede
+                                if preco_venda <= 0.0 and estoque > 0.0:
+                                    cursor.execute("SELECT preco_venda FROM estoque_atual WHERE codigo = ? AND preco_venda > 0 LIMIT 1", (codigo_produto,))
+                                    p_ref = cursor.fetchone()
+                                    if p_ref and p_ref[0] and float(p_ref[0]) > 0.0:
+                                        preco_venda = float(p_ref[0])
                             else:
                                 # O produto não foi retornado nesta loja: NUNCA herdar dados de outro produto!
                                 descricao = PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
