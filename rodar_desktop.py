@@ -8,7 +8,7 @@ import sqlite3
 import argparse
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
