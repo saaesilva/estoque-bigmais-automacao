@@ -40,5 +40,37 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Preserva o banco SQLite e o JSON gerados durante a coleta
+          cp estoque_bigmais.db /tmp/estoque_bigmais.db
+          cp estoque_bigmais.json /tmp/estoque_bigmais.json
+          
+          # 2. Sincroniza com as alterações remotas mais recentes ocorridas durante os ~45m de execução
+          git fetch origin main
+          git reset --hard origin/main
+          
+          # 3. Restaura os arquivos atualizados para comitar na ponta do branch
+          mv /tmp/estoque_bigmais.db estoque_bigmais.db
+          mv /tmp/estoque_bigmais.json estoque_bigmais.json
+          
           git add estoque_bigmais.db estoque_bigmais.json
-          git diff --staged --quiet || (git commit -m "Auto: atualização de estoque e indicadores [skip ci]" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto: atualização de estoque e indicadores [skip ci]"
+            for i in 1 2 3 4 5; do
+              echo "Tentativa $i de push..."
+              git push origin main && echo "Push concluído com sucesso!" && break || {
+                echo "Conflito transitório de push. Sincronizando novamente..."
+                cp estoque_bigmais.db /tmp/estoque_bigmais.db
+                cp estoque_bigmais.json /tmp/estoque_bigmais.json
+                git fetch origin main
+                git reset --hard origin/main
+                mv /tmp/estoque_bigmais.db estoque_bigmais.db
+                mv /tmp/estoque_bigmais.json estoque_bigmais.json
+                git add estoque_bigmais.db estoque_bigmais.json
+                git commit -m "Auto: atualização de estoque e indicadores [skip ci]" || true
+                sleep 5
+              }
+            done
+          else
+            echo "Nenhuma alteração detectada no banco ou JSON de estoque."
+          fi
