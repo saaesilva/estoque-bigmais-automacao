@@ -362,6 +362,8 @@ def ordenar_produtos_por_prioridade(conn, nome_loja, codigos_produtos):
                     score += 120 # Vendeu ontem
                 elif dias_venda <= 3:
                     score += 60
+                elif dias_venda > 7:
+                    score += 500 # Auditoria de veracidade: revisa com urgência dados antigos/equivocados!
 
         # 4. Dados comerciais ausentes ou incompletos
         if preco <= 0.0:
@@ -389,6 +391,7 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.common.keys import Keys
+    from selenium.webdriver.common.action_chains import ActionChains
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
 
@@ -524,176 +527,120 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                     for codigo_produto in produtos_ordenados:
                         barra.set_postfix_str(f"{nome_loja[:10]} | Cód: {codigo_produto}")
                         try:
-                            # 1. Remove ativamente modais anteriores do DOM para não vazar dados
-                            driver.execute_script("""
-                                document.querySelectorAll('.modal, .modal-backdrop, [class*="modal"], [id*="modal"], [id*="Modal"]').forEach(el => {
-                                    try { el.remove(); } catch(e) {}
-                                });
-                                const tbody = document.querySelector('table.displayRelatorios tbody');
-                                if (tbody) tbody.innerHTML = '';
-                            """)
-                            time.sleep(0.2)
+                            # 1. Dispara busca Jaxon do produto
+                            driver.execute_script(f"jaxon_fn_buscaprodutolist('{codigo_produto}', 'idcod_produto', 'PRD');")
 
-                            campo = wait.until(EC.element_to_be_clickable((By.ID, "idfiltrolistaproduto")))
-                            campo.clear()
-                            campo.send_keys(codigo_produto)
-                            driver.find_element(By.XPATH, "//button[contains(@onclick, 'jaxon_fn_buscaprodutolist') and contains(text(), 'Cod. Produto')]").click()
-
-                            # 2. Aguarda até a linha correspondente ao código_produto aparecer na tabela (máx 2.4s)
-                            linha_encontrada = False
-                            for _ in range(12):
+                            # 2. Aguarda a linha correspondente ao código aparecer na tabela (máx 3s)
+                            achou_linha = False
+                            ondbl = None
+                            desc_tabela = ""
+                            est_tabela = ""
+                            for _ in range(15):
                                 time.sleep(0.2)
-                                tem_linha = driver.execute_script("""
+                                res_linha = driver.execute_script("""
                                     const cod = arguments[0];
-                                    const linhas = Array.from(document.querySelectorAll('table.displayRelatorios tbody tr'));
-                                    for (let r of linhas) {
-                                        const oc = r.getAttribute('ondblclick') || '';
+                                    const trs = Array.from(document.querySelectorAll('table.displayRelatorios tbody tr'));
+                                    for (let r of trs) {
                                         const celulas = r.querySelectorAll('td, th');
-                                        let codLinha = '';
-                                        if (celulas.length > 2) {
-                                            codLinha = celulas[1].innerText.trim() || celulas[2].innerText.trim();
-                                        }
-                                        if (oc.includes("'" + cod + "'") || oc.includes('"' + cod + '"') || codLinha === cod || r.innerText.includes(cod)) {
-                                            return true;
+                                        if (celulas.length >= 5) {
+                                            const codLinha = (celulas[1].innerText || '').trim();
+                                            if (codLinha === cod || r.innerText.includes(cod)) {
+                                                return {
+                                                    ondbl: r.getAttribute('ondblclick') || '',
+                                                    desc: celulas[3].innerText.trim(),
+                                                    estoque: celulas[4].innerText.trim()
+                                                };
+                                            }
                                         }
                                     }
-                                    return false;
+                                    return null;
                                 """, codigo_produto)
-                                if tem_linha:
-                                    linha_encontrada = True
+                                if res_linha and res_linha.get('ondbl'):
+                                    achou_linha = True
+                                    ondbl = res_linha['ondbl']
+                                    desc_tabela = res_linha['desc']
+                                    est_tabela = res_linha['estoque']
                                     break
 
-                            if linha_encontrada:
-                                # Dispara duplo-clique APENAS na linha que corresponde ao código do produto
-                                driver.execute_script("""
-                                    const cod = arguments[0];
-                                    const linhas = Array.from(document.querySelectorAll('table.displayRelatorios tbody tr'));
-                                    for (let r of linhas) {
-                                        const oc = r.getAttribute('ondblclick') || '';
-                                        const celulas = r.querySelectorAll('td, th');
-                                        let codLinha = '';
-                                        if (celulas.length > 2) {
-                                            codLinha = celulas[1].innerText.trim() || celulas[2].innerText.trim();
-                                        }
-                                        if (oc.includes("'" + cod + "'") || oc.includes('"' + cod + '"') || codLinha === cod || r.innerText.includes(cod)) {
-                                            if (oc) eval(oc);
-                                            break;
-                                        }
-                                    }
-                                """, codigo_produto)
-                                time.sleep(1.2)
+                            if achou_linha and ondbl:
+                                # 3. Dispara a requisição Jaxon de montagem dos dados comerciais
+                                driver.execute_script(ondbl)
 
-                                # Extrai dados estritamente do modal ativo visível
+                                # 4. Aguarda o painel ser atualizado para o código deste produto específico
+                                for _ in range(15):
+                                    time.sleep(0.2)
+                                    carregou = driver.execute_script("""
+                                        const cod = arguments[0];
+                                        const p = document.getElementById('idclearpainel');
+                                        if (!p) return false;
+                                        const txt = p.innerText || '';
+                                        return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo'));
+                                    """, codigo_produto)
+                                    if carregou:
+                                        break
+
+                                # 5. Extrai dados comerciais reais diretamente de #idclearpainel
                                 dados = driver.execute_script("""
+                                    const p = document.getElementById('idclearpainel');
                                     function normalizar(t) {
-                                        return (t || '')
-                                            .toLowerCase()
-                                            .normalize('NFD')
-                                            .replace(/[\\u0300-\\u036f]/g, '')
-                                            .trim()
-                                            .replace(/\\s+/g, ' ');
+                                        return (t || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').trim().replace(/\\s+/g, ' ');
                                     }
-
-                                    let descricao = '';
-                                    let estoque = 0;
-
-                                    const cod = arguments[0];
-                                    const linhas = Array.from(document.querySelectorAll('table.displayRelatorios tbody tr'));
-                                    for (let r of linhas) {
-                                        const oc = r.getAttribute('ondblclick') || '';
-                                        const celulas = r.querySelectorAll('td, th');
-                                        let codLinha = '';
-                                        if (celulas.length > 2) {
-                                            codLinha = celulas[1].innerText.trim() || celulas[2].innerText.trim();
-                                        }
-                                        if (oc.includes("'" + cod + "'") || oc.includes('"' + cod + '"') || codLinha === cod || r.innerText.includes(cod)) {
-                                            if (celulas.length >= 5) {
-                                                descricao = celulas[3].innerText.trim();
-                                                let tEst = celulas[4].innerText.trim();
-                                                if (tEst.includes(',') && tEst.includes('.')) {
-                                                    if (tEst.lastIndexOf(',') > tEst.lastIndexOf('.')) {
-                                                        tEst = tEst.replace(/\\./g, '').replace(',', '.');
-                                                    } else {
-                                                        tEst = tEst.replace(/,/g, '');
-                                                    }
-                                                } else if (tEst.includes(',')) {
-                                                    tEst = tEst.replace(',', '.');
-                                                }
-                                                estoque = parseFloat(tEst) || 0;
-                                                if (/\\b(KG|QUILO|KILO)\\b/i.test(descricao) && !/\\b\\d+\\s*KG\\b/i.test(descricao)) {
-                                                    if ((Math.abs(estoque) >= 1000 && Math.floor(estoque) === estoque) || Math.abs(estoque) >= 10000) {
-                                                        estoque = estoque / 1000;
-                                                    } else if (Math.abs(estoque) >= 100 && Math.abs(estoque) < 1000 && Math.floor(estoque) === estoque) {
-                                                        estoque = estoque / 100;
-                                                    }
-                                                }
-                                            }
-                                            break;
-                                        }
-                                    }
-
-                                    function obterContainerModal() {
-                                        const modais = Array.from(document.querySelectorAll('.modal, [id*="modal"], [id*="Modal"], [class*="modal"]')).filter(m => {
-                                            try {
-                                                const s = window.getComputedStyle(m);
-                                                if (s.display === 'none' || s.visibility === 'hidden' || s.opacity === '0') return false;
-                                                return m.offsetWidth > 0 || m.offsetHeight > 0;
-                                            } catch(e) { return false; }
-                                        });
-                                        return modais.length > 0 ? modais[modais.length - 1] : null;
-                                    }
-                                    const modalAtivo = obterContainerModal();
-
-                                    function extrairValor(rotulo) {
-                                        if (!modalAtivo) return '';
-                                        const rotuloNorm = normalizar(rotulo);
-                                        const elementos = Array.from(modalAtivo.querySelectorAll('th, td'));
-                                        for (let el of elementos) {
-                                            if (normalizar(el.innerText) === rotuloNorm) {
-                                                if (el.nextElementSibling && el.nextElementSibling.innerText) {
+                                    const todos = Array.from(p.querySelectorAll('th, td, strong, label, b, div, span, p'));
+                                    function extrair(rotulo) {
+                                        const rNorm = normalizar(rotulo);
+                                        for (let el of todos) {
+                                            if (normalizar(el.innerText) === rNorm) {
+                                                if (el.nextElementSibling && el.nextElementSibling.innerText.trim()) {
                                                     return el.nextElementSibling.innerText.trim();
-                                                }
-                                                if (el.parentElement && el.parentElement.nextElementSibling) {
-                                                    const idx = Array.from(el.parentElement.children).indexOf(el);
-                                                    const nextRowCell = el.parentElement.nextElementSibling.children[idx];
-                                                    if (nextRowCell && nextRowCell.innerText) {
-                                                        return nextRowCell.innerText.trim();
-                                                    }
                                                 }
                                             }
                                         }
                                         return '';
                                     }
-
                                     let precoVenda = '';
-                                    if (modalAtivo) {
-                                        const ths = Array.from(modalAtivo.querySelectorAll('th'));
-                                        for (let th of ths) {
-                                            if (th.innerText && th.innerText.trim() === 'UN 1') {
-                                                if (th.nextElementSibling && th.nextElementSibling.innerText) {
-                                                    precoVenda = th.nextElementSibling.innerText.trim();
-                                                    break;
-                                                }
+                                    for (let el of todos) {
+                                        const t = el.innerText.trim();
+                                        if (/^(UN|KG|BDJ|CX|PCT|MC|DZ)\\s*1$/i.test(t)) {
+                                            if (el.nextElementSibling && el.nextElementSibling.innerText) {
+                                                precoVenda = el.nextElementSibling.innerText.trim();
+                                                break;
                                             }
                                         }
                                     }
-
                                     return {
-                                        descricao: descricao,
-                                        estoque: estoque,
+                                        custo_liquido: extrair('Custo Líquido') || extrair('Custo Liquido') || extrair('Custo Bruto'),
                                         preco_venda: precoVenda,
-                                        custo_liquido: extrairValor('Custo Líquido') || extrairValor('Custo Liquido'),
-                                        margem_pdv: extrairValor('Val. Margem PDV'),
-                                        dias_estoque: extrairValor('Dias de Estoque'),
-                                        data_ult_compra: extrairValor('Data Ult Compra'),
-                                        data_ult_venda: extrairValor('Data Ult Venda'),
-                                        idade_estoque: extrairValor('Idade Estoque')
+                                        data_ult_venda: extrair('Data Ult Venda'),
+                                        data_ult_compra: extrair('Data Ult Compra'),
+                                        dias_estoque: extrair('Dias de Estoque'),
+                                        idade_estoque: extrair('Idade Estoque'),
+                                        margem_pdv: extrair('Val. Margem PDV')
                                     };
-                                """, codigo_produto)
+                                """)
 
-                                desc_extraida = limpar_texto(dados.get("descricao"))
-                                descricao = desc_extraida or PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
-                                estoque = round(float(dados.get("estoque") or 0.0), 3)
+                                # Normaliza estoque
+                                tEst = est_tabela
+                                if ',' in tEst and '.' in tEst:
+                                    if tEst.rfind(',') > tEst.rfind('.'):
+                                        tEst = tEst.replace('.', '').replace(',', '.')
+                                    else:
+                                        tEst = tEst.replace(',', '')
+                                elif ',' in tEst:
+                                    tEst = tEst.replace(',', '.')
+
+                                try:
+                                    estoque_num = float(tEst)
+                                except Exception:
+                                    estoque_num = 0.0
+
+                                if re.search(r'\b(KG|QUILO|KILO)\b', desc_tabela, re.I) and not re.search(r'\b\d+\s*KG\b', desc_tabela, re.I):
+                                    if (abs(estoque_num) >= 1000 and int(estoque_num) == estoque_num) or abs(estoque_num) >= 10000:
+                                        estoque_num = estoque_num / 1000.0
+                                    elif 100 <= abs(estoque_num) < 1000 and int(estoque_num) == estoque_num:
+                                        estoque_num = estoque_num / 100.0
+
+                                descricao = limpar_texto(desc_tabela) or PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
+                                estoque = round(float(estoque_num), 3)
                                 preco_venda = limpar_valor_numerico(dados.get("preco_venda"))
                                 custo_liquido = limpar_valor_numerico(dados.get("custo_liquido"))
                                 margem_pdv = limpar_valor_numerico(dados.get("margem_pdv"))
@@ -702,9 +649,9 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                 data_ult_venda = limpar_texto(dados.get("data_ult_venda"))
                                 idade_estoque = limpar_texto(dados.get("idade_estoque"))
                             else:
-                                # O produto não foi retornado nesta loja: NUNCA herdar dados do produto anterior!
+                                # O produto não foi retornado nesta loja: NUNCA herdar dados de outro produto!
                                 descricao = PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
-                                estoque = 0
+                                estoque = 0.0
                                 preco_venda = 0.0
                                 custo_liquido = 0.0
                                 margem_pdv = 0.0
@@ -729,7 +676,6 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                             conn.commit()
                             itens_coletados += 1
 
-                            # Atualiza o catálogo JSON incrementalmente a cada 5 produtos
                             if itens_coletados % 5 == 0:
                                 exportar_json(CAMINHO_DB, CAMINHO_JSON)
                         except Exception:
