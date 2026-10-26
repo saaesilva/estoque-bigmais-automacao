@@ -95,23 +95,23 @@ def exportar_json(caminho_db, caminho_json):
 
             desc = (r['descricao'] or "").strip()
             u_tipo, u_sigla, u_rotulo = extrair_unidade(desc)
-            raw_est = r['estoque'] or 0
+            raw_est = float(r['estoque'] or 0.0)
             if u_tipo == 'KG':
-                if isinstance(raw_est, (int, float)) and int(raw_est) == raw_est:
-                    estoque_num = round(raw_est / 1000.0, 3)
-                else:
-                    estoque_num = round(float(raw_est), 3)
-                formatted = f"{estoque_num:.3f}".rstrip('0')
-                if formatted.endswith('.'):
-                    formatted += '00'
-                elif len(formatted.split('.')[1]) == 1:
-                    formatted += '0'
-                parts = formatted.split('.')
-                int_part = f"{int(parts[0]):,}".replace(',', '.')
-                estoque_str = f"{int_part},{parts[1]} {u_sigla}"
+                estoque_num = round(raw_est, 3)
+                is_neg = estoque_num < 0
+                abs_val = abs(estoque_num)
+                formatted = f"{abs_val:.3f}"
+                p_int, p_dec = formatted.split('.')
+                int_fmt = f"{int(p_int):,}".replace(',', '.')
+                sinal = "-" if is_neg else ""
+                estoque_str = f"{sinal}{int_fmt},{p_dec} {u_sigla}"
             else:
-                estoque_num = int(raw_est)
-                estoque_str = f"{int(estoque_num)} {u_sigla}"
+                estoque_num = int(round(raw_est))
+                is_neg = estoque_num < 0
+                abs_val = abs(estoque_num)
+                int_fmt = f"{abs_val:,}".replace(',', '.')
+                sinal = "-" if is_neg else ""
+                estoque_str = f"{sinal}{int_fmt} {u_sigla}"
 
             lista.append({
                 "loja": r['loja'] or "",
@@ -122,7 +122,7 @@ def exportar_json(caminho_db, caminho_json):
                 "unidade_sigla": u_sigla,
                 "unidade_rotulo": u_rotulo,
                 "estoque": estoque_num,
-                "estoque_raw": int(raw_est),
+                "estoque_raw": estoque_num,
                 "estoque_formatado": estoque_str,
                 "preco_venda": float(r['preco_venda'] or 0.0),
                 "custo_liquido": float(r['custo_liquido'] or 0.0),
@@ -535,7 +535,17 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         if (oc.includes("'" + cod + "'") || oc.includes('"' + cod + '"') || codLinha === cod || r.innerText.includes(cod)) {
                                             if (celulas.length >= 5) {
                                                 descricao = celulas[3].innerText.trim();
-                                                estoque = Number(celulas[4].innerText.trim().replace(/\\./g, '').replace(',', '.')) || 0;
+                                                let tEst = celulas[4].innerText.trim();
+                                                if (tEst.includes(',') && tEst.includes('.')) {
+                                                    if (tEst.lastIndexOf(',') > tEst.lastIndexOf('.')) {
+                                                        tEst = tEst.replace(/\./g, '').replace(',', '.');
+                                                    } else {
+                                                        tEst = tEst.replace(/,/g, '');
+                                                    }
+                                                } else if (tEst.includes(',')) {
+                                                    tEst = tEst.replace(',', '.');
+                                                }
+                                                estoque = parseFloat(tEst) || 0;
                                             }
                                             break;
                                         }
@@ -587,7 +597,7 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
 
                                 desc_extraida = limpar_texto(dados.get("descricao"))
                                 descricao = desc_extraida or PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
-                                estoque = int(dados.get("estoque") or 0)
+                                estoque = round(float(dados.get("estoque") or 0.0), 3)
                                 preco_venda = limpar_valor_numerico(dados.get("preco_venda"))
                                 custo_liquido = limpar_valor_numerico(dados.get("custo_liquido"))
                                 margem_pdv = limpar_valor_numerico(dados.get("margem_pdv"))
