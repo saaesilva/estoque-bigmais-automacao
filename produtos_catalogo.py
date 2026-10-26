@@ -285,4 +285,78 @@ PRODUTOS_CANONICOS = {
     "43844": "MELAO LIMELON KG",
 }
 
-CODIGOS_PRODUTOS = list(PRODUTOS_CANONICOS.keys())
+# ==========================================
+# Classificação Canônica de Curva ABC e Giro
+# ==========================================
+import re
+
+CURVA_A_REGEX = [
+    r'\bTOMATE\b(?!\s+(?:RAMA|COQUETEL)\b)',
+    r'\bCEBOLA\s+(?:AMARELA|ROXA|MIUDA)\b',
+    r'\bBATATA\s+(?:INGLESA|ASTERIX|DOCE)\b',
+    r'\bBANANA\s+(?:PRATA|CATURRA|MACA|TERRA|OURO)\b',
+    r'\bLARANJA\s+(?:PERA|SERRA|IMP)\b',
+    r'\bLIMAO\s+(?:KG|SICILIANO)\b',
+    r'\b(?:MEXERICA|MINI\s+TANGERINA|TANGERINA\s+IMP)\b',
+    r'\bMACA\s+(?:FUJI|GALA|ARGENTINA|850G|GRAN)\b',
+    r'\bMAMAO\s+(?:HAVAI|FORMOSA)\b',
+    r'\bMELANCIA\b',
+    r'\bMELAO\s+AMARELO\b',
+    r'\bCENOURA\b',
+    r'\bMANGA\s+(?:PALMER|TOMMY)\b',
+    r'\bCHUCHU\b',
+    r'\bOVOS\b',
+    r'\bALFACE\b',
+    r'\bCOUVE\s+(?:UN|PRATIKA)\b',
+    r'\bRUCULA\b',
+    r'\bCHEIRO\s+VDE\b',
+    r'\bREPOLHO\b',
+    r'\bALHO\s+(?:GRANEL|ROXAO|DESCASCADO)\b',
+    r'\bPIMENTAO\s+VDE\b',
+    r'\bPEPINO\s+(?:KG|JAPONES)\b',
+    r'\bABOBRINHA\s+(?:KG|ITALIANA)\b',
+    r'\bBETERRABA\b',
+    r'\bINHAME\b',
+    r'\bMANDIOCA\b',
+    r'\bMORANGO\s+BDJ\b',
+    r'\bUVA\s+(?:THOMPSON|VITORIA)\b',
+]
+
+CURVA_C_REGEX = [
+    r'\b(?:ORQUIDEA|VIOLETA|LIRIO|GERBERA|GIRASSOL|ANTHURIUM|CACTUS|SUCULENTA|BROMELIA|BONSAI|CALANDIVA|ROSA|PALMEIRA|ZAMIOCUL|BEAUCARNEA|JIBOIA|DRACENA|SANSEVIERIA)\b',
+    r'\bP\d{2}\b',
+    r'\bC\d{2}\b',
+    r'\b(?:FAROFA|RAPADURA|PE\s+MOLEQUE|DOCE\s+MAMAO|MELADO)\b',
+    r'\bTEMPERO\b',
+    r'\bCEBOLA\s+(?:ROXAO\s+FRITA|ALHO\s+NATURAL)\b',
+    r'\bALHO\s+PASTA\b',
+    r'\b(?:PHYSALIS|PITAYA|ATEMOIA|BLUEBERRY|ROMA\s+KG|COGUMELO)\b',
+]
+
+def classificar_curva_produto(codigo, descricao=""):
+    """
+    Classifica o produto FLV em Curva A (Alto Giro), Curva B (Médio Giro) ou Curva C (Baixo Giro/Especial).
+    Retorna tupla: (curva, giro) -> ('A', 'ALTO'), ('B', 'MEDIO'), ('C', 'BAIXO')
+    """
+    desc = (descricao or PRODUTOS_CANONICOS.get(str(codigo), "")).upper().strip()
+    for pat in CURVA_C_REGEX:
+        if re.search(pat, desc):
+            return "C", "BAIXO"
+    for pat in CURVA_A_REGEX:
+        if re.search(pat, desc):
+            return "A", "ALTO"
+    return "B", "MEDIO"
+
+# Mapeamento pré-calculado de cada produto
+PRODUTOS_CURVA = {
+    cod: classificar_curva_produto(cod, desc)
+    for cod, desc in PRODUTOS_CANONICOS.items()
+}
+
+CODIGOS_CURVA_A = [cod for cod, (c, _) in PRODUTOS_CURVA.items() if c == "A"]
+CODIGOS_CURVA_B = [cod for cod, (c, _) in PRODUTOS_CURVA.items() if c == "B"]
+CODIGOS_CURVA_C = [cod for cod, (c, _) in PRODUTOS_CURVA.items() if c == "C"]
+
+# Lista canônica ordenada por prioridade: Curva A (Alto Giro) primeiro, depois B, depois C
+CODIGOS_PRODUTOS = CODIGOS_CURVA_A + CODIGOS_CURVA_B + CODIGOS_CURVA_C
+
