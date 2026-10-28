@@ -41,6 +41,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
+          # Trava de segurança: se a extração falhou e não tem dados de venda/custo, aborta sem comitar
+          python -c "import json; d=json.load(open('estoque_bigmais.json')); cv=sum(1 for x in d if x.get('data_ult_venda') and str(x.get('data_ult_venda')).strip() not in ('', '-')); print('Produtos com venda:', cv); exit(1 if cv == 0 else 0)" || {
+            echo "ALERTA CRÍTICO: Coleta gerou dados sem histórico de venda! Abortando commit para proteger o banco na nuvem."
+            exit 0
+          }
+
           # 1. Preserva o banco SQLite e o JSON gerados durante a coleta
           cp estoque_bigmais.db /tmp/estoque_bigmais.db
           cp estoque_bigmais.json /tmp/estoque_bigmais.json
