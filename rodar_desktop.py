@@ -151,30 +151,31 @@ def exportar_json(caminho_db, caminho_json):
                 sinal = "-" if is_neg else ""
                 estoque_str = f"{sinal}{int_fmt} {u_sigla}"
 
-            data_venda = r['data_ult_venda'] or ""
-            idade = r['idade_estoque'] or ""
+            data_venda = (r['data_ult_venda'] or "").strip()
+            if data_venda in ('( Dias )', '-', 'None', 'null'):
+                data_venda = ""
+
+            idade = (r['idade_estoque'] or "").strip()
+            if idade in ('( Dias )', '-', 'None', 'null') or estoque_num <= 0:
+                idade = "0 Dias" if estoque_num <= 0 else ""
             
-            # Se o produto nao tem estoque (zerado ou negativo), dias sem venda deve ser nulo e '-'
-            if estoque_num <= 0:
-                dias_sem_venda = None
-                dias_str = "-"
-            else:
-                dias_sem_venda, dias_str = calcular_dias_sem_venda(data_venda, hoje_ref)
+            # Dias sem venda calculado diretamente a partir da última venda real
+            dias_sem_venda, dias_str = calcular_dias_sem_venda(data_venda, hoje_ref)
             
-            data_compra = r['data_ult_compra'] or ""
+            data_compra = (r['data_ult_compra'] or "").strip()
+            if data_compra in ('( Dias )', '-', 'None', 'null'):
+                data_compra = ""
             m_compra = re.search(r'(\d{2}/\d{2}/\d{4})', data_compra)
             m_compra_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', data_compra, re.I)
             ult_compra_str = "-"
             if m_compra:
                 ult_compra_str = f"{m_compra.group(1)} ({m_compra_dias.group(1)}d)" if m_compra_dias else m_compra.group(1)
 
-            margem_val = r['margem_pdv']
-            margem_str = f"{float(margem_val):.1f}%" if margem_val is not None else "-"
-
             preco_venda_val = float(r['preco_venda'] or 0.0)
             custo_liq_val = float(r['custo_liquido'] or 0.0)
             
             # Se o produto esta com estoque mas sem preco, calcula por custo/margem ou herda de outra loja
+            margem_val = r['margem_pdv']
             if preco_venda_val <= 0.0:
                 if custo_liq_val > 0.0 and margem_val is not None:
                     try:
@@ -189,6 +190,18 @@ def exportar_json(caminho_db, caminho_json):
                 cod_s = str(r['codigo'] or "").strip()
                 if preco_venda_val <= 0.0 and cod_s in mapa_precos_rede:
                     preco_venda_val = mapa_precos_rede[cod_s]
+
+            # Margem PDV calculada com precisão
+            if margem_val is not None and 0.0 < float(margem_val) < 100.0:
+                margem_str = f"{float(margem_val):.1f}%"
+            elif preco_venda_val > 0.0 and custo_liq_val > 0.0 and custo_liq_val < preco_venda_val:
+                calc_m = ((preco_venda_val - custo_liq_val) / preco_venda_val) * 100.0
+                margem_str = f"{calc_m:.1f}%"
+            else:
+                margem_str = "-"
+
+            # Dias de estoque: 0.0 se estoque zerado
+            dias_est_val = float(r['dias_estoque'] or 0.0) if (r['dias_estoque'] and estoque_num > 0) else 0.0
 
             curva, giro = classificar_curva_produto(str(r['codigo'] or "").strip(), desc)
 
@@ -214,7 +227,7 @@ def exportar_json(caminho_db, caminho_json):
                 "dias_sem_venda": dias_sem_venda,
                 "dias_sem_venda_str": dias_str,
                 "idade_estoque": idade,
-                "dias_estoque": float(r['dias_estoque'] or 0.0) if r['dias_estoque'] else 0.0,
+                "dias_estoque": dias_est_val,
                 "data_coleta": r['data_coleta'] or ""
             })
         conn.close()
