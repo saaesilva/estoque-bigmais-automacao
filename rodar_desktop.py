@@ -76,7 +76,14 @@ def calcular_dias_sem_venda(data_venda_str, data_referencia=None):
         except Exception:
             data_referencia = date.today()
 
-    # 1. Tenta extrair a data real DD/MM/YYYY
+    # 1. Se tem número explícito em ( X Dias ) informado pelo ERP Big Mais
+    m_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', texto, re.I)
+    if m_dias:
+        d = int(m_dias.group(1))
+        dias_str = "Hoje (0 dias)" if d == 0 else ("1 dia" if d == 1 else f"{d} dias")
+        return d, dias_str
+
+    # 2. Tenta extrair a data real DD/MM/YYYY
     m_data = re.search(r'(\d{2})/(\d{2})/(\d{4})', texto)
     if m_data:
         try:
@@ -89,13 +96,6 @@ def calcular_dias_sem_venda(data_venda_str, data_referencia=None):
         except Exception:
             pass
 
-    # 2. Se tem número explícito em ( X Dias )
-    m_dias = re.search(r'\(?\s*(\d+)\s*Dias?\s*\)?', texto, re.I)
-    if m_dias:
-        d = int(m_dias.group(1))
-        dias_str = "Hoje (0 dias)" if d == 0 else ("1 dia" if d == 1 else f"{d} dias")
-        return d, dias_str
-
     return None, "Sem Venda"
 
 
@@ -105,6 +105,16 @@ def exportar_json(caminho_db, caminho_json):
         conn.row_factory = sqlite3.Row
         cur = conn.cursor()
         rows = cur.execute("SELECT * FROM estoque_atual ORDER BY loja, codigo").fetchall()
+
+        # Trava de segurança: se o banco estiver sem datas de venda por falha transitória, aborta para não corromper o JSON
+        total_rows = len(rows)
+        if total_rows > 100:
+            com_venda = sum(1 for r in rows if r['data_ult_venda'] and str(r['data_ult_venda']).strip() not in ('', '-', '( Dias )', 'None', 'null'))
+            if com_venda == 0:
+                print(f"🚨 ALERTA CRÍTICO: Nenhum produto possui data de venda no banco! Abortando exportação para proteger o arquivo JSON.", flush=True)
+                conn.close()
+                return False
+
         hoje_ref = datetime.now(timezone(timedelta(hours=-3))).date()
         
         # Mapeia precos de referencia positivos da rede por codigo
@@ -561,7 +571,8 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                     for codigo_produto in produtos_ordenados:
                         barra.set_postfix_str(f"{nome_loja[:10]} | Cód: {codigo_produto}")
                         try:
-                            # 1. Dispara busca Jaxon do produto
+                            # 1. Limpa tabela anterior e dispara busca Jaxon do produto
+                            driver.execute_script("const t = document.querySelector('table.displayRelatorios tbody'); if (t) t.innerHTML = '';")
                             driver.execute_script(f"jaxon_fn_buscaprodutolist('{codigo_produto}', 'idcod_produto', 'PRD');")
 
                             # 2. Aguarda a linha correspondente ao código aparecer na tabela (máx 3s)
@@ -569,6 +580,15 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                             ondbl = None
                             desc_tabela = ""
                             est_tabela = ""
+                            dados = {
+                                "custo_liquido": "",
+                                "preco_venda": "",
+                                "data_ult_venda": "",
+                                "data_ult_compra": "",
+                                "dias_estoque": "",
+                                "idade_estoque": "",
+                                "margem_pdv": ""
+                            }
                             for _ in range(15):
                                 time.sleep(0.2)
                                 res_linha = driver.execute_script("""
@@ -578,7 +598,8 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         const celulas = r.querySelectorAll('td, th');
                                         if (celulas.length >= 5) {
                                             const codLinha = (celulas[1].innerText || '').trim();
-                                            if (codLinha === cod || r.innerText.includes(cod)) {
+                                            const matchExato = (codLinha === cod) || (codLinha.replace(/^0+/, '') === cod.replace(/^0+/, ''));
+                                            if (matchExato) {
                                                 return {
                                                     ondbl: r.getAttribute('ondblclick') || '',
                                                     desc: celulas[3].innerText.trim(),
@@ -610,7 +631,9 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         const p = document.getElementById('idclearpainel');
                                         if (!p) return false;
                                         const txt = p.innerText || '';
-                                        return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
+                                        const codClean = cod.replace(/^0+/, '');
+                                        const regCod = new RegExp('(^|[^0-9])0*' + codClean + '\\\\s*[-–]');
+                                        return regCod.test(txt) && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
                                     """, codigo_produto)
                                     if carregou:
                                         break
@@ -625,7 +648,9 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                             const p = document.getElementById('idclearpainel');
                                             if (!p) return false;
                                             const txt = p.innerText || '';
-                                            return txt.includes(cod + ' - ') && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
+                                            const codClean = cod.replace(/^0+/, '');
+                                            const regCod = new RegExp('(^|[^0-9])0*' + codClean + '\\\\s*[-–]');
+                                            return regCod.test(txt) && (txt.includes('Data Ult Venda') || txt.includes('Custo') || txt.includes('Últimas Datas'));
                                         """, codigo_produto)
                                         if carregou:
                                             break
@@ -653,7 +678,7 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                         let ultDatasContainer = null;
                                         for (let el of todos) {
                                             if (normalizar(el.innerText) === 'ultimas datas') {
-                                                ultDatasContainer = el.closest('.card, .panel, .box, .widget, div') || el.parentElement;
+                                                ultDatasContainer = el.closest('.card, .panel, .box, .widget') || (el.parentElement ? el.parentElement.closest('.card, .panel, .box, .widget') : null) || el.parentElement;
                                                 break;
                                             }
                                         }
@@ -673,6 +698,24 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                                         if (idx !== -1 && idx + 1 < tds.length) {
                                                             const txt = tds[idx + 1].innerText.trim();
                                                             if (txt) return txt;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            if (ultDatasContainer) {
+                                                for (let el of todos) {
+                                                    if (normalizar(el.innerText) === rNorm) {
+                                                        if (el.nextElementSibling && el.nextElementSibling.innerText.trim()) {
+                                                            return el.nextElementSibling.innerText.trim();
+                                                        }
+                                                        const tr = el.closest('tr');
+                                                        if (tr) {
+                                                            const tds = Array.from(tr.querySelectorAll('td, th'));
+                                                            const idx = tds.indexOf(el);
+                                                            if (idx !== -1 && idx + 1 < tds.length) {
+                                                                const txt = tds[idx + 1].innerText.trim();
+                                                                if (txt) return txt;
+                                                            }
                                                         }
                                                     }
                                                 }
@@ -811,6 +854,30 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                 data_ult_venda = limpar_texto(dados.get("data_ult_venda"))
                                 idade_estoque = limpar_texto(dados.get("idade_estoque"))
 
+                                # PRESERVAÇÃO DE DADOS HISTÓRICOS: Se algum indicador comercial não foi lido nesta rodada,
+                                # mantém o valor histórico já existente no banco para não perder datas reais de venda e compra
+                                cursor.execute("""
+                                    SELECT preco_venda, custo_liquido, margem_pdv, dias_estoque,
+                                           data_ult_compra, data_ult_venda, idade_estoque
+                                    FROM estoque_atual WHERE loja = ? AND codigo = ?
+                                """, (nome_loja, codigo_produto))
+                                row_antigo = cursor.fetchone()
+                                if row_antigo:
+                                    if preco_venda <= 0.0 and row_antigo[0] and float(row_antigo[0]) > 0.0:
+                                        preco_venda = float(row_antigo[0])
+                                    if custo_liquido <= 0.0 and row_antigo[1] and float(row_antigo[1]) > 0.0:
+                                        custo_liquido = float(row_antigo[1])
+                                    if margem_pdv <= 0.0 and row_antigo[2] and float(row_antigo[2]) > 0.0:
+                                        margem_pdv = float(row_antigo[2])
+                                    if dias_estoque <= 0.0 and row_antigo[3] and float(row_antigo[3]) > 0.0:
+                                        dias_estoque = float(row_antigo[3])
+                                    if not data_ult_compra and row_antigo[4] and str(row_antigo[4]).strip() not in ('', '-', 'None', 'null'):
+                                        data_ult_compra = str(row_antigo[4]).strip()
+                                    if not data_ult_venda and row_antigo[5] and str(row_antigo[5]).strip() not in ('', '-', 'None', 'null'):
+                                        data_ult_venda = str(row_antigo[5]).strip()
+                                    if not idade_estoque and row_antigo[6] and str(row_antigo[6]).strip() not in ('', '-', 'None', 'null'):
+                                        idade_estoque = str(row_antigo[6]).strip()
+
                                 # Fallback 1: se o preço veio zerado mas temos custo e margem PDV, calcula o preço exato
                                 if preco_venda <= 0.0 and custo_liquido > 0.0 and 0.0 < margem_pdv < 100.0:
                                     calc_p = round(custo_liquido / (1.0 - margem_pdv / 100.0), 2)
@@ -825,16 +892,22 @@ def executar_coleta(visivel=False, limite=None, loja_especifica=None, sem_upload
                                     if p_ref and p_ref[0] and float(p_ref[0]) > 0.0:
                                         preco_venda = float(p_ref[0])
                             else:
-                                # O produto não foi retornado nesta loja: NUNCA herdar dados de outro produto!
+                                # O produto não foi retornado nesta loja: estoque zerado, mas PRESERVA histórico comercial se já existia
                                 descricao = PRODUTOS_CANONICOS.get(codigo_produto, f"PRODUTO {codigo_produto}")
                                 estoque = 0.0
-                                preco_venda = 0.0
-                                custo_liquido = 0.0
-                                margem_pdv = 0.0
-                                dias_estoque = 0.0
-                                data_ult_compra = ""
-                                data_ult_venda = ""
-                                idade_estoque = ""
+                                cursor.execute("""
+                                    SELECT preco_venda, custo_liquido, margem_pdv, dias_estoque,
+                                           data_ult_compra, data_ult_venda, idade_estoque
+                                    FROM estoque_atual WHERE loja = ? AND codigo = ?
+                                """, (nome_loja, codigo_produto))
+                                row_antigo = cursor.fetchone()
+                                preco_venda = float(row_antigo[0]) if (row_antigo and row_antigo[0]) else 0.0
+                                custo_liquido = float(row_antigo[1]) if (row_antigo and row_antigo[1]) else 0.0
+                                margem_pdv = float(row_antigo[2]) if (row_antigo and row_antigo[2]) else 0.0
+                                dias_estoque = float(row_antigo[3]) if (row_antigo and row_antigo[3]) else 0.0
+                                data_ult_compra = str(row_antigo[4]).strip() if (row_antigo and row_antigo[4]) else ""
+                                data_ult_venda = str(row_antigo[5]).strip() if (row_antigo and row_antigo[5]) else ""
+                                idade_estoque = str(row_antigo[6]).strip() if (row_antigo and row_antigo[6]) else ""
 
                             cursor.execute("""
                                 INSERT OR REPLACE INTO estoque_atual (
