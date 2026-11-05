@@ -9,9 +9,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 15.98,
     "custo_liquido": 2.29,
     "margem_pdv": "57.6%",
@@ -34,9 +34,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 456.897,
-    "estoque_raw": 456.897,
-    "estoque_formatado": "456,897 kg",
+    "estoque": 326.842,
+    "estoque_raw": 326.842,
+    "estoque_formatado": "326,842 kg",
     "preco_venda": 5.48,
     "custo_liquido": 2.28,
     "margem_pdv": "49.8%",
@@ -84,9 +84,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 136.38,
-    "estoque_raw": 136.38,
-    "estoque_formatado": "136,380 kg",
+    "estoque": 124.56,
+    "estoque_raw": 124.56,
+    "estoque_formatado": "124,560 kg",
     "preco_venda": 15.98,
     "custo_liquido": 4.54,
     "margem_pdv": "57.6%",
@@ -109,9 +109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 8.58,
-    "estoque_raw": 8.58,
-    "estoque_formatado": "8,580 kg",
+    "estoque": 5.725,
+    "estoque_raw": 5.725,
+    "estoque_formatado": "5,725 kg",
     "preco_venda": 12.98,
     "custo_liquido": 6.0,
     "margem_pdv": "57.7%",
@@ -134,9 +134,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 231.55,
-    "estoque_raw": 231.55,
-    "estoque_formatado": "231,550 kg",
+    "estoque": 173.045,
+    "estoque_raw": 173.045,
+    "estoque_formatado": "173,045 kg",
     "preco_venda": 12.98,
     "custo_liquido": 4.8,
     "margem_pdv": "54.5%",
@@ -159,9 +159,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 167.085,
-    "estoque_raw": 167.085,
-    "estoque_formatado": "167,085 kg",
+    "estoque": 143.195,
+    "estoque_raw": 143.195,
+    "estoque_formatado": "143,195 kg",
     "preco_venda": 10.98,
     "custo_liquido": 6.32,
     "margem_pdv": "55.3%",
@@ -209,9 +209,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -38.666,
-    "estoque_raw": -38.666,
-    "estoque_formatado": "-38,666 kg",
+    "estoque": 329.026,
+    "estoque_raw": 329.026,
+    "estoque_formatado": "329,026 kg",
     "preco_venda": 8.98,
     "custo_liquido": 3.64,
     "margem_pdv": "55.5%",
@@ -220,8 +220,8 @@
     "ult_compra_str": "19/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 3.7,
     "data_coleta": "2026-11-05"
   },
   {
@@ -234,9 +234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 323.001,
-    "estoque_raw": 323.001,
-    "estoque_formatado": "323,001 kg",
+    "estoque": 289.331,
+    "estoque_raw": 289.331,
+    "estoque_formatado": "289,331 kg",
     "preco_venda": 6.98,
     "custo_liquido": 3.3,
     "margem_pdv": "59.0%",
@@ -259,9 +259,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 373.095,
-    "estoque_raw": 373.095,
-    "estoque_formatado": "373,095 kg",
+    "estoque": 259.749,
+    "estoque_raw": 259.749,
+    "estoque_formatado": "259,749 kg",
     "preco_venda": 16.9,
     "custo_liquido": 2.29,
     "margem_pdv": "57.2%",
@@ -284,9 +284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 22.115,
-    "estoque_raw": 22.115,
-    "estoque_formatado": "22,115 kg",
+    "estoque": 19.88,
+    "estoque_raw": 19.88,
+    "estoque_formatado": "19,880 kg",
     "preco_venda": 8.98,
     "custo_liquido": 4.28,
     "margem_pdv": "54.4%",
@@ -309,9 +309,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 111.329,
-    "estoque_raw": 111.329,
-    "estoque_formatado": "111,329 kg",
+    "estoque": 82.364,
+    "estoque_raw": 82.364,
+    "estoque_formatado": "82,364 kg",
     "preco_venda": 9.98,
     "custo_liquido": 4.0,
     "margem_pdv": "49.0%",
@@ -334,9 +334,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 42.135,
-    "estoque_raw": 42.135,
-    "estoque_formatado": "42,135 kg",
+    "estoque": 39.565,
+    "estoque_raw": 39.565,
+    "estoque_formatado": "39,565 kg",
     "preco_venda": 7.98,
     "custo_liquido": 4.42,
     "margem_pdv": "46.3%",
@@ -359,9 +359,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 41.005,
-    "estoque_raw": 41.005,
-    "estoque_formatado": "41,005 kg",
+    "estoque": 38.66,
+    "estoque_raw": 38.66,
+    "estoque_formatado": "38,660 kg",
     "preco_venda": 16.98,
     "custo_liquido": 10.15,
     "margem_pdv": "43.0%",
@@ -384,9 +384,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 540.518,
-    "estoque_raw": 540.518,
-    "estoque_formatado": "540,518 kg",
+    "estoque": 468.414,
+    "estoque_raw": 468.414,
+    "estoque_formatado": "468,414 kg",
     "preco_venda": 7.18,
     "custo_liquido": 3.38,
     "margem_pdv": "49.0%",
@@ -409,9 +409,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 19.695,
-    "estoque_raw": 19.695,
-    "estoque_formatado": "19,695 kg",
+    "estoque": 16.09,
+    "estoque_raw": 16.09,
+    "estoque_formatado": "16,090 kg",
     "preco_venda": 16.23,
     "custo_liquido": 7.92,
     "margem_pdv": "42.7%",
@@ -459,9 +459,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 32.255,
-    "estoque_raw": 32.255,
-    "estoque_formatado": "32,255 kg",
+    "estoque": 23.61,
+    "estoque_raw": 23.61,
+    "estoque_formatado": "23,610 kg",
     "preco_venda": 12.23,
     "custo_liquido": 6.06,
     "margem_pdv": "54.9%",
@@ -534,9 +534,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": -9,
+    "estoque_raw": -9,
+    "estoque_formatado": "-9 bdj",
     "preco_venda": 7.31,
     "custo_liquido": 4.26,
     "margem_pdv": "32.5%",
@@ -584,9 +584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 410.924,
-    "estoque_raw": 410.924,
-    "estoque_formatado": "410,924 kg",
+    "estoque": 371.541,
+    "estoque_raw": 371.541,
+    "estoque_formatado": "371,541 kg",
     "preco_venda": 4.62,
     "custo_liquido": 1.62,
     "margem_pdv": "45.4%",
@@ -634,9 +634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -139,
-    "estoque_raw": -139,
-    "estoque_formatado": "-139 bdj",
+    "estoque": -164,
+    "estoque_raw": -164,
+    "estoque_formatado": "-164 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 9.67,
     "margem_pdv": "59.0%",
@@ -659,9 +659,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 31.408,
-    "estoque_raw": 31.408,
-    "estoque_formatado": "31,408 kg",
+    "estoque": 30.543,
+    "estoque_raw": 30.543,
+    "estoque_formatado": "30,543 kg",
     "preco_venda": 34.9,
     "custo_liquido": 2.86,
     "margem_pdv": "55.5%",
@@ -684,9 +684,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 83.545,
-    "estoque_raw": 83.545,
-    "estoque_formatado": "83,545 kg",
+    "estoque": 74.07,
+    "estoque_raw": 74.07,
+    "estoque_formatado": "74,070 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.45,
     "margem_pdv": "67.0%",
@@ -709,9 +709,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 12.98,
     "custo_liquido": 3.55,
     "margem_pdv": "55.5%",
@@ -734,9 +734,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 18,
+    "estoque_raw": 18,
+    "estoque_formatado": "18 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 6.3,
     "margem_pdv": "72.4%",
@@ -745,7 +745,7 @@
     "ult_compra_str": "22/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "8 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -759,9 +759,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -1,
-    "estoque_raw": -1,
-    "estoque_formatado": "-1 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 10.98,
     "custo_liquido": 2.75,
     "margem_pdv": "11.7%",
@@ -784,9 +784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 45,
-    "estoque_raw": 45,
-    "estoque_formatado": "45 un",
+    "estoque": 28,
+    "estoque_raw": 28,
+    "estoque_formatado": "28 un",
     "preco_venda": 12.98,
     "custo_liquido": 5.52,
     "margem_pdv": "57.6%",
@@ -884,9 +884,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 954.873,
-    "estoque_raw": 954.873,
-    "estoque_formatado": "954,873 kg",
+    "estoque": 920.757,
+    "estoque_raw": 920.757,
+    "estoque_formatado": "920,757 kg",
     "preco_venda": 21.9,
     "custo_liquido": 7.47,
     "margem_pdv": "55.0%",
@@ -934,9 +934,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 50.96,
-    "estoque_raw": 50.96,
-    "estoque_formatado": "50,960 kg",
+    "estoque": 46.915,
+    "estoque_raw": 46.915,
+    "estoque_formatado": "46,915 kg",
     "preco_venda": 13.38,
     "custo_liquido": 6.79,
     "margem_pdv": "40.9%",
@@ -984,9 +984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 86,
-    "estoque_raw": 86,
-    "estoque_formatado": "86 un",
+    "estoque": 121,
+    "estoque_raw": 121,
+    "estoque_formatado": "121 un",
     "preco_venda": 9.9,
     "custo_liquido": 3.55,
     "margem_pdv": "60.6%",
@@ -1059,9 +1059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 24.731,
-    "estoque_raw": 24.731,
-    "estoque_formatado": "24,731 kg",
+    "estoque": 22.236,
+    "estoque_raw": 22.236,
+    "estoque_formatado": "22,236 kg",
     "preco_venda": 12.98,
     "custo_liquido": 4.31,
     "margem_pdv": "61.4%",
@@ -1084,9 +1084,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 81,
+    "estoque_raw": 81,
+    "estoque_formatado": "81 un",
     "preco_venda": 4.98,
     "custo_liquido": 1.99,
     "margem_pdv": "49.8%",
@@ -1095,8 +1095,8 @@
     "ult_compra_str": "22/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 8.9,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1109,9 +1109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 145.598,
-    "estoque_raw": 145.598,
-    "estoque_formatado": "145,598 kg",
+    "estoque": 138.373,
+    "estoque_raw": 138.373,
+    "estoque_formatado": "138,373 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.53,
     "margem_pdv": "60.1%",
@@ -1134,9 +1134,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 132.235,
-    "estoque_raw": 132.235,
-    "estoque_formatado": "132,235 kg",
+    "estoque": 76.33,
+    "estoque_raw": 76.33,
+    "estoque_formatado": "76,330 kg",
     "preco_venda": 19.9,
     "custo_liquido": 2.36,
     "margem_pdv": "38.1%",
@@ -1209,9 +1209,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 229.0,
     "custo_liquido": 6.0,
     "margem_pdv": "43.8%",
@@ -1220,8 +1220,8 @@
     "ult_compra_str": "01/07/2020 (2306d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "8 Dias",
-    "dias_estoque": 39.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1234,9 +1234,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 85,
+    "estoque_raw": 85,
+    "estoque_formatado": "85 un",
     "preco_venda": 14.98,
     "custo_liquido": 8.72,
     "margem_pdv": "60.0%",
@@ -1245,8 +1245,8 @@
     "ult_compra_str": "07/10/2026 (17d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "17 Dias",
+    "dias_estoque": 13.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1284,9 +1284,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 18,
-    "estoque_raw": 18,
-    "estoque_formatado": "18 bdj",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 3.25,
     "margem_pdv": "57.1%",
@@ -1309,9 +1309,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 43.4,
-    "estoque_raw": 43.4,
-    "estoque_formatado": "43,400 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 4.98,
     "custo_liquido": 1.69,
     "margem_pdv": "65.9%",
@@ -1359,9 +1359,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 28.194,
-    "estoque_raw": 28.194,
-    "estoque_formatado": "28,194 kg",
+    "estoque": 27.714,
+    "estoque_raw": 27.714,
+    "estoque_formatado": "27,714 kg",
     "preco_venda": 7.38,
     "custo_liquido": 3.61,
     "margem_pdv": "40.2%",
@@ -1384,9 +1384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 51,
+    "estoque_raw": 51,
+    "estoque_formatado": "51 un",
     "preco_venda": 4.59,
     "custo_liquido": 1.9,
     "margem_pdv": "45.5%",
@@ -1395,8 +1395,8 @@
     "ult_compra_str": "15/10/2026 (9d)",
     "dias_sem_venda": 8,
     "dias_sem_venda_str": "8 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "17 Dias",
+    "dias_estoque": 1.4,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1409,9 +1409,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 15.9,
     "custo_liquido": 13.0,
     "margem_pdv": "56.0%",
@@ -1434,9 +1434,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 199,
-    "estoque_raw": 199,
-    "estoque_formatado": "199 bdj",
+    "estoque": 198,
+    "estoque_raw": 198,
+    "estoque_formatado": "198 bdj",
     "preco_venda": 15.98,
     "custo_liquido": 10.51,
     "margem_pdv": "57.6%",
@@ -1484,9 +1484,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 16.61,
-    "estoque_raw": 16.61,
-    "estoque_formatado": "16,610 kg",
+    "estoque": 12.755,
+    "estoque_raw": 12.755,
+    "estoque_formatado": "12,755 kg",
     "preco_venda": 15.98,
     "custo_liquido": 18.16,
     "margem_pdv": "57.6%",
@@ -1559,9 +1559,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 6.09,
+    "estoque_raw": 6.09,
+    "estoque_formatado": "6,090 kg",
     "preco_venda": 4.98,
     "custo_liquido": 15.24,
     "margem_pdv": "41.4%",
@@ -1570,8 +1570,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "71 Dias",
+    "dias_estoque": 14.4,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1609,9 +1609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 45.315,
-    "estoque_raw": 45.315,
-    "estoque_formatado": "45,315 kg",
+    "estoque": 34.79,
+    "estoque_raw": 34.79,
+    "estoque_formatado": "34,790 kg",
     "preco_venda": 15.73,
     "custo_liquido": 7.19,
     "margem_pdv": "67.9%",
@@ -1634,9 +1634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 17,
-    "estoque_raw": 17,
-    "estoque_formatado": "17 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 29.9,
     "custo_liquido": 3.35,
     "margem_pdv": "48.7%",
@@ -1709,9 +1709,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 20.505,
-    "estoque_raw": 20.505,
-    "estoque_formatado": "20,505 kg",
+    "estoque": 7.66,
+    "estoque_raw": 7.66,
+    "estoque_formatado": "7,660 kg",
     "preco_venda": 39.9,
     "custo_liquido": 3.59,
     "margem_pdv": "53.2%",
@@ -1734,9 +1734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 un",
     "preco_venda": 7.98,
     "custo_liquido": 2.98,
     "margem_pdv": "43.5%",
@@ -1784,9 +1784,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 62,
-    "estoque_raw": 62,
-    "estoque_formatado": "62 bdj",
+    "estoque": 28,
+    "estoque_raw": 28,
+    "estoque_formatado": "28 bdj",
     "preco_venda": 8.96,
     "custo_liquido": 4.36,
     "margem_pdv": "49.2%",
@@ -1809,9 +1809,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 279.075,
-    "estoque_raw": 279.075,
-    "estoque_formatado": "279,075 kg",
+    "estoque": 252.885,
+    "estoque_raw": 252.885,
+    "estoque_formatado": "252,885 kg",
     "preco_venda": 11.98,
     "custo_liquido": 7.64,
     "margem_pdv": "44.3%",
@@ -1909,9 +1909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 36,
-    "estoque_raw": 36,
-    "estoque_formatado": "36 bdj",
+    "estoque": 35,
+    "estoque_raw": 35,
+    "estoque_formatado": "35 bdj",
     "preco_venda": 19.98,
     "custo_liquido": 4.57,
     "margem_pdv": "44.9%",
@@ -1959,9 +1959,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 8,
+    "estoque_raw": 8,
+    "estoque_formatado": "8 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.69,
     "margem_pdv": "64.7%",
@@ -1970,8 +1970,8 @@
     "ult_compra_str": "19/09/2026 (35d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "35 Dias",
+    "dias_estoque": 10.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -1984,9 +1984,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 252.049,
-    "estoque_raw": 252.049,
-    "estoque_formatado": "252,049 kg",
+    "estoque": 201.409,
+    "estoque_raw": 201.409,
+    "estoque_formatado": "201,409 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.14,
     "margem_pdv": "45.7%",
@@ -2009,9 +2009,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 12.98,
     "custo_liquido": 4.52,
     "margem_pdv": "68.7%",
@@ -2034,9 +2034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 83,
+    "estoque_raw": 83,
+    "estoque_formatado": "83 bdj",
     "preco_venda": 12.9,
     "custo_liquido": 2.76,
     "margem_pdv": "78.6%",
@@ -2045,8 +2045,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 4.4,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2084,9 +2084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 48.645,
-    "estoque_raw": 48.645,
-    "estoque_formatado": "48,645 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 12.98,
     "custo_liquido": 4.06,
     "margem_pdv": "63.4%",
@@ -2095,8 +2095,8 @@
     "ult_compra_str": "08/10/2026 (16d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 11.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2109,9 +2109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 60.605,
-    "estoque_raw": 60.605,
-    "estoque_formatado": "60,605 kg",
+    "estoque": 55.82,
+    "estoque_raw": 55.82,
+    "estoque_formatado": "55,820 kg",
     "preco_venda": 5.14,
     "custo_liquido": 2.19,
     "margem_pdv": "56.1%",
@@ -2134,9 +2134,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 385.34,
-    "estoque_raw": 385.34,
-    "estoque_formatado": "385,340 kg",
+    "estoque": 342.825,
+    "estoque_raw": 342.825,
+    "estoque_formatado": "342,825 kg",
     "preco_venda": 3.98,
     "custo_liquido": 5.66,
     "margem_pdv": "63.6%",
@@ -2284,9 +2284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 47,
+    "estoque_raw": 47,
+    "estoque_formatado": "47 un",
     "preco_venda": 12.98,
     "custo_liquido": 2.57,
     "margem_pdv": "69.7%",
@@ -2295,8 +2295,8 @@
     "ult_compra_str": "22/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "24 Dias",
+    "dias_estoque": 34.4,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2309,9 +2309,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 13,
-    "estoque_raw": 13,
-    "estoque_formatado": "13 un",
+    "estoque": 12,
+    "estoque_raw": 12,
+    "estoque_formatado": "12 un",
     "preco_venda": 3.98,
     "custo_liquido": 3.0,
     "margem_pdv": "59.6%",
@@ -2409,9 +2409,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 33.45,
+    "estoque_raw": 33.45,
+    "estoque_formatado": "33,450 kg",
     "preco_venda": 9.98,
     "custo_liquido": 9.28,
     "margem_pdv": "51.4%",
@@ -2420,8 +2420,8 @@
     "ult_compra_str": "21/10/2026 (3d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "35 Dias",
+    "dias_estoque": 16.3,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2434,9 +2434,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 28,
+    "estoque_raw": 28,
+    "estoque_formatado": "28 bdj",
     "preco_venda": 5.48,
     "custo_liquido": 5.79,
     "margem_pdv": "49.8%",
@@ -2445,8 +2445,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 4.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2559,9 +2559,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 19.27,
-    "estoque_raw": 19.27,
-    "estoque_formatado": "19,270 kg",
+    "estoque": 17.695,
+    "estoque_raw": 17.695,
+    "estoque_formatado": "17,695 kg",
     "preco_venda": 21.92,
     "custo_liquido": 10.5,
     "margem_pdv": "49.5%",
@@ -2584,9 +2584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 741.225,
-    "estoque_raw": 741.225,
-    "estoque_formatado": "741,225 kg",
+    "estoque": 658.335,
+    "estoque_raw": 658.335,
+    "estoque_formatado": "658,335 kg",
     "preco_venda": 14.78,
     "custo_liquido": 8.03,
     "margem_pdv": "48.4%",
@@ -2609,9 +2609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 348.144,
-    "estoque_raw": 348.144,
-    "estoque_formatado": "348,144 kg",
+    "estoque": 340.219,
+    "estoque_raw": 340.219,
+    "estoque_formatado": "340,219 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.2,
     "margem_pdv": "48.5%",
@@ -2634,9 +2634,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 26.575,
-    "estoque_raw": 26.575,
-    "estoque_formatado": "26,575 kg",
+    "estoque": 26.025,
+    "estoque_raw": 26.025,
+    "estoque_formatado": "26,025 kg",
     "preco_venda": 59.0,
     "custo_liquido": 9.79,
     "margem_pdv": "58.6%",
@@ -2659,9 +2659,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 10.98,
     "custo_liquido": 3.53,
     "margem_pdv": "63.1%",
@@ -2670,8 +2670,8 @@
     "ult_compra_str": "15/09/2026 (39d)",
     "dias_sem_venda": 33,
     "dias_sem_venda_str": "33 dias",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 19.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -2684,9 +2684,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 657,
-    "estoque_raw": 657,
-    "estoque_formatado": "657 bdj",
+    "estoque": 653,
+    "estoque_raw": 653,
+    "estoque_formatado": "653 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 5.75,
     "margem_pdv": "49.9%",
@@ -2709,9 +2709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 723,
-    "estoque_raw": 723,
-    "estoque_formatado": "723 bdj",
+    "estoque": 681,
+    "estoque_raw": 681,
+    "estoque_formatado": "681 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 5.39,
     "margem_pdv": "46.9%",
@@ -2734,9 +2734,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 7.592,
-    "estoque_raw": 7.592,
-    "estoque_formatado": "7,592 kg",
+    "estoque": 2.867,
+    "estoque_raw": 2.867,
+    "estoque_formatado": "2,867 kg",
     "preco_venda": 16.67,
     "custo_liquido": 8.52,
     "margem_pdv": "32.9%",
@@ -2759,9 +2759,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 12,
-    "estoque_raw": 12,
-    "estoque_formatado": "12 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 5.06,
     "margem_pdv": "34.5%",
@@ -2784,9 +2784,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -84.31,
-    "estoque_raw": -84.31,
-    "estoque_formatado": "-84,310 kg",
+    "estoque": -120.815,
+    "estoque_raw": -120.815,
+    "estoque_formatado": "-120,815 kg",
     "preco_venda": 10.71,
     "custo_liquido": 5.96,
     "margem_pdv": "43.6%",
@@ -2809,9 +2809,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 un",
     "preco_venda": 6.98,
     "custo_liquido": 4.95,
     "margem_pdv": "46.2%",
@@ -2820,7 +2820,7 @@
     "ult_compra_str": "22/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "6 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -2834,9 +2834,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 40.94,
-    "estoque_raw": 40.94,
-    "estoque_formatado": "40,940 kg",
+    "estoque": 24.48,
+    "estoque_raw": 24.48,
+    "estoque_formatado": "24,480 kg",
     "preco_venda": 11.98,
     "custo_liquido": 4.88,
     "margem_pdv": "41.6%",
@@ -2959,9 +2959,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 14.479,
-    "estoque_raw": 14.479,
-    "estoque_formatado": "14,479 kg",
+    "estoque": 11.849,
+    "estoque_raw": 11.849,
+    "estoque_formatado": "11,849 kg",
     "preco_venda": 7.98,
     "custo_liquido": 10.89,
     "margem_pdv": "49.9%",
@@ -2984,9 +2984,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 12.519,
-    "estoque_raw": 12.519,
-    "estoque_formatado": "12,519 kg",
+    "estoque": 7.174,
+    "estoque_raw": 7.174,
+    "estoque_formatado": "7,174 kg",
     "preco_venda": 16.9,
     "custo_liquido": 8.15,
     "margem_pdv": "44.0%",
@@ -3084,9 +3084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 27.97,
-    "estoque_raw": 27.97,
-    "estoque_formatado": "27,970 kg",
+    "estoque": 26.97,
+    "estoque_raw": 26.97,
+    "estoque_formatado": "26,970 kg",
     "preco_venda": 12.98,
     "custo_liquido": 10.12,
     "margem_pdv": "42.2%",
@@ -3159,9 +3159,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 21,
+    "estoque_raw": 21,
+    "estoque_formatado": "21 bdj",
     "preco_venda": 14.98,
     "custo_liquido": 6.95,
     "margem_pdv": "53.5%",
@@ -3170,8 +3170,8 @@
     "ult_compra_str": "21/10/2026 (3d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "8 Dias",
+    "dias_estoque": 18.8,
     "data_coleta": "2026-11-05"
   },
   {
@@ -3284,9 +3284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 70.885,
-    "estoque_raw": 70.885,
-    "estoque_formatado": "70,885 kg",
+    "estoque": 66.335,
+    "estoque_raw": 66.335,
+    "estoque_formatado": "66,335 kg",
     "preco_venda": 22.96,
     "custo_liquido": 13.37,
     "margem_pdv": "44.9%",
@@ -3309,9 +3309,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 21,
-    "estoque_raw": 21,
-    "estoque_formatado": "21 un",
+    "estoque": 19,
+    "estoque_raw": 19,
+    "estoque_formatado": "19 un",
     "preco_venda": 7.28,
     "custo_liquido": 3.87,
     "margem_pdv": "52.0%",
@@ -3334,9 +3334,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 19,
+    "estoque_raw": 19,
+    "estoque_formatado": "19 bdj",
     "preco_venda": 10.9,
     "custo_liquido": 2.7,
     "margem_pdv": "60.7%",
@@ -3409,9 +3409,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 20,
+    "estoque_raw": 20,
+    "estoque_formatado": "20 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.4,
     "margem_pdv": "45.5%",
@@ -3420,7 +3420,7 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "36 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -3484,9 +3484,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 un",
     "preco_venda": 25.9,
     "custo_liquido": 9.35,
     "margem_pdv": "61.1%",
@@ -3534,9 +3534,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 49,
-    "estoque_raw": 49,
-    "estoque_formatado": "49 bdj",
+    "estoque": 48,
+    "estoque_raw": 48,
+    "estoque_formatado": "48 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 5.87,
     "margem_pdv": "46.5%",
@@ -3559,9 +3559,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
     "preco_venda": 12.98,
     "custo_liquido": 4.64,
     "margem_pdv": "30.9%",
@@ -3584,9 +3584,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 292,
-    "estoque_raw": 292,
-    "estoque_formatado": "292 bdj",
+    "estoque": 291,
+    "estoque_raw": 291,
+    "estoque_formatado": "291 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 6.32,
     "margem_pdv": "53.9%",
@@ -3609,9 +3609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 277.455,
-    "estoque_raw": 277.455,
-    "estoque_formatado": "277,455 kg",
+    "estoque": 136.07,
+    "estoque_raw": 136.07,
+    "estoque_formatado": "136,070 kg",
     "preco_venda": 29.9,
     "custo_liquido": 2.02,
     "margem_pdv": "57.8%",
@@ -3809,9 +3809,9 @@
     "unidade_rotulo": "Pacote",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 410,
-    "estoque_raw": 410,
-    "estoque_formatado": "410 pct",
+    "estoque": 399,
+    "estoque_raw": 399,
+    "estoque_formatado": "399 pct",
     "preco_venda": 12.48,
     "custo_liquido": 7.91,
     "margem_pdv": "35.1%",
@@ -3859,9 +3859,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 un",
     "preco_venda": 12.98,
     "custo_liquido": 15.53,
     "margem_pdv": "37.6%",
@@ -3870,8 +3870,8 @@
     "ult_compra_str": "10/10/2026 (14d)",
     "dias_sem_venda": 5,
     "dias_sem_venda_str": "5 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "29 Dias",
+    "dias_estoque": 11.1,
     "data_coleta": "2026-11-05"
   },
   {
@@ -3909,9 +3909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 4.84,
     "margem_pdv": "43.4%",
@@ -3934,9 +3934,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 44,
+    "estoque_raw": 44,
+    "estoque_formatado": "44 un",
     "preco_venda": 13.98,
     "custo_liquido": 14.84,
     "margem_pdv": "47.5%",
@@ -3945,8 +3945,8 @@
     "ult_compra_str": "19/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "9 Dias",
+    "dias_estoque": 176.9,
     "data_coleta": "2026-11-05"
   },
   {
@@ -3959,9 +3959,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 47,
-    "estoque_raw": 47,
-    "estoque_formatado": "47 bdj",
+    "estoque": 46,
+    "estoque_raw": 46,
+    "estoque_formatado": "46 bdj",
     "preco_venda": 36.9,
     "custo_liquido": 4.18,
     "margem_pdv": "54.7%",
@@ -3984,9 +3984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 805,
-    "estoque_raw": 805,
-    "estoque_formatado": "805 un",
+    "estoque": 665,
+    "estoque_raw": 665,
+    "estoque_formatado": "665 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.29,
     "margem_pdv": "12.4%",
@@ -4009,9 +4009,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 bdj",
     "preco_venda": 13.98,
     "custo_liquido": 4.11,
     "margem_pdv": "55.2%",
@@ -4020,8 +4020,8 @@
     "ult_compra_str": "20/10/2026 (4d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 3.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -4134,9 +4134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 112,
-    "estoque_raw": 112,
-    "estoque_formatado": "112 bdj",
+    "estoque": 106,
+    "estoque_raw": 106,
+    "estoque_formatado": "106 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 4.85,
     "margem_pdv": "39.6%",
@@ -4209,9 +4209,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 11.58,
     "custo_liquido": 8.26,
     "margem_pdv": "30.7%",
@@ -4284,9 +4284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 12.98,
     "custo_liquido": 10.46,
     "margem_pdv": "71.1%",
@@ -4384,9 +4384,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 4.88,
     "custo_liquido": 3.08,
     "margem_pdv": "43.8%",
@@ -4395,7 +4395,7 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "1 Dias",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -4459,9 +4459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 11.9,
     "custo_liquido": 4.93,
     "margem_pdv": "61.9%",
@@ -4470,8 +4470,8 @@
     "ult_compra_str": "16/10/2026 (8d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "31 Dias",
+    "dias_estoque": 166.7,
     "data_coleta": "2026-11-05"
   },
   {
@@ -4484,9 +4484,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -7,
-    "estoque_raw": -7,
-    "estoque_formatado": "-7 un",
+    "estoque": -15,
+    "estoque_raw": -15,
+    "estoque_formatado": "-15 un",
     "preco_venda": 12.98,
     "custo_liquido": 7.04,
     "margem_pdv": "42.2%",
@@ -4509,9 +4509,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 11.9,
     "custo_liquido": 8.96,
     "margem_pdv": "51.2%",
@@ -4520,8 +4520,8 @@
     "ult_compra_str": "19/09/2026 (35d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "29 Dias",
+    "dias_estoque": 11.8,
     "data_coleta": "2026-11-05"
   },
   {
@@ -4559,9 +4559,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 12,
-    "estoque_raw": 12,
-    "estoque_formatado": "12 un",
+    "estoque": 11,
+    "estoque_raw": 11,
+    "estoque_formatado": "11 un",
     "preco_venda": 14.98,
     "custo_liquido": 5.42,
     "margem_pdv": "51.2%",
@@ -4709,9 +4709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 bdj",
     "preco_venda": 24.9,
     "custo_liquido": 8.88,
     "margem_pdv": "62.8%",
@@ -4720,8 +4720,8 @@
     "ult_compra_str": "01/07/2020 (2306d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 17.4,
     "data_coleta": "2026-11-05"
   },
   {
@@ -4734,9 +4734,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 87,
-    "estoque_raw": 87,
-    "estoque_formatado": "87 bdj",
+    "estoque": 86,
+    "estoque_raw": 86,
+    "estoque_formatado": "86 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.7,
     "margem_pdv": "63.1%",
@@ -4884,9 +4884,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 11,
+    "estoque_raw": 11,
+    "estoque_formatado": "11 un",
     "preco_venda": 9.98,
     "custo_liquido": 6.45,
     "margem_pdv": "58.9%",
@@ -4895,8 +4895,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "24 Dias",
+    "dias_estoque": 214.3,
     "data_coleta": "2026-11-05"
   },
   {
@@ -4909,9 +4909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 11.98,
     "custo_liquido": 6.1,
     "margem_pdv": "39.8%",
@@ -4959,9 +4959,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -87,
-    "estoque_raw": -87,
-    "estoque_formatado": "-87 un",
+    "estoque": -88,
+    "estoque_raw": -88,
+    "estoque_formatado": "-88 un",
     "preco_venda": 4.98,
     "custo_liquido": 6.38,
     "margem_pdv": "57.0%",
@@ -4984,9 +4984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 69,
-    "estoque_raw": 69,
-    "estoque_formatado": "69 bdj",
+    "estoque": 68,
+    "estoque_raw": 68,
+    "estoque_formatado": "68 bdj",
     "preco_venda": 11.98,
     "custo_liquido": 6.71,
     "margem_pdv": "42.5%",
@@ -5034,9 +5034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 111,
-    "estoque_raw": 111,
-    "estoque_formatado": "111 bdj",
+    "estoque": 109,
+    "estoque_raw": 109,
+    "estoque_formatado": "109 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 6.74,
     "margem_pdv": "63.1%",
@@ -5084,9 +5084,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 61,
-    "estoque_raw": 61,
-    "estoque_formatado": "61 bdj",
+    "estoque": 48,
+    "estoque_raw": 48,
+    "estoque_formatado": "48 bdj",
     "preco_venda": 5.48,
     "custo_liquido": 3.6,
     "margem_pdv": "49.8%",
@@ -5109,9 +5109,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 39.9,
     "custo_liquido": 2.79,
     "margem_pdv": "40.5%",
@@ -5120,8 +5120,8 @@
     "ult_compra_str": "16/09/2026 (38d)",
     "dias_sem_venda": 6,
     "dias_sem_venda_str": "6 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 6.2,
     "data_coleta": "2026-11-05"
   },
   {
@@ -5134,9 +5134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 403,
-    "estoque_raw": 403,
-    "estoque_formatado": "403 bdj",
+    "estoque": 242,
+    "estoque_raw": 242,
+    "estoque_formatado": "242 bdj",
     "preco_venda": 3.48,
     "custo_liquido": 5.13,
     "margem_pdv": "49.7%",
@@ -5334,9 +5334,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 29,
-    "estoque_raw": 29,
-    "estoque_formatado": "29 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 5.48,
     "custo_liquido": 6.61,
     "margem_pdv": "49.8%",
@@ -5345,8 +5345,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "23 Dias",
-    "dias_estoque": 110.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -5634,9 +5634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 bdj",
+    "estoque": 16,
+    "estoque_raw": 16,
+    "estoque_formatado": "16 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.34,
     "margem_pdv": "73.0%",
@@ -5659,9 +5659,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 12.98,
     "custo_liquido": 4.51,
     "margem_pdv": "22.5%",
@@ -5684,9 +5684,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 15,
+    "estoque_raw": 15,
+    "estoque_formatado": "15 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 1.46,
     "margem_pdv": "85.4%",
@@ -5759,9 +5759,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 3.88,
     "margem_pdv": "44.3%",
@@ -5770,7 +5770,7 @@
     "ult_compra_str": "20/10/2026 (4d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "2 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -5784,9 +5784,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 22,
+    "estoque_raw": 22,
+    "estoque_formatado": "22 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 2.48,
     "margem_pdv": "68.5%",
@@ -5834,9 +5834,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 16,
-    "estoque_raw": 16,
-    "estoque_formatado": "16 bdj",
+    "estoque": 12,
+    "estoque_raw": 12,
+    "estoque_formatado": "12 bdj",
     "preco_venda": 13.98,
     "custo_liquido": 7.57,
     "margem_pdv": "46.3%",
@@ -5884,9 +5884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 bdj",
+    "estoque": 8,
+    "estoque_raw": 8,
+    "estoque_formatado": "8 bdj",
     "preco_venda": 21.9,
     "custo_liquido": 2.56,
     "margem_pdv": "51.8%",
@@ -5934,9 +5934,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 14,
-    "estoque_raw": 14,
-    "estoque_formatado": "14 un",
+    "estoque": 19,
+    "estoque_raw": 19,
+    "estoque_formatado": "19 un",
     "preco_venda": 5.48,
     "custo_liquido": 6.67,
     "margem_pdv": "49.8%",
@@ -5984,9 +5984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 13,
-    "estoque_raw": 13,
-    "estoque_formatado": "13 bdj",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 bdj",
     "preco_venda": 11.98,
     "custo_liquido": 3.94,
     "margem_pdv": "45.6%",
@@ -6009,9 +6009,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 bdj",
+    "estoque": 16,
+    "estoque_raw": 16,
+    "estoque_formatado": "16 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 3.97,
     "margem_pdv": "49.9%",
@@ -6034,9 +6034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -1,
-    "estoque_raw": -1,
-    "estoque_formatado": "-1 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 4.18,
     "custo_liquido": 1.45,
     "margem_pdv": "56.6%",
@@ -6059,9 +6059,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 bdj",
     "preco_venda": 5.48,
     "custo_liquido": 3.27,
     "margem_pdv": "49.8%",
@@ -6070,7 +6070,7 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "4 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -6084,9 +6084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -12.62,
-    "estoque_raw": -12.62,
-    "estoque_formatado": "-12,620 kg",
+    "estoque": -23.575,
+    "estoque_raw": -23.575,
+    "estoque_formatado": "-23,575 kg",
     "preco_venda": 8.98,
     "custo_liquido": 4.18,
     "margem_pdv": "56.0%",
@@ -6109,9 +6109,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -22,
-    "estoque_raw": -22,
-    "estoque_formatado": "-22 un",
+    "estoque": -83,
+    "estoque_raw": -83,
+    "estoque_formatado": "-83 un",
     "preco_venda": 9.98,
     "custo_liquido": 3.89,
     "margem_pdv": "61.0%",
@@ -6127,8 +6127,8 @@
   {
     "loja": "01 PER",
     "codigo": "9552",
-    "descricao": "ABOBORA DAGUA KG",
-    "nome": "ABOBORA DAGUA KG",
+    "descricao": "ABACATE KG",
+    "nome": "ABACATE KG",
     "unidade": "KG",
     "unidade_sigla": "kg",
     "unidade_rotulo": "Quilo",
@@ -6209,9 +6209,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 4.4,
-    "estoque_raw": 4.4,
-    "estoque_formatado": "4,400 kg",
+    "estoque": -3.025,
+    "estoque_raw": -3.025,
+    "estoque_formatado": "-3,025 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.49,
     "margem_pdv": "58.1%",
@@ -6234,9 +6234,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 37,
-    "estoque_raw": 37,
-    "estoque_formatado": "37 un",
+    "estoque": 42,
+    "estoque_raw": 42,
+    "estoque_formatado": "42 un",
     "preco_venda": 11.98,
     "custo_liquido": 4.34,
     "margem_pdv": "58.3%",
@@ -6259,9 +6259,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 12,
-    "estoque_raw": 12,
-    "estoque_formatado": "12 bdj",
+    "estoque": 24,
+    "estoque_raw": 24,
+    "estoque_formatado": "24 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.56,
     "margem_pdv": "70.8%",
@@ -6284,9 +6284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 722.935,
-    "estoque_raw": 722.935,
-    "estoque_formatado": "722,935 kg",
+    "estoque": 653.37,
+    "estoque_raw": 653.37,
+    "estoque_formatado": "653,370 kg",
     "preco_venda": 6.73,
     "custo_liquido": 3.42,
     "margem_pdv": "59.8%",
@@ -6309,9 +6309,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 9.99,
     "custo_liquido": 3.31,
     "margem_pdv": "58.0%",
@@ -6334,9 +6334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 un",
+    "estoque": 15,
+    "estoque_raw": 15,
+    "estoque_formatado": "15 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.35,
     "margem_pdv": "41.5%",
@@ -6359,9 +6359,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 12,
+    "estoque_raw": 12,
+    "estoque_formatado": "12 un",
     "preco_venda": 9.97,
     "custo_liquido": 3.5,
     "margem_pdv": "64.9%",
@@ -6384,9 +6384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -18,
-    "estoque_raw": -18,
-    "estoque_formatado": "-18 un",
+    "estoque": -2,
+    "estoque_raw": -2,
+    "estoque_formatado": "-2 un",
     "preco_venda": 3.48,
     "custo_liquido": 3.39,
     "margem_pdv": "49.7%",
@@ -6409,9 +6409,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": -5,
+    "estoque_raw": -5,
+    "estoque_formatado": "-5 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.03,
     "margem_pdv": "51.5%",
@@ -6434,9 +6434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 8,
+    "estoque_raw": 8,
+    "estoque_formatado": "8 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.2,
     "margem_pdv": "41.5%",
@@ -6459,9 +6459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 18,
-    "estoque_raw": 18,
-    "estoque_formatado": "18 un",
+    "estoque": 158,
+    "estoque_raw": 158,
+    "estoque_formatado": "158 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -6484,9 +6484,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 8,
+    "estoque_raw": 8,
+    "estoque_formatado": "8 un",
     "preco_venda": 15.9,
     "custo_liquido": 2.0,
     "margem_pdv": "65.7%",
@@ -6509,9 +6509,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 156.748,
-    "estoque_raw": 156.748,
-    "estoque_formatado": "156,748 kg",
+    "estoque": 149.888,
+    "estoque_raw": 149.888,
+    "estoque_formatado": "149,888 kg",
     "preco_venda": 9.98,
     "custo_liquido": 15.63,
     "margem_pdv": "63.2%",
@@ -6634,9 +6634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 61,
-    "estoque_raw": 61,
-    "estoque_formatado": "61 un",
+    "estoque": 69,
+    "estoque_raw": 69,
+    "estoque_formatado": "69 un",
     "preco_venda": 7.98,
     "custo_liquido": 3.15,
     "margem_pdv": "69.2%",
@@ -6684,9 +6684,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 76,
-    "estoque_raw": 76,
-    "estoque_formatado": "76 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 16.98,
     "custo_liquido": 23.73,
     "margem_pdv": "44.1%",
@@ -6695,8 +6695,8 @@
     "ult_compra_str": "19/10/2026 (5d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "29 Dias",
-    "dias_estoque": 98.3,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
   {
@@ -6709,9 +6709,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -3,
-    "estoque_raw": -3,
-    "estoque_formatado": "-3 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.8,
     "margem_pdv": "49.5%",
@@ -6734,9 +6734,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 43.94,
-    "estoque_raw": 43.94,
-    "estoque_formatado": "43,940 kg",
+    "estoque": 39.33,
+    "estoque_raw": 39.33,
+    "estoque_formatado": "39,330 kg",
     "preco_venda": 5.48,
     "custo_liquido": 15.64,
     "margem_pdv": "49.8%",
@@ -6759,9 +6759,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5.268,
-    "estoque_raw": 5.268,
-    "estoque_formatado": "5,268 kg",
+    "estoque": 5.018,
+    "estoque_raw": 5.018,
+    "estoque_formatado": "5,018 kg",
     "preco_venda": 5.48,
     "custo_liquido": 5.74,
     "margem_pdv": "49.8%",
@@ -6784,9 +6784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 49.0,
     "custo_liquido": 24.89,
     "margem_pdv": "53.5%",
@@ -6795,7 +6795,7 @@
     "ult_compra_str": "20/10/2026 (4d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "9 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-05"
   },
@@ -6834,9 +6834,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": -1,
-    "estoque_raw": -1,
-    "estoque_formatado": "-1 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 15.98,
     "custo_liquido": 13.83,
     "margem_pdv": "57.6%",
@@ -6859,9 +6859,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -5.915,
-    "estoque_raw": -5.915,
-    "estoque_formatado": "-5,915 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 15.98,
     "custo_liquido": 4.62,
     "margem_pdv": "57.6%",
@@ -6959,9 +6959,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 41.57,
-    "estoque_raw": 41.57,
-    "estoque_formatado": "41,570 kg",
+    "estoque": 24.7,
+    "estoque_raw": 24.7,
+    "estoque_formatado": "24,700 kg",
     "preco_venda": 19.98,
     "custo_liquido": 10.74,
     "margem_pdv": "29.7%",
@@ -6984,9 +6984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 20,
-    "estoque_raw": 20,
-    "estoque_formatado": "20 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 3.48,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -6995,9 +6995,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7009,9 +7009,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 431.742,
-    "estoque_raw": 431.742,
-    "estoque_formatado": "431,742 kg",
+    "estoque": 240.732,
+    "estoque_raw": 240.732,
+    "estoque_formatado": "240,732 kg",
     "preco_venda": 5.2,
     "custo_liquido": 2.75,
     "margem_pdv": "47.1%",
@@ -7022,7 +7022,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 3.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7034,9 +7034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 35.43,
-    "estoque_raw": 35.43,
-    "estoque_formatado": "35,430 kg",
+    "estoque": 26.185,
+    "estoque_raw": 26.185,
+    "estoque_formatado": "26,185 kg",
     "preco_venda": 4.97,
     "custo_liquido": 1.8,
     "margem_pdv": "63.8%",
@@ -7047,7 +7047,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 4.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7059,9 +7059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 136.895,
-    "estoque_raw": 136.895,
-    "estoque_formatado": "136,895 kg",
+    "estoque": 221.935,
+    "estoque_raw": 221.935,
+    "estoque_formatado": "221,935 kg",
     "preco_venda": 3.48,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7072,7 +7072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7084,9 +7084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 26.795,
-    "estoque_raw": 26.795,
-    "estoque_formatado": "26,795 kg",
+    "estoque": 24.37,
+    "estoque_raw": 24.37,
+    "estoque_formatado": "24,370 kg",
     "preco_venda": 12.98,
     "custo_liquido": 5.49,
     "margem_pdv": "57.7%",
@@ -7097,7 +7097,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 1.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7109,9 +7109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 562.349,
-    "estoque_raw": 562.349,
-    "estoque_formatado": "562,349 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 12.98,
     "custo_liquido": 6.16,
     "margem_pdv": "52.5%",
@@ -7120,9 +7120,9 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 6.4,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7134,9 +7134,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 484.785,
-    "estoque_raw": 484.785,
-    "estoque_formatado": "484,785 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 10.98,
     "custo_liquido": 6.32,
     "margem_pdv": "42.5%",
@@ -7145,9 +7145,9 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 3.4,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7172,7 +7172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7184,9 +7184,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 73.381,
-    "estoque_raw": 73.381,
-    "estoque_formatado": "73,381 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 8.98,
     "custo_liquido": 3.68,
     "margem_pdv": "59.0%",
@@ -7195,9 +7195,9 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 9.9,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7209,9 +7209,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 846.22,
-    "estoque_raw": 846.22,
-    "estoque_formatado": "846,220 kg",
+    "estoque": 779.465,
+    "estoque_raw": 779.465,
+    "estoque_formatado": "779,465 kg",
     "preco_venda": 6.98,
     "custo_liquido": 3.27,
     "margem_pdv": "53.1%",
@@ -7222,7 +7222,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 12.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7234,9 +7234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 885.495,
-    "estoque_raw": 885.495,
-    "estoque_formatado": "885,495 kg",
+    "estoque": 670.618,
+    "estoque_raw": 670.618,
+    "estoque_formatado": "670,618 kg",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -7247,7 +7247,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 4.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7259,9 +7259,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 40.473,
-    "estoque_raw": 40.473,
-    "estoque_formatado": "40,473 kg",
+    "estoque": 23.928,
+    "estoque_raw": 23.928,
+    "estoque_formatado": "23,928 kg",
     "preco_venda": 7.98,
     "custo_liquido": 3.85,
     "margem_pdv": "51.8%",
@@ -7272,7 +7272,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "14 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7284,9 +7284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 120.2,
-    "estoque_raw": 120.2,
-    "estoque_formatado": "120,200 kg",
+    "estoque": 61.6,
+    "estoque_raw": 61.6,
+    "estoque_formatado": "61,600 kg",
     "preco_venda": 7.98,
     "custo_liquido": 3.85,
     "margem_pdv": "51.8%",
@@ -7297,7 +7297,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "14 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7309,9 +7309,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 109.43,
-    "estoque_raw": 109.43,
-    "estoque_formatado": "109,430 kg",
+    "estoque": 102.015,
+    "estoque_raw": 102.015,
+    "estoque_formatado": "102,015 kg",
     "preco_venda": 7.98,
     "custo_liquido": 4.14,
     "margem_pdv": "48.2%",
@@ -7322,7 +7322,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 6.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7334,9 +7334,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 70.705,
-    "estoque_raw": 70.705,
-    "estoque_formatado": "70,705 kg",
+    "estoque": 50.32,
+    "estoque_raw": 50.32,
+    "estoque_formatado": "50,320 kg",
     "preco_venda": 16.98,
     "custo_liquido": 9.78,
     "margem_pdv": "42.4%",
@@ -7347,7 +7347,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 7.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7359,9 +7359,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 631.955,
-    "estoque_raw": 631.955,
-    "estoque_formatado": "631,955 kg",
+    "estoque": 365.465,
+    "estoque_raw": 365.465,
+    "estoque_formatado": "365,465 kg",
     "preco_venda": 6.98,
     "custo_liquido": 3.14,
     "margem_pdv": "55.0%",
@@ -7372,7 +7372,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 2.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7384,9 +7384,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 95.905,
-    "estoque_raw": 95.905,
-    "estoque_formatado": "95,905 kg",
+    "estoque": 67.515,
+    "estoque_raw": 67.515,
+    "estoque_formatado": "67,515 kg",
     "preco_venda": 15.98,
     "custo_liquido": 7.25,
     "margem_pdv": "54.6%",
@@ -7397,7 +7397,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 1.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7422,7 +7422,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7434,9 +7434,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 139.374,
-    "estoque_raw": 139.374,
-    "estoque_formatado": "139,374 kg",
+    "estoque": 105.729,
+    "estoque_raw": 105.729,
+    "estoque_formatado": "105,729 kg",
     "preco_venda": 10.98,
     "custo_liquido": 5.98,
     "margem_pdv": "45.5%",
@@ -7447,7 +7447,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7472,7 +7472,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7497,7 +7497,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7509,9 +7509,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 bdj",
+    "estoque": 14,
+    "estoque_raw": 14,
+    "estoque_formatado": "14 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7520,9 +7520,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7547,7 +7547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7559,9 +7559,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 762.642,
+    "estoque_raw": 762.642,
+    "estoque_formatado": "762,642 kg",
     "preco_venda": 4.98,
     "custo_liquido": 1.63,
     "margem_pdv": "67.3%",
@@ -7570,9 +7570,9 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "7 Dias",
+    "dias_estoque": 5.3,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7597,7 +7597,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7609,9 +7609,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -271,
-    "estoque_raw": -271,
-    "estoque_formatado": "-271 bdj",
+    "estoque": -10,
+    "estoque_raw": -10,
+    "estoque_formatado": "-10 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7622,7 +7622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7634,9 +7634,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 98.095,
+    "estoque_raw": 98.095,
+    "estoque_formatado": "98,095 kg",
     "preco_venda": 7.98,
     "custo_liquido": 2.84,
     "margem_pdv": "64.4%",
@@ -7645,9 +7645,9 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 3.8,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7659,9 +7659,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 65.385,
-    "estoque_raw": 65.385,
-    "estoque_formatado": "65,385 kg",
+    "estoque": 15.305,
+    "estoque_raw": 15.305,
+    "estoque_formatado": "15,305 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.5,
     "margem_pdv": "49.8%",
@@ -7672,7 +7672,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 4.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7684,9 +7684,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 un",
     "preco_venda": 4.98,
     "custo_liquido": 1.58,
     "margem_pdv": "68.2%",
@@ -7697,7 +7697,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 6.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7709,9 +7709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 19,
-    "estoque_raw": 19,
-    "estoque_formatado": "19 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 6.3,
     "margem_pdv": "36.9%",
@@ -7722,7 +7722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7734,9 +7734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 un",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 un",
     "preco_venda": 5.48,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7747,7 +7747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7759,9 +7759,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 un",
+    "estoque": 22,
+    "estoque_raw": 22,
+    "estoque_formatado": "22 un",
     "preco_venda": 12.98,
     "custo_liquido": 8.1,
     "margem_pdv": "37.6%",
@@ -7772,7 +7772,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "14 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7784,9 +7784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 5.48,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7795,9 +7795,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7822,7 +7822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7847,7 +7847,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7859,9 +7859,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 327.693,
-    "estoque_raw": 327.693,
-    "estoque_formatado": "327,693 kg",
+    "estoque": 575.006,
+    "estoque_raw": 575.006,
+    "estoque_formatado": "575,006 kg",
     "preco_venda": 9.99,
     "custo_liquido": 4.67,
     "margem_pdv": "53.2%",
@@ -7872,7 +7872,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7897,7 +7897,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7909,9 +7909,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 71.165,
-    "estoque_raw": 71.165,
-    "estoque_formatado": "71,165 kg",
+    "estoque": 57.39,
+    "estoque_raw": 57.39,
+    "estoque_formatado": "57,390 kg",
     "preco_venda": 6.98,
     "custo_liquido": 4.04,
     "margem_pdv": "42.1%",
@@ -7922,7 +7922,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7947,7 +7947,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 13.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7959,9 +7959,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -31,
-    "estoque_raw": -31,
-    "estoque_formatado": "-31 un",
+    "estoque": -34,
+    "estoque_raw": -34,
+    "estoque_formatado": "-34 un",
     "preco_venda": 10.98,
     "custo_liquido": 6.52,
     "margem_pdv": "40.7%",
@@ -7972,7 +7972,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -7984,9 +7984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 14.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -7995,9 +7995,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8022,7 +8022,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8034,9 +8034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 42.195,
-    "estoque_raw": 42.195,
-    "estoque_formatado": "42,195 kg",
+    "estoque": 31.71,
+    "estoque_raw": 31.71,
+    "estoque_formatado": "31,710 kg",
     "preco_venda": 10.0,
     "custo_liquido": 4.46,
     "margem_pdv": "55.4%",
@@ -8047,7 +8047,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 13.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8059,9 +8059,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 99,
-    "estoque_raw": 99,
-    "estoque_formatado": "99 un",
+    "estoque": 86,
+    "estoque_raw": 86,
+    "estoque_formatado": "86 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.2,
     "margem_pdv": "59.9%",
@@ -8072,7 +8072,7 @@
     "dias_sem_venda_str": "35 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8084,9 +8084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 84.955,
-    "estoque_raw": 84.955,
-    "estoque_formatado": "84,955 kg",
+    "estoque": 33.96,
+    "estoque_raw": 33.96,
+    "estoque_formatado": "33,960 kg",
     "preco_venda": 10.0,
     "custo_liquido": 4.46,
     "margem_pdv": "55.4%",
@@ -8097,7 +8097,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 13.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8109,9 +8109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 131.915,
-    "estoque_raw": 131.915,
-    "estoque_formatado": "131,915 kg",
+    "estoque": 129.02,
+    "estoque_raw": 129.02,
+    "estoque_formatado": "129,020 kg",
     "preco_venda": 3.9800000000000004,
     "custo_liquido": 2.37,
     "margem_pdv": "40.5%",
@@ -8122,7 +8122,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 2.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8147,7 +8147,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8159,9 +8159,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 28,
-    "estoque_raw": 28,
-    "estoque_formatado": "28 un",
+    "estoque": 25,
+    "estoque_raw": 25,
+    "estoque_formatado": "25 un",
     "preco_venda": 59.0,
     "custo_liquido": 26.23,
     "margem_pdv": "55.5%",
@@ -8172,7 +8172,7 @@
     "dias_sem_venda_str": "8 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 20.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8197,7 +8197,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8209,9 +8209,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 665,
-    "estoque_raw": 665,
-    "estoque_formatado": "665 un",
+    "estoque": 150,
+    "estoque_raw": 150,
+    "estoque_formatado": "150 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.72,
     "margem_pdv": "12.6%",
@@ -8222,7 +8222,7 @@
     "dias_sem_venda_str": "7 dias",
     "idade_estoque": "11 Dias",
     "dias_estoque": 0.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8247,7 +8247,7 @@
     "dias_sem_venda_str": "7 dias",
     "idade_estoque": "11 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8259,9 +8259,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 76,
-    "estoque_raw": 76,
-    "estoque_formatado": "76 bdj",
+    "estoque": 36,
+    "estoque_raw": 36,
+    "estoque_formatado": "36 bdj",
     "preco_venda": 5.98,
     "custo_liquido": 3.25,
     "margem_pdv": "38.1%",
@@ -8272,7 +8272,7 @@
     "dias_sem_venda_str": "98 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8284,9 +8284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 71.561,
-    "estoque_raw": 71.561,
-    "estoque_formatado": "71,561 kg",
+    "estoque": 153.321,
+    "estoque_raw": 153.321,
+    "estoque_formatado": "153,321 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.25,
     "margem_pdv": "45.6%",
@@ -8297,7 +8297,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 4.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8322,7 +8322,7 @@
     "dias_sem_venda_str": "5 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8334,9 +8334,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 41.879,
-    "estoque_raw": 41.879,
-    "estoque_formatado": "41,879 kg",
+    "estoque": 37.195,
+    "estoque_raw": 37.195,
+    "estoque_formatado": "37,195 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.36,
     "margem_pdv": "52.6%",
@@ -8347,7 +8347,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8359,9 +8359,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 52,
+    "estoque_raw": 52,
+    "estoque_formatado": "52 un",
     "preco_venda": 4.59,
     "custo_liquido": 2.5,
     "margem_pdv": "45.5%",
@@ -8372,7 +8372,7 @@
     "dias_sem_venda_str": "9 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8384,9 +8384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
     "preco_venda": 22.9,
     "custo_liquido": 13.0,
     "margem_pdv": "43.2%",
@@ -8397,7 +8397,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8409,9 +8409,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 132,
-    "estoque_raw": 132,
-    "estoque_formatado": "132 bdj",
+    "estoque": 116,
+    "estoque_raw": 116,
+    "estoque_formatado": "116 bdj",
     "preco_venda": 19.98,
     "custo_liquido": 11.62,
     "margem_pdv": "41.9%",
@@ -8422,7 +8422,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "16 Dias",
     "dias_estoque": 11.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8447,7 +8447,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8459,9 +8459,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 72.39,
-    "estoque_raw": 72.39,
-    "estoque_formatado": "72,390 kg",
+    "estoque": 62.975,
+    "estoque_raw": 62.975,
+    "estoque_formatado": "62,975 kg",
     "preco_venda": 9.97,
     "custo_liquido": 4.8,
     "margem_pdv": "51.9%",
@@ -8472,7 +8472,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "8 Dias",
     "dias_estoque": 8.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8497,7 +8497,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 9.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8522,7 +8522,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8534,9 +8534,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 4.3,
+    "estoque_raw": 4.3,
+    "estoque_formatado": "4,300 kg",
     "preco_venda": 29.98,
     "custo_liquido": 19.53,
     "margem_pdv": "34.9%",
@@ -8545,9 +8545,9 @@
     "ult_compra_str": "06/10/2026 (19d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "18 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8572,7 +8572,7 @@
     "dias_sem_venda_str": "16 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8584,9 +8584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 96.785,
-    "estoque_raw": 96.785,
-    "estoque_formatado": "96,785 kg",
+    "estoque": 78.035,
+    "estoque_raw": 78.035,
+    "estoque_formatado": "78,035 kg",
     "preco_venda": 10.97,
     "custo_liquido": 5.58,
     "margem_pdv": "49.1%",
@@ -8597,7 +8597,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 2.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8622,7 +8622,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 4.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8634,9 +8634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 un",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -8647,7 +8647,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 0.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8672,7 +8672,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8684,9 +8684,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 115.195,
-    "estoque_raw": 115.195,
-    "estoque_formatado": "115,195 kg",
+    "estoque": 113.045,
+    "estoque_raw": 113.045,
+    "estoque_formatado": "113,045 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.48,
     "margem_pdv": "41.8%",
@@ -8697,7 +8697,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 5.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8709,9 +8709,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 4,
-    "estoque_raw": 4,
-    "estoque_formatado": "4 un",
+    "estoque": -2,
+    "estoque_raw": -2,
+    "estoque_formatado": "-2 un",
     "preco_venda": 7.98,
     "custo_liquido": 3.89,
     "margem_pdv": "51.3%",
@@ -8720,9 +8720,9 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 3.6,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8734,9 +8734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": -9,
+    "estoque_raw": -9,
+    "estoque_formatado": "-9 un",
     "preco_venda": 11.98,
     "custo_liquido": 6.42,
     "margem_pdv": "46.4%",
@@ -8745,9 +8745,9 @@
     "ult_compra_str": "14/10/2026 (11d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "10 Dias",
-    "dias_estoque": 0.5,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8759,9 +8759,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 72,
-    "estoque_raw": 72,
-    "estoque_formatado": "72 bdj",
+    "estoque": 82,
+    "estoque_raw": 82,
+    "estoque_formatado": "82 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 3.64,
     "margem_pdv": "47.8%",
@@ -8772,7 +8772,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8784,9 +8784,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 436.553,
-    "estoque_raw": 436.553,
-    "estoque_formatado": "436,553 kg",
+    "estoque": 341.965,
+    "estoque_raw": 341.965,
+    "estoque_formatado": "341,965 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.48,
     "margem_pdv": "41.8%",
@@ -8797,7 +8797,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 5.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8809,9 +8809,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 25.874,
-    "estoque_raw": 25.874,
-    "estoque_formatado": "25,874 kg",
+    "estoque": 21.184,
+    "estoque_raw": 21.184,
+    "estoque_formatado": "21,184 kg",
     "preco_venda": 16.98,
     "custo_liquido": 8.72,
     "margem_pdv": "48.6%",
@@ -8822,13 +8822,38 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "7 Dias",
     "dias_estoque": 13.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
     "codigo": "1137",
     "descricao": "SUCO BIG ABAC HORT 500ML",
     "nome": "SUCO BIG ABAC HORT 500ML",
+    "unidade": "UN",
+    "unidade_sigla": "un",
+    "unidade_rotulo": "Unidade",
+    "curva": "B",
+    "giro": "MEDIO",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
+    "preco_venda": 12.98,
+    "custo_liquido": 10.41,
+    "margem_pdv": "19.8%",
+    "data_ult_compra": "24/10/2026 ( 1 Dias )",
+    "data_ult_venda": "23/10/2026 ( 2 Dias )",
+    "ult_compra_str": "24/10/2026 (1d)",
+    "dias_sem_venda": 2,
+    "dias_sem_venda_str": "2 dias",
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 8.5,
+    "data_coleta": "2026-11-05"
+  },
+  {
+    "loja": "02 TRE",
+    "codigo": "1139",
+    "descricao": "SUCO BIG ACEROLA LJA 500ML",
+    "nome": "SUCO BIG ACEROLA LJA 500ML",
     "unidade": "UN",
     "unidade_sigla": "un",
     "unidade_rotulo": "Unidade",
@@ -8847,32 +8872,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "3 Dias",
     "dias_estoque": 8.5,
-    "data_coleta": "2026-11-04"
-  },
-  {
-    "loja": "02 TRE",
-    "codigo": "1139",
-    "descricao": "SUCO BIG ACEROLA LJA 500ML",
-    "nome": "SUCO BIG ACEROLA LJA 500ML",
-    "unidade": "UN",
-    "unidade_sigla": "un",
-    "unidade_rotulo": "Unidade",
-    "curva": "B",
-    "giro": "MEDIO",
-    "estoque": 4,
-    "estoque_raw": 4,
-    "estoque_formatado": "4 un",
-    "preco_venda": 12.98,
-    "custo_liquido": 10.41,
-    "margem_pdv": "19.8%",
-    "data_ult_compra": "24/10/2026 ( 1 Dias )",
-    "data_ult_venda": "23/10/2026 ( 2 Dias )",
-    "ult_compra_str": "24/10/2026 (1d)",
-    "dias_sem_venda": 2,
-    "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 8.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8884,9 +8884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 12,
-    "estoque_raw": 12,
-    "estoque_formatado": "12 bdj",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.58,
     "margem_pdv": "32.7%",
@@ -8897,7 +8897,7 @@
     "dias_sem_venda_str": "120 dias",
     "idade_estoque": "14 Dias",
     "dias_estoque": 40.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8909,9 +8909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.54,
     "margem_pdv": "65.0%",
@@ -8920,9 +8920,9 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 5,
     "dias_sem_venda_str": "5 dias",
-    "idade_estoque": "96 Dias",
-    "dias_estoque": 56.5,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8947,7 +8947,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "26 Dias",
     "dias_estoque": 120.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8959,9 +8959,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 551.956,
-    "estoque_raw": 551.956,
-    "estoque_formatado": "551,956 kg",
+    "estoque": 361.343,
+    "estoque_raw": 361.343,
+    "estoque_formatado": "361,343 kg",
     "preco_venda": 16.98,
     "custo_liquido": 8.72,
     "margem_pdv": "48.6%",
@@ -8972,7 +8972,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "7 Dias",
     "dias_estoque": 13.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -8997,7 +8997,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 4.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9009,9 +9009,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 226,
+    "estoque_raw": 226,
+    "estoque_formatado": "226 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 2.97,
     "margem_pdv": "40.3%",
@@ -9020,9 +9020,9 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 11.1,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9034,9 +9034,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 12.98,
     "custo_liquido": 4.3,
     "margem_pdv": "66.9%",
@@ -9047,7 +9047,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 4.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9059,9 +9059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 115.913,
-    "estoque_raw": 115.913,
-    "estoque_formatado": "115,913 kg",
+    "estoque": 146.368,
+    "estoque_raw": 146.368,
+    "estoque_formatado": "146,368 kg",
     "preco_venda": 12.98,
     "custo_liquido": 4.74,
     "margem_pdv": "63.5%",
@@ -9072,7 +9072,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "26 Dias",
     "dias_estoque": 120.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9084,9 +9084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 83.6,
-    "estoque_raw": 83.6,
-    "estoque_formatado": "83,600 kg",
+    "estoque": 96.83,
+    "estoque_raw": 96.83,
+    "estoque_formatado": "96,830 kg",
     "preco_venda": 3.81,
     "custo_liquido": 2.08,
     "margem_pdv": "45.4%",
@@ -9097,7 +9097,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 4.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9109,9 +9109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 446.325,
-    "estoque_raw": 446.325,
-    "estoque_formatado": "446,325 kg",
+    "estoque": 373.865,
+    "estoque_raw": 373.865,
+    "estoque_formatado": "373,865 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.06,
     "margem_pdv": "58.7%",
@@ -9122,7 +9122,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 4.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9134,9 +9134,9 @@
     "unidade_rotulo": "Maço",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 mc",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 mc",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -9147,7 +9147,7 @@
     "dias_sem_venda_str": "6 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9172,7 +9172,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9184,9 +9184,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -4.1,
-    "estoque_raw": -4.1,
-    "estoque_formatado": "-4,100 kg",
+    "estoque": -10.12,
+    "estoque_raw": -10.12,
+    "estoque_formatado": "-10,120 kg",
     "preco_venda": 29.98,
     "custo_liquido": 16.02,
     "margem_pdv": "46.6%",
@@ -9197,7 +9197,7 @@
     "dias_sem_venda_str": "203 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9209,9 +9209,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.85,
     "margem_pdv": "62.7%",
@@ -9222,7 +9222,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "24 Dias",
     "dias_estoque": 24.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9247,7 +9247,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "31 Dias",
     "dias_estoque": 74.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9272,7 +9272,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "29 Dias",
     "dias_estoque": 17.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9284,9 +9284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 19,
-    "estoque_raw": 19,
-    "estoque_formatado": "19 un",
+    "estoque": 13,
+    "estoque_raw": 13,
+    "estoque_formatado": "13 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.0,
     "margem_pdv": "49.8%",
@@ -9297,7 +9297,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 6.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9322,7 +9322,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9347,7 +9347,7 @@
     "dias_sem_venda_str": "26 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9372,7 +9372,7 @@
     "dias_sem_venda_str": "4 dias",
     "idade_estoque": "73 Dias",
     "dias_estoque": 21.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9384,9 +9384,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 83.19,
-    "estoque_raw": 83.19,
-    "estoque_formatado": "83,190 kg",
+    "estoque": 23.971,
+    "estoque_raw": 23.971,
+    "estoque_formatado": "23,971 kg",
     "preco_venda": 29.89,
     "custo_liquido": 14.95,
     "margem_pdv": "50.0%",
@@ -9397,7 +9397,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9422,7 +9422,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "26 Dias",
     "dias_estoque": 48.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9447,7 +9447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9459,9 +9459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 14,
+    "estoque_raw": 14,
+    "estoque_formatado": "14 un",
     "preco_venda": 4.98,
     "custo_liquido": 2.97,
     "margem_pdv": "40.3%",
@@ -9472,7 +9472,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 11.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9497,7 +9497,7 @@
     "dias_sem_venda_str": "26 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9522,7 +9522,7 @@
     "dias_sem_venda_str": "13 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9534,9 +9534,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 43.635,
-    "estoque_raw": 43.635,
-    "estoque_formatado": "43,635 kg",
+    "estoque": 41.365,
+    "estoque_raw": 41.365,
+    "estoque_formatado": "41,365 kg",
     "preco_venda": 14.98,
     "custo_liquido": 7.02,
     "margem_pdv": "53.1%",
@@ -9547,7 +9547,7 @@
     "dias_sem_venda_str": "26 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 24.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9559,9 +9559,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 802.51,
-    "estoque_raw": 802.51,
-    "estoque_formatado": "802,510 kg",
+    "estoque": 613.775,
+    "estoque_raw": 613.775,
+    "estoque_formatado": "613,775 kg",
     "preco_venda": 22.91,
     "custo_liquido": 11.93,
     "margem_pdv": "47.9%",
@@ -9572,7 +9572,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "17 Dias",
     "dias_estoque": 45.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9584,9 +9584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 708.991,
-    "estoque_raw": 708.991,
-    "estoque_formatado": "708,991 kg",
+    "estoque": 310.081,
+    "estoque_raw": 310.081,
+    "estoque_formatado": "310,081 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.32,
     "margem_pdv": "44.5%",
@@ -9597,7 +9597,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9609,9 +9609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 33.84,
-    "estoque_raw": 33.84,
-    "estoque_formatado": "33,840 kg",
+    "estoque": 31.755,
+    "estoque_raw": 31.755,
+    "estoque_formatado": "31,755 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.32,
     "margem_pdv": "44.5%",
@@ -9622,7 +9622,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9634,9 +9634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -9647,7 +9647,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 3.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9659,9 +9659,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 904,
-    "estoque_raw": 904,
-    "estoque_formatado": "904 bdj",
+    "estoque": 1197,
+    "estoque_raw": 1197,
+    "estoque_formatado": "1.197 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 5.84,
     "margem_pdv": "46.8%",
@@ -9672,7 +9672,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 13.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9684,9 +9684,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 578,
+    "estoque_raw": 578,
+    "estoque_formatado": "578 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 5.25,
     "margem_pdv": "34.2%",
@@ -9695,9 +9695,9 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "5 Dias",
+    "dias_estoque": 8.2,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9722,7 +9722,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9734,9 +9734,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 26,
-    "estoque_raw": 26,
-    "estoque_formatado": "26 bdj",
+    "estoque": 87,
+    "estoque_raw": 87,
+    "estoque_formatado": "87 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 5.0,
     "margem_pdv": "49.9%",
@@ -9747,7 +9747,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9759,9 +9759,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 152.255,
-    "estoque_raw": 152.255,
-    "estoque_formatado": "152,255 kg",
+    "estoque": 1335.285,
+    "estoque_raw": 1335.285,
+    "estoque_formatado": "1.335,285 kg",
     "preco_venda": 12.89,
     "custo_liquido": 7.34,
     "margem_pdv": "43.1%",
@@ -9772,7 +9772,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9784,9 +9784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 11.9,
     "custo_liquido": 4.68,
     "margem_pdv": "60.7%",
@@ -9797,7 +9797,7 @@
     "dias_sem_venda_str": "4 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9809,9 +9809,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 161.481,
-    "estoque_raw": 161.481,
-    "estoque_formatado": "161,481 kg",
+    "estoque": 106.556,
+    "estoque_raw": 106.556,
+    "estoque_formatado": "106,556 kg",
     "preco_venda": 9.98,
     "custo_liquido": 5.58,
     "margem_pdv": "44.1%",
@@ -9822,7 +9822,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9834,9 +9834,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 22,
-    "estoque_raw": 22,
-    "estoque_formatado": "22 bdj",
+    "estoque": 21,
+    "estoque_raw": 21,
+    "estoque_formatado": "21 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.15,
     "margem_pdv": "58.4%",
@@ -9847,7 +9847,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 12.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9872,7 +9872,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 27.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9884,9 +9884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 bdj",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.9,
     "margem_pdv": "50.9%",
@@ -9897,7 +9897,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "8 Dias",
     "dias_estoque": 9.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9909,9 +9909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 bdj",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.9,
     "margem_pdv": "50.9%",
@@ -9922,7 +9922,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "8 Dias",
     "dias_estoque": 9.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9934,9 +9934,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 16.697,
-    "estoque_raw": 16.697,
-    "estoque_formatado": "16,697 kg",
+    "estoque": 30.292,
+    "estoque_raw": 30.292,
+    "estoque_formatado": "30,292 kg",
     "preco_venda": 22.9,
     "custo_liquido": 12.15,
     "margem_pdv": "47.0%",
@@ -9947,7 +9947,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 1.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9959,9 +9959,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 47.506,
-    "estoque_raw": 47.506,
-    "estoque_formatado": "47,506 kg",
+    "estoque": 129.646,
+    "estoque_raw": 129.646,
+    "estoque_formatado": "129,646 kg",
     "preco_venda": 22.9,
     "custo_liquido": 12.15,
     "margem_pdv": "47.0%",
@@ -9972,7 +9972,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 1.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -9997,7 +9997,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10022,7 +10022,7 @@
     "dias_sem_venda_str": "95 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 37.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10047,7 +10047,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10059,9 +10059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 34.578,
-    "estoque_raw": 34.578,
-    "estoque_formatado": "34,578 kg",
+    "estoque": 34.172,
+    "estoque_raw": 34.172,
+    "estoque_formatado": "34,172 kg",
     "preco_venda": 14.9,
     "custo_liquido": 7.56,
     "margem_pdv": "49.2%",
@@ -10072,7 +10072,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 4.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10084,9 +10084,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 49.0,
     "custo_liquido": 25.32,
     "margem_pdv": "48.3%",
@@ -10095,9 +10095,9 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 5,
     "dias_sem_venda_str": "5 dias",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 10.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10122,7 +10122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10147,7 +10147,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "5 Dias",
     "dias_estoque": 109.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10172,7 +10172,7 @@
     "dias_sem_venda_str": "15 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10197,7 +10197,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10222,7 +10222,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10234,9 +10234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": -0.335,
+    "estoque_raw": -0.335,
+    "estoque_formatado": "-0,335 kg",
     "preco_venda": 19.98,
     "custo_liquido": 10.2,
     "margem_pdv": "49.0%",
@@ -10247,7 +10247,7 @@
     "dias_sem_venda_str": "16 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10259,9 +10259,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 143.994,
-    "estoque_raw": 143.994,
-    "estoque_formatado": "143,994 kg",
+    "estoque": 132.769,
+    "estoque_raw": 132.769,
+    "estoque_formatado": "132,769 kg",
     "preco_venda": 34.9,
     "custo_liquido": 18.73,
     "margem_pdv": "46.3%",
@@ -10272,7 +10272,7 @@
     "dias_sem_venda_str": "24 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10284,9 +10284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 19,
-    "estoque_raw": 19,
-    "estoque_formatado": "19 un",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 un",
     "preco_venda": 7.96,
     "custo_liquido": 4.79,
     "margem_pdv": "39.8%",
@@ -10297,7 +10297,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10309,9 +10309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 bdj",
+    "estoque": 20,
+    "estoque_raw": 20,
+    "estoque_formatado": "20 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 2.09,
     "margem_pdv": "70.1%",
@@ -10322,7 +10322,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 0.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10334,9 +10334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 85,
-    "estoque_raw": 85,
-    "estoque_formatado": "85 un",
+    "estoque": 83,
+    "estoque_raw": 83,
+    "estoque_formatado": "83 un",
     "preco_venda": 4.59,
     "custo_liquido": 2.5,
     "margem_pdv": "45.5%",
@@ -10347,7 +10347,7 @@
     "dias_sem_venda_str": "9 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10372,7 +10372,7 @@
     "dias_sem_venda_str": "83 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10384,9 +10384,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 13,
-    "estoque_raw": 13,
-    "estoque_formatado": "13 bdj",
+    "estoque": 11,
+    "estoque_raw": 11,
+    "estoque_formatado": "11 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.8,
     "margem_pdv": "44.7%",
@@ -10397,7 +10397,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "35 Dias",
     "dias_estoque": 47.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10409,9 +10409,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 83,
-    "estoque_raw": 83,
-    "estoque_formatado": "83 bdj",
+    "estoque": 76,
+    "estoque_raw": 76,
+    "estoque_formatado": "76 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.64,
     "margem_pdv": "45.6%",
@@ -10422,7 +10422,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "35 Dias",
     "dias_estoque": 34.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10434,9 +10434,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 bdj",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.07,
     "margem_pdv": "68.7%",
@@ -10447,7 +10447,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10459,9 +10459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 un",
+    "estoque": 21,
+    "estoque_raw": 21,
+    "estoque_formatado": "21 un",
     "preco_venda": 15.9,
     "custo_liquido": 5.57,
     "margem_pdv": "65.0%",
@@ -10472,7 +10472,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10497,7 +10497,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10509,9 +10509,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 64,
-    "estoque_raw": 64,
-    "estoque_formatado": "64 bdj",
+    "estoque": 62,
+    "estoque_raw": 62,
+    "estoque_formatado": "62 bdj",
     "preco_venda": 9.99,
     "custo_liquido": 5.86,
     "margem_pdv": "41.4%",
@@ -10522,7 +10522,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 6.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10534,9 +10534,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 12.98,
     "custo_liquido": 4.25,
     "margem_pdv": "67.3%",
@@ -10547,7 +10547,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "3 Dias",
     "dias_estoque": 4.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10559,9 +10559,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 144,
-    "estoque_raw": 144,
-    "estoque_formatado": "144 bdj",
+    "estoque": 142,
+    "estoque_raw": 142,
+    "estoque_formatado": "142 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.8,
     "margem_pdv": "44.7%",
@@ -10572,7 +10572,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "35 Dias",
     "dias_estoque": 47.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10584,9 +10584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 600.087,
-    "estoque_raw": 600.087,
-    "estoque_formatado": "600,087 kg",
+    "estoque": 249.422,
+    "estoque_raw": 249.422,
+    "estoque_formatado": "249,422 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.07,
     "margem_pdv": "58.4%",
@@ -10597,7 +10597,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10622,7 +10622,7 @@
     "dias_sem_venda_str": "37 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10647,7 +10647,7 @@
     "dias_sem_venda_str": "94 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10672,7 +10672,7 @@
     "dias_sem_venda_str": "1959 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10697,7 +10697,7 @@
     "dias_sem_venda_str": "22 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 10.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10722,7 +10722,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10747,7 +10747,7 @@
     "dias_sem_venda_str": "15 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10772,7 +10772,7 @@
     "dias_sem_venda_str": "6 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10784,9 +10784,9 @@
     "unidade_rotulo": "Pacote",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 416,
-    "estoque_raw": 416,
-    "estoque_formatado": "416 pct",
+    "estoque": 356,
+    "estoque_raw": 356,
+    "estoque_formatado": "356 pct",
     "preco_venda": 14.98,
     "custo_liquido": 8.31,
     "margem_pdv": "44.6%",
@@ -10797,7 +10797,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "15 Dias",
     "dias_estoque": 5.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10822,7 +10822,7 @@
     "dias_sem_venda_str": "20 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10847,7 +10847,7 @@
     "dias_sem_venda_str": "70 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10872,7 +10872,7 @@
     "dias_sem_venda_str": "19 dias",
     "idade_estoque": "29 Dias",
     "dias_estoque": 17.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10884,9 +10884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 4,
-    "estoque_raw": 4,
-    "estoque_formatado": "4 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 10.9,
     "custo_liquido": 4.19,
     "margem_pdv": "61.6%",
@@ -10897,7 +10897,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 4.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10922,7 +10922,7 @@
     "dias_sem_venda_str": "9 dias",
     "idade_estoque": "34 Dias",
     "dias_estoque": 182.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10934,9 +10934,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 94,
-    "estoque_raw": 94,
-    "estoque_formatado": "94 bdj",
+    "estoque": 93,
+    "estoque_raw": 93,
+    "estoque_formatado": "93 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 4.18,
     "margem_pdv": "53.5%",
@@ -10947,7 +10947,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "23 Dias",
     "dias_estoque": 85.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10959,9 +10959,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 386,
-    "estoque_raw": 386,
-    "estoque_formatado": "386 un",
+    "estoque": 1086,
+    "estoque_raw": 1086,
+    "estoque_formatado": "1.086 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.42,
     "margem_pdv": "15.6%",
@@ -10972,7 +10972,7 @@
     "dias_sem_venda_str": "5 dias",
     "idade_estoque": "7 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -10997,7 +10997,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 8.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11009,9 +11009,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 71,
-    "estoque_raw": 71,
-    "estoque_formatado": "71 un",
+    "estoque": 65,
+    "estoque_raw": 65,
+    "estoque_formatado": "65 un",
     "preco_venda": 21.9,
     "custo_liquido": 13.0,
     "margem_pdv": "40.6%",
@@ -11022,7 +11022,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 6.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11034,9 +11034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.56,
     "margem_pdv": "64.9%",
@@ -11047,7 +11047,7 @@
     "dias_sem_venda_str": "8 dias",
     "idade_estoque": "96 Dias",
     "dias_estoque": 12.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11072,7 +11072,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "29 Dias",
     "dias_estoque": 26.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11097,7 +11097,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 5.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11109,9 +11109,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 133,
-    "estoque_raw": 133,
-    "estoque_formatado": "133 bdj",
+    "estoque": 117,
+    "estoque_raw": 117,
+    "estoque_formatado": "117 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 4.85,
     "margem_pdv": "39.6%",
@@ -11122,7 +11122,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "59 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11134,9 +11134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 36,
-    "estoque_raw": 36,
-    "estoque_formatado": "36 bdj",
+    "estoque": 31,
+    "estoque_raw": 31,
+    "estoque_formatado": "31 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 4.0,
     "margem_pdv": "49.9%",
@@ -11147,7 +11147,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "5 Dias",
     "dias_estoque": 13.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11159,9 +11159,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 bdj",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 2.5,
     "margem_pdv": "49.7%",
@@ -11172,7 +11172,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "4 Dias",
     "dias_estoque": 5.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11184,9 +11184,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 14.98,
     "custo_liquido": 8.31,
     "margem_pdv": "44.6%",
@@ -11195,9 +11195,9 @@
     "ult_compra_str": "09/10/2026 (16d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "15 Dias",
-    "dias_estoque": 5.4,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11222,7 +11222,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11234,9 +11234,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 bdj",
+    "estoque": 8,
+    "estoque_raw": 8,
+    "estoque_formatado": "8 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 4.55,
     "margem_pdv": "49.4%",
@@ -11247,7 +11247,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 1.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11259,9 +11259,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 26.9,
     "custo_liquido": 10.89,
     "margem_pdv": "59.5%",
@@ -11272,7 +11272,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "7 Dias",
     "dias_estoque": 26.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11297,7 +11297,7 @@
     "dias_sem_venda_str": "6 dias",
     "idade_estoque": "122 Dias",
     "dias_estoque": 189.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11322,7 +11322,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11334,9 +11334,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 23,
+    "estoque_raw": 23,
+    "estoque_formatado": "23 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 2.53,
     "margem_pdv": "68.3%",
@@ -11347,7 +11347,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 11.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11359,9 +11359,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 5.11,
     "margem_pdv": "65.9%",
@@ -11370,9 +11370,9 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "2 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11397,7 +11397,7 @@
     "dias_sem_venda_str": "120 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11422,7 +11422,7 @@
     "dias_sem_venda_str": "23 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11447,7 +11447,7 @@
     "dias_sem_venda_str": "4 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11459,9 +11459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 55,
-    "estoque_raw": 55,
-    "estoque_formatado": "55 un",
+    "estoque": 30,
+    "estoque_raw": 30,
+    "estoque_formatado": "30 un",
     "preco_venda": 11.98,
     "custo_liquido": 7.0,
     "margem_pdv": "41.6%",
@@ -11472,7 +11472,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11497,7 +11497,7 @@
     "dias_sem_venda_str": "9 dias",
     "idade_estoque": "29 Dias",
     "dias_estoque": 77.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11522,7 +11522,7 @@
     "dias_sem_venda_str": "15 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11534,9 +11534,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 20,
-    "estoque_raw": 20,
-    "estoque_formatado": "20 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 9.98,
     "custo_liquido": 5.42,
     "margem_pdv": "45.7%",
@@ -11545,9 +11545,9 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 16.7,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11572,7 +11572,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11597,7 +11597,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11622,7 +11622,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11634,9 +11634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 45,
-    "estoque_raw": 45,
-    "estoque_formatado": "45 un",
+    "estoque": 29,
+    "estoque_raw": 29,
+    "estoque_formatado": "29 un",
     "preco_venda": 16.9,
     "custo_liquido": 11.0,
     "margem_pdv": "34.9%",
@@ -11647,7 +11647,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 15.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11659,9 +11659,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 28,
-    "estoque_raw": 28,
-    "estoque_formatado": "28 un",
+    "estoque": 23,
+    "estoque_raw": 23,
+    "estoque_formatado": "23 un",
     "preco_venda": 16.9,
     "custo_liquido": 11.0,
     "margem_pdv": "34.9%",
@@ -11672,7 +11672,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 15.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11697,7 +11697,7 @@
     "dias_sem_venda_str": "91 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11709,9 +11709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 106,
-    "estoque_raw": 106,
-    "estoque_formatado": "106 bdj",
+    "estoque": 104,
+    "estoque_raw": 104,
+    "estoque_formatado": "104 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.71,
     "margem_pdv": "57.1%",
@@ -11722,7 +11722,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "9 Dias",
     "dias_estoque": 90.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11747,7 +11747,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11772,7 +11772,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11797,7 +11797,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 2.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11822,7 +11822,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11834,9 +11834,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 un",
     "preco_venda": 15.9,
     "custo_liquido": 8.5,
     "margem_pdv": "31.1%",
@@ -11847,7 +11847,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 7.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11872,7 +11872,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "20 Dias",
     "dias_estoque": 93.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11884,9 +11884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 39,
-    "estoque_raw": 39,
-    "estoque_formatado": "39 bdj",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 bdj",
     "preco_venda": 11.98,
     "custo_liquido": 6.5,
     "margem_pdv": "45.7%",
@@ -11897,7 +11897,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "7 Dias",
     "dias_estoque": 5.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11909,9 +11909,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 un",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
     "preco_venda": 12.98,
     "custo_liquido": 8.96,
     "margem_pdv": "31.0%",
@@ -11922,7 +11922,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 5.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11947,7 +11947,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11959,9 +11959,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 64,
-    "estoque_raw": 64,
-    "estoque_formatado": "64 bdj",
+    "estoque": 38,
+    "estoque_raw": 38,
+    "estoque_formatado": "38 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 9.0,
     "margem_pdv": "30.7%",
@@ -11972,7 +11972,7 @@
     "dias_sem_venda_str": "578 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -11997,7 +11997,7 @@
     "dias_sem_venda_str": "151 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12022,7 +12022,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "12 Dias",
     "dias_estoque": 84.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12047,7 +12047,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12059,9 +12059,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 62,
-    "estoque_raw": 62,
-    "estoque_formatado": "62 bdj",
+    "estoque": 49,
+    "estoque_raw": 49,
+    "estoque_formatado": "49 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 3.68,
     "margem_pdv": "63.2%",
@@ -12072,7 +12072,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 8.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12084,9 +12084,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.77,
     "margem_pdv": "40.5%",
@@ -12097,7 +12097,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "37 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12109,9 +12109,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 798,
-    "estoque_raw": 798,
-    "estoque_formatado": "798 bdj",
+    "estoque": 406,
+    "estoque_raw": 406,
+    "estoque_formatado": "406 bdj",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -12122,7 +12122,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 6.8,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12147,7 +12147,7 @@
     "dias_sem_venda_str": "16 dias",
     "idade_estoque": "39 Dias",
     "dias_estoque": 273.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12172,7 +12172,7 @@
     "dias_sem_venda_str": "19 dias",
     "idade_estoque": "70 Dias",
     "dias_estoque": 366.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12184,9 +12184,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 30,
-    "estoque_raw": 30,
-    "estoque_formatado": "30 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 12.01,
     "margem_pdv": "39.6%",
@@ -12195,9 +12195,9 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "59 Dias",
-    "dias_estoque": 184.2,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12222,7 +12222,7 @@
     "dias_sem_venda_str": "50 dias",
     "idade_estoque": "66 Dias",
     "dias_estoque": 800.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12247,7 +12247,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "11 Dias",
     "dias_estoque": 81.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12259,9 +12259,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 132,
-    "estoque_raw": 132,
-    "estoque_formatado": "132 bdj",
+    "estoque": 128,
+    "estoque_raw": 128,
+    "estoque_formatado": "128 bdj",
     "preco_venda": 15.98,
     "custo_liquido": 6.77,
     "margem_pdv": "57.6%",
@@ -12272,7 +12272,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "6 Dias",
     "dias_estoque": 71.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12284,9 +12284,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 72,
-    "estoque_raw": 72,
-    "estoque_formatado": "72 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.67,
     "margem_pdv": "57.5%",
@@ -12295,9 +12295,9 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "19 Dias",
-    "dias_estoque": 112.7,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12309,9 +12309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 48,
-    "estoque_raw": 48,
-    "estoque_formatado": "48 bdj",
+    "estoque": 47,
+    "estoque_raw": 47,
+    "estoque_formatado": "47 bdj",
     "preco_venda": 15.98,
     "custo_liquido": 6.71,
     "margem_pdv": "58.0%",
@@ -12322,7 +12322,7 @@
     "dias_sem_venda_str": "7 dias",
     "idade_estoque": "12 Dias",
     "dias_estoque": 67.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12347,7 +12347,7 @@
     "dias_sem_venda_str": "67 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12372,7 +12372,7 @@
     "dias_sem_venda_str": "8 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12384,9 +12384,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 29,
-    "estoque_raw": 29,
-    "estoque_formatado": "29 bdj",
+    "estoque": 24,
+    "estoque_raw": 24,
+    "estoque_formatado": "24 bdj",
     "preco_venda": 14.9,
     "custo_liquido": 9.37,
     "margem_pdv": "37.1%",
@@ -12397,7 +12397,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "11 Dias",
     "dias_estoque": 43.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12422,7 +12422,7 @@
     "dias_sem_venda_str": "24 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12447,7 +12447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12472,7 +12472,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12497,7 +12497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12522,7 +12522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12547,7 +12547,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "7 Dias",
     "dias_estoque": 22.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12572,7 +12572,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12597,7 +12597,7 @@
     "dias_sem_venda_str": "32 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12609,9 +12609,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 bdj",
+    "estoque": 18,
+    "estoque_raw": 18,
+    "estoque_formatado": "18 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -12622,7 +12622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12647,7 +12647,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 6.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12659,9 +12659,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 18,
-    "estoque_raw": 18,
-    "estoque_formatado": "18 bdj",
+    "estoque": 25,
+    "estoque_raw": 25,
+    "estoque_formatado": "25 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.45,
     "margem_pdv": "70.9%",
@@ -12672,7 +12672,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 2.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12684,9 +12684,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.45,
     "margem_pdv": "70.9%",
@@ -12697,7 +12697,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 2.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12709,9 +12709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.36,
     "margem_pdv": "72.8%",
@@ -12720,9 +12720,9 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 9.5,
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12747,7 +12747,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12759,9 +12759,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 25,
-    "estoque_raw": 25,
-    "estoque_formatado": "25 bdj",
+    "estoque": 35,
+    "estoque_raw": 35,
+    "estoque_formatado": "35 bdj",
     "preco_venda": 9.9,
     "custo_liquido": 3.48,
     "margem_pdv": "64.8%",
@@ -12772,7 +12772,7 @@
     "dias_sem_venda_str": "13 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12797,7 +12797,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 2.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12809,9 +12809,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 35,
-    "estoque_raw": 35,
-    "estoque_formatado": "35 bdj",
+    "estoque": 22,
+    "estoque_raw": 22,
+    "estoque_formatado": "22 bdj",
     "preco_venda": 13.98,
     "custo_liquido": 7.11,
     "margem_pdv": "49.2%",
@@ -12822,7 +12822,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 0.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12847,7 +12847,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 3.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12859,9 +12859,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 13,
+    "estoque_raw": 13,
+    "estoque_formatado": "13 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 2.48,
     "margem_pdv": "69.0%",
@@ -12872,7 +12872,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12884,9 +12884,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 12.98,
     "custo_liquido": 5.34,
     "margem_pdv": "58.8%",
@@ -12897,7 +12897,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 9.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12909,9 +12909,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 26,
-    "estoque_raw": 26,
-    "estoque_formatado": "26 un",
+    "estoque": 22,
+    "estoque_raw": 22,
+    "estoque_formatado": "22 un",
     "preco_venda": 12.98,
     "custo_liquido": 5.34,
     "margem_pdv": "58.8%",
@@ -12922,7 +12922,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 9.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12934,9 +12934,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.87,
     "margem_pdv": "62.5%",
@@ -12947,7 +12947,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12959,9 +12959,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 16,
-    "estoque_raw": 16,
-    "estoque_formatado": "16 bdj",
+    "estoque": 60,
+    "estoque_raw": 60,
+    "estoque_formatado": "60 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 3.89,
     "margem_pdv": "51.3%",
@@ -12972,7 +12972,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -12984,9 +12984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 22,
-    "estoque_raw": 22,
-    "estoque_formatado": "22 bdj",
+    "estoque": 16,
+    "estoque_raw": 16,
+    "estoque_formatado": "16 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 3.74,
     "margem_pdv": "46.5%",
@@ -12997,7 +12997,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 3.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13009,9 +13009,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 bdj",
+    "estoque": 16,
+    "estoque_raw": 16,
+    "estoque_formatado": "16 bdj",
     "preco_venda": 3.98,
     "custo_liquido": 1.35,
     "margem_pdv": "66.1%",
@@ -13022,7 +13022,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 7.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13034,9 +13034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 bdj",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 bdj",
     "preco_venda": 3.98,
     "custo_liquido": 1.35,
     "margem_pdv": "66.1%",
@@ -13047,7 +13047,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "3 Dias",
     "dias_estoque": 7.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13059,9 +13059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -0.62,
-    "estoque_raw": -0.62,
-    "estoque_formatado": "-0,620 kg",
+    "estoque": 281.78,
+    "estoque_raw": 281.78,
+    "estoque_formatado": "281,780 kg",
     "preco_venda": 8.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -13070,9 +13070,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13084,9 +13084,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 35,
-    "estoque_raw": 35,
-    "estoque_formatado": "35 un",
+    "estoque": 566,
+    "estoque_raw": 566,
+    "estoque_formatado": "566 un",
     "preco_venda": 14.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -13097,7 +13097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13122,7 +13122,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13147,7 +13147,7 @@
     "dias_sem_venda_str": "16 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13159,9 +13159,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -5.575,
-    "estoque_raw": -5.575,
-    "estoque_formatado": "-5,575 kg",
+    "estoque": -5.925,
+    "estoque_raw": -5.925,
+    "estoque_formatado": "-5,925 kg",
     "preco_venda": 6.98,
     "custo_liquido": 2.46,
     "margem_pdv": "64.8%",
@@ -13172,7 +13172,7 @@
     "dias_sem_venda_str": "3 dias",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13184,9 +13184,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 37.497,
-    "estoque_raw": 37.497,
-    "estoque_formatado": "37,497 kg",
+    "estoque": 232.877,
+    "estoque_raw": 232.877,
+    "estoque_formatado": "232,877 kg",
     "preco_venda": 9.97,
     "custo_liquido": 3.5,
     "margem_pdv": "64.9%",
@@ -13197,7 +13197,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 1.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13209,9 +13209,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
     "preco_venda": 9.99,
     "custo_liquido": 4.56,
     "margem_pdv": "32.7%",
@@ -13222,7 +13222,7 @@
     "dias_sem_venda_str": "120 dias",
     "idade_estoque": "14 Dias",
     "dias_estoque": 40.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13234,9 +13234,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.58,
     "margem_pdv": "68.2%",
@@ -13247,7 +13247,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "3 Dias",
     "dias_estoque": 6.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13259,9 +13259,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 755.247,
-    "estoque_raw": 755.247,
-    "estoque_formatado": "755,247 kg",
+    "estoque": 571.282,
+    "estoque_raw": 571.282,
+    "estoque_formatado": "571,282 kg",
     "preco_venda": 9.99,
     "custo_liquido": 4.54,
     "margem_pdv": "54.5%",
@@ -13272,7 +13272,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "4 Dias",
     "dias_estoque": 15.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13284,9 +13284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 19,
-    "estoque_raw": 19,
-    "estoque_formatado": "19 un",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.5,
     "margem_pdv": "41.5%",
@@ -13297,7 +13297,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13309,9 +13309,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 un",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.5,
     "margem_pdv": "41.5%",
@@ -13322,7 +13322,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "1 Dias",
     "dias_estoque": 2.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13334,9 +13334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 24,
-    "estoque_raw": 24,
-    "estoque_formatado": "24 un",
+    "estoque": 32,
+    "estoque_raw": 32,
+    "estoque_formatado": "32 un",
     "preco_venda": 9.97,
     "custo_liquido": 3.5,
     "margem_pdv": "64.9%",
@@ -13347,7 +13347,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 1.9,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13359,9 +13359,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 34,
-    "estoque_raw": 34,
-    "estoque_formatado": "34 un",
+    "estoque": 45,
+    "estoque_raw": 45,
+    "estoque_formatado": "45 un",
     "preco_venda": 5.98,
     "custo_liquido": 2.89,
     "margem_pdv": "51.6%",
@@ -13372,7 +13372,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 1.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13384,9 +13384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 94,
-    "estoque_raw": 94,
-    "estoque_formatado": "94 un",
+    "estoque": 87,
+    "estoque_raw": 87,
+    "estoque_formatado": "87 un",
     "preco_venda": 5.98,
     "custo_liquido": 2.89,
     "margem_pdv": "51.6%",
@@ -13397,7 +13397,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 1.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13409,9 +13409,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 36,
-    "estoque_raw": 36,
-    "estoque_formatado": "36 un",
+    "estoque": 39,
+    "estoque_raw": 39,
+    "estoque_formatado": "39 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.5,
     "margem_pdv": "41.5%",
@@ -13422,7 +13422,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "2 Dias",
     "dias_estoque": 5.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13434,9 +13434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 145,
-    "estoque_raw": 145,
-    "estoque_formatado": "145 un",
+    "estoque": 281,
+    "estoque_raw": 281,
+    "estoque_formatado": "281 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -13447,7 +13447,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 3.4,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13459,9 +13459,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 17,
-    "estoque_raw": 17,
-    "estoque_formatado": "17 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -13472,7 +13472,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 4.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13484,9 +13484,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 155.125,
-    "estoque_raw": 155.125,
-    "estoque_formatado": "155,125 kg",
+    "estoque": 117.22,
+    "estoque_raw": 117.22,
+    "estoque_formatado": "117,220 kg",
     "preco_venda": 35.01,
     "custo_liquido": 18.62,
     "margem_pdv": "46.8%",
@@ -13497,7 +13497,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 5.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13509,9 +13509,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 82,
-    "estoque_raw": 82,
-    "estoque_formatado": "82 bdj",
+    "estoque": 80,
+    "estoque_raw": 80,
+    "estoque_formatado": "80 bdj",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -13522,7 +13522,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 1.6,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13534,9 +13534,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 22,
-    "estoque_raw": 22,
-    "estoque_formatado": "22 un",
+    "estoque": 21,
+    "estoque_raw": 21,
+    "estoque_formatado": "21 un",
     "preco_venda": 13.98,
     "custo_liquido": 7.34,
     "margem_pdv": "47.5%",
@@ -13547,7 +13547,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "31 Dias",
     "dias_estoque": 93.3,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13559,9 +13559,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 140,
-    "estoque_raw": 140,
-    "estoque_formatado": "140 bdj",
+    "estoque": 139,
+    "estoque_raw": 139,
+    "estoque_formatado": "139 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.96,
     "margem_pdv": "63.1%",
@@ -13572,7 +13572,7 @@
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "39 Dias",
     "dias_estoque": 75.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13584,9 +13584,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 91,
-    "estoque_raw": 91,
-    "estoque_formatado": "91 bdj",
+    "estoque": 89,
+    "estoque_raw": 89,
+    "estoque_formatado": "89 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.67,
     "margem_pdv": "56.3%",
@@ -13597,7 +13597,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "29 Dias",
     "dias_estoque": 161.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13622,7 +13622,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "39 Dias",
     "dias_estoque": 85.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13647,7 +13647,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "1 Dias",
     "dias_estoque": 4.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13659,9 +13659,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 78,
-    "estoque_raw": 78,
-    "estoque_formatado": "78 bdj",
+    "estoque": 77,
+    "estoque_raw": 77,
+    "estoque_formatado": "77 bdj",
     "preco_venda": 39.9,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -13672,7 +13672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13697,7 +13697,7 @@
     "dias_sem_venda_str": "1 dia",
     "idade_estoque": "48 Dias",
     "dias_estoque": 123.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13709,9 +13709,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 68.517,
-    "estoque_raw": 68.517,
-    "estoque_formatado": "68,517 kg",
+    "estoque": 60.907,
+    "estoque_raw": 60.907,
+    "estoque_formatado": "60,907 kg",
     "preco_venda": 35.01,
     "custo_liquido": 18.62,
     "margem_pdv": "46.8%",
@@ -13722,7 +13722,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 5.7,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13734,9 +13734,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11.938,
-    "estoque_raw": 11.938,
-    "estoque_formatado": "11,938 kg",
+    "estoque": 21.484,
+    "estoque_raw": 21.484,
+    "estoque_formatado": "21,484 kg",
     "preco_venda": 12.39,
     "custo_liquido": 6.16,
     "margem_pdv": "50.3%",
@@ -13747,7 +13747,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "4 Dias",
     "dias_estoque": 3.5,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13772,7 +13772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13797,7 +13797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13809,9 +13809,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 29.9,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -13820,9 +13820,9 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13834,9 +13834,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 96.775,
-    "estoque_raw": 96.775,
-    "estoque_formatado": "96,775 kg",
+    "estoque": 79.11,
+    "estoque_raw": 79.11,
+    "estoque_formatado": "79,110 kg",
     "preco_venda": 11.98,
     "custo_liquido": 3.85,
     "margem_pdv": "67.9%",
@@ -13847,7 +13847,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "2 Dias",
     "dias_estoque": 11.2,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13872,7 +13872,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13884,9 +13884,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8.51,
-    "estoque_raw": 8.51,
-    "estoque_formatado": "8,510 kg",
+    "estoque": 6.21,
+    "estoque_raw": 6.21,
+    "estoque_formatado": "6,210 kg",
     "preco_venda": 34.91,
     "custo_liquido": 14.65,
     "margem_pdv": "58.0%",
@@ -13897,7 +13897,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13922,7 +13922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "02 TRE",
@@ -13934,9 +13934,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 68.994,
-    "estoque_raw": 68.994,
-    "estoque_formatado": "68,994 kg",
+    "estoque": 118.504,
+    "estoque_raw": 118.504,
+    "estoque_formatado": "118,504 kg",
     "preco_venda": 19.979999999999997,
     "custo_liquido": 10.58,
     "margem_pdv": "47.1%",
@@ -13947,7 +13947,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "5 Dias",
     "dias_estoque": 3.1,
-    "data_coleta": "2026-11-04"
+    "data_coleta": "2026-11-05"
   },
   {
     "loja": "04 LAG",
