@@ -84,9 +84,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 86.585,
-    "estoque_raw": 86.585,
-    "estoque_formatado": "86,585 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 15.98,
     "custo_liquido": 4.54,
     "margem_pdv": "57.6%",
@@ -95,8 +95,8 @@
     "ult_compra_str": "19/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 2.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -1334,9 +1334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 9.99,
     "custo_liquido": 6.77,
     "margem_pdv": "41.1%",
@@ -1345,8 +1345,8 @@
     "ult_compra_str": "20/10/2026 (4d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 6.5,
     "data_coleta": "2026-11-08"
   },
   {
@@ -1734,9 +1734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 7.98,
     "custo_liquido": 2.98,
     "margem_pdv": "43.5%",
@@ -1745,8 +1745,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 3.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -2634,9 +2634,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 20.85,
-    "estoque_raw": 20.85,
-    "estoque_formatado": "20,850 kg",
+    "estoque": 21.715,
+    "estoque_raw": 21.715,
+    "estoque_formatado": "21,715 kg",
     "preco_venda": 59.0,
     "custo_liquido": 9.79,
     "margem_pdv": "58.6%",
@@ -3409,9 +3409,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 20,
+    "estoque_raw": 20,
+    "estoque_formatado": "20 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.4,
     "margem_pdv": "45.5%",
@@ -3420,7 +3420,7 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "36 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
@@ -3984,9 +3984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 165,
-    "estoque_raw": 165,
-    "estoque_formatado": "165 un",
+    "estoque": 241,
+    "estoque_raw": 241,
+    "estoque_formatado": "241 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.29,
     "margem_pdv": "12.4%",
@@ -4159,9 +4159,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 11.18,
     "custo_liquido": 5.87,
     "margem_pdv": "44.6%",
@@ -4284,9 +4284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 12.98,
     "custo_liquido": 10.46,
     "margem_pdv": "71.1%",
@@ -4309,9 +4309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 38,
-    "estoque_raw": 38,
-    "estoque_formatado": "38 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.91,
     "margem_pdv": "52.5%",
@@ -4320,8 +4320,8 @@
     "ult_compra_str": "23/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 0.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -5184,9 +5184,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 un",
     "preco_venda": 5.98,
     "custo_liquido": 18.98,
     "margem_pdv": "54.5%",
@@ -5195,8 +5195,8 @@
     "ult_compra_str": "16/10/2026 (8d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 225.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -5634,9 +5634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 bdj",
+    "estoque": -4,
+    "estoque_raw": -4,
+    "estoque_formatado": "-4 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.34,
     "margem_pdv": "73.0%",
@@ -8109,9 +8109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 153.635,
-    "estoque_raw": 153.635,
-    "estoque_formatado": "153,635 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 3.9800000000000004,
     "custo_liquido": 2.37,
     "margem_pdv": "40.5%",
@@ -8120,8 +8120,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 2.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8284,9 +8284,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 23.688,
-    "estoque_raw": 23.688,
-    "estoque_formatado": "23,688 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.25,
     "margem_pdv": "45.6%",
@@ -8295,8 +8295,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 4.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8584,9 +8584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 159.725,
-    "estoque_raw": 159.725,
-    "estoque_formatado": "159,725 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 10.97,
     "custo_liquido": 5.58,
     "margem_pdv": "49.1%",
@@ -8595,8 +8595,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 2.2,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8684,9 +8684,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 114.165,
-    "estoque_raw": 114.165,
-    "estoque_formatado": "114,165 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.48,
     "margem_pdv": "41.8%",
@@ -8695,8 +8695,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 5.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8784,9 +8784,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 536.888,
-    "estoque_raw": 536.888,
-    "estoque_formatado": "536,888 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 5.98,
     "custo_liquido": 3.48,
     "margem_pdv": "41.8%",
@@ -8795,8 +8795,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 5.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8809,9 +8809,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 14.919,
-    "estoque_raw": 14.919,
-    "estoque_formatado": "14,919 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 16.98,
     "custo_liquido": 8.72,
     "margem_pdv": "48.6%",
@@ -8820,8 +8820,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 13.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -8959,9 +8959,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 481.955,
-    "estoque_raw": 481.955,
-    "estoque_formatado": "481,955 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 16.98,
     "custo_liquido": 8.72,
     "margem_pdv": "48.6%",
@@ -8970,8 +8970,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 13.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -9084,9 +9084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 121.045,
-    "estoque_raw": 121.045,
-    "estoque_formatado": "121,045 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 3.81,
     "custo_liquido": 2.08,
     "margem_pdv": "45.4%",
@@ -9095,8 +9095,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 4.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -9384,9 +9384,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 31.461,
-    "estoque_raw": 31.461,
-    "estoque_formatado": "31,461 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 29.89,
     "custo_liquido": 14.95,
     "margem_pdv": "50.0%",
@@ -9584,9 +9584,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 240.314,
-    "estoque_raw": 240.314,
-    "estoque_formatado": "240,314 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.32,
     "margem_pdv": "44.5%",
@@ -9595,8 +9595,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 0.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -9609,9 +9609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 20.805,
-    "estoque_raw": 20.805,
-    "estoque_formatado": "20,805 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 14.98,
     "custo_liquido": 8.32,
     "margem_pdv": "44.5%",
@@ -9620,8 +9620,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 0.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -9759,9 +9759,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 1330.36,
-    "estoque_raw": 1330.36,
-    "estoque_formatado": "1.330,360 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 12.89,
     "custo_liquido": 7.34,
     "margem_pdv": "43.1%",
@@ -9770,8 +9770,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 0.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -9809,9 +9809,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 29.783,
-    "estoque_raw": 29.783,
-    "estoque_formatado": "29,783 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 9.98,
     "custo_liquido": 5.58,
     "margem_pdv": "44.1%",
@@ -9820,8 +9820,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 3.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -10059,9 +10059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 30.024,
-    "estoque_raw": 30.024,
-    "estoque_formatado": "30,024 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 14.9,
     "custo_liquido": 7.56,
     "margem_pdv": "49.2%",
@@ -10070,8 +10070,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "5 Dias",
-    "dias_estoque": 4.3,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -10884,9 +10884,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 10.9,
     "custo_liquido": 4.19,
     "margem_pdv": "61.6%",
@@ -10895,8 +10895,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 4.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -10984,9 +10984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 17,
-    "estoque_raw": 17,
-    "estoque_formatado": "17 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.11,
     "margem_pdv": "58.8%",
@@ -10995,8 +10995,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 8.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -11109,9 +11109,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 132,
+    "estoque_raw": 132,
+    "estoque_formatado": "132 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 4.85,
     "margem_pdv": "39.6%",
@@ -11120,7 +11120,7 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "59 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
@@ -11159,9 +11159,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 2.5,
     "margem_pdv": "49.7%",
@@ -11170,8 +11170,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 5.1,
     "data_coleta": "2026-11-08"
   },
   {
@@ -11359,9 +11359,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 5.11,
     "margem_pdv": "65.9%",
@@ -11370,7 +11370,7 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
+    "idade_estoque": "2 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
@@ -11734,9 +11734,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.5,
     "margem_pdv": "57.6%",
@@ -11746,7 +11746,7 @@
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "dias_estoque": 0.2,
     "data_coleta": "2026-11-08"
   },
   {
@@ -12284,9 +12284,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 69,
+    "estoque_raw": 69,
+    "estoque_formatado": "69 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.67,
     "margem_pdv": "57.5%",
@@ -12295,8 +12295,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "19 Dias",
+    "dias_estoque": 112.7,
     "data_coleta": "2026-11-08"
   },
   {
@@ -12834,9 +12834,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 12.98,
     "custo_liquido": 3.46,
     "margem_pdv": "73.4%",
@@ -12845,8 +12845,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 3.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -13509,9 +13509,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 79,
+    "estoque_raw": 79,
+    "estoque_formatado": "79 bdj",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -13520,8 +13520,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 0,
     "dias_sem_venda_str": "Hoje (0 dias)",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 1.6,
     "data_coleta": "2026-11-08"
   },
   {
@@ -14234,9 +14234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 55.47,
+    "estoque_raw": 55.47,
+    "estoque_formatado": "55,470 kg",
     "preco_venda": 7.98,
     "custo_liquido": 3.85,
     "margem_pdv": "51.8%",
@@ -14245,8 +14245,8 @@
     "ult_compra_str": "10/10/2026 (15d)",
     "dias_sem_venda": 4,
     "dias_sem_venda_str": "4 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "14 Dias",
+    "dias_estoque": 2.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -14534,9 +14534,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1154.106,
-    "estoque_raw": 1154.106,
-    "estoque_formatado": "1.154,106 kg",
+    "estoque": 1163.645,
+    "estoque_raw": 1163.645,
+    "estoque_formatado": "1.163,645 kg",
     "preco_venda": 4.98,
     "custo_liquido": 1.62,
     "margem_pdv": "67.5%",
@@ -14609,9 +14609,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 88.415,
-    "estoque_raw": 88.415,
-    "estoque_formatado": "88,415 kg",
+    "estoque": 89.11,
+    "estoque_raw": 89.11,
+    "estoque_formatado": "89,110 kg",
     "preco_venda": 7.98,
     "custo_liquido": 2.92,
     "margem_pdv": "63.5%",
@@ -14709,9 +14709,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 25,
-    "estoque_raw": 25,
-    "estoque_formatado": "25 un",
+    "estoque": 27,
+    "estoque_raw": 27,
+    "estoque_formatado": "27 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -14734,9 +14734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 9.99,
     "custo_liquido": 4.69,
     "margem_pdv": "53.1%",
@@ -14934,9 +14934,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 313,
-    "estoque_raw": 313,
-    "estoque_formatado": "313 un",
+    "estoque": 342,
+    "estoque_raw": 342,
+    "estoque_formatado": "342 un",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -15034,9 +15034,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 314,
-    "estoque_raw": 314,
-    "estoque_formatado": "314 un",
+    "estoque": 368,
+    "estoque_raw": 368,
+    "estoque_formatado": "368 un",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -15134,9 +15134,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 un",
     "preco_venda": 79.0,
     "custo_liquido": 40.75,
     "margem_pdv": "48.4%",
@@ -15309,9 +15309,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 61.872,
-    "estoque_raw": 61.872,
-    "estoque_formatado": "61,872 kg",
+    "estoque": 62.945,
+    "estoque_raw": 62.945,
+    "estoque_formatado": "62,945 kg",
     "preco_venda": 9.98,
     "custo_liquido": 4.83,
     "margem_pdv": "51.6%",
@@ -15334,9 +15334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 70,
-    "estoque_raw": 70,
-    "estoque_formatado": "70 un",
+    "estoque": 95,
+    "estoque_raw": 95,
+    "estoque_formatado": "95 un",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -15684,9 +15684,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 124,
+    "estoque_raw": 124,
+    "estoque_formatado": "124 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -15695,8 +15695,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 3.8,
     "data_coleta": "2026-11-08"
   },
   {
@@ -15734,9 +15734,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 197,
-    "estoque_raw": 197,
-    "estoque_formatado": "197 bdj",
+    "estoque": 215,
+    "estoque_raw": 215,
+    "estoque_formatado": "215 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 3.62,
     "margem_pdv": "48.2%",
@@ -15934,9 +15934,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 473.48,
+    "estoque_raw": 473.48,
+    "estoque_formatado": "473,480 kg",
     "preco_venda": 15.98,
     "custo_liquido": 8.72,
     "margem_pdv": "45.5%",
@@ -15945,8 +15945,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 4.7,
     "data_coleta": "2026-11-08"
   },
   {
@@ -15984,9 +15984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 702,
+    "estoque_raw": 702,
+    "estoque_formatado": "702 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 2.65,
     "margem_pdv": "46.8%",
@@ -15995,8 +15995,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 7.1,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16034,9 +16034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": -0.995,
+    "estoque_raw": -0.995,
+    "estoque_formatado": "-0,995 kg",
     "preco_venda": 12.98,
     "custo_liquido": 4.69,
     "margem_pdv": "63.9%",
@@ -16059,9 +16059,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 87.75,
+    "estoque_raw": 87.75,
+    "estoque_formatado": "87,750 kg",
     "preco_venda": 4.98,
     "custo_liquido": 2.01,
     "margem_pdv": "59.7%",
@@ -16070,8 +16070,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 5.1,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16084,9 +16084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 251.54,
-    "estoque_raw": 251.54,
-    "estoque_formatado": "251,540 kg",
+    "estoque": 266.065,
+    "estoque_raw": 266.065,
+    "estoque_formatado": "266,065 kg",
     "preco_venda": 3.98,
     "custo_liquido": 1.42,
     "margem_pdv": "64.4%",
@@ -16184,9 +16184,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 56,
-    "estoque_raw": 56,
-    "estoque_formatado": "56 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.61,
     "margem_pdv": "64.5%",
@@ -16195,8 +16195,8 @@
     "ult_compra_str": "14/07/2026 (103d)",
     "dias_sem_venda": 13,
     "dias_sem_venda_str": "13 dias",
-    "idade_estoque": "111 Dias",
-    "dias_estoque": 133.3,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16334,9 +16334,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 bdj",
     "preco_venda": 11.9,
     "custo_liquido": 5.85,
     "margem_pdv": "50.8%",
@@ -16345,8 +16345,8 @@
     "ult_compra_str": "19/09/2026 (36d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "35 Dias",
+    "dias_estoque": 14.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16359,9 +16359,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": -2.665,
+    "estoque_raw": -2.665,
+    "estoque_formatado": "-2,665 kg",
     "preco_venda": 14.98,
     "custo_liquido": 9.02,
     "margem_pdv": "39.8%",
@@ -16434,9 +16434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 39,
-    "estoque_raw": 39,
-    "estoque_formatado": "39 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 4.98,
     "custo_liquido": 2.65,
     "margem_pdv": "46.8%",
@@ -16445,8 +16445,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 7.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16484,9 +16484,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 bdj",
+    "estoque": 11,
+    "estoque_raw": 11,
+    "estoque_formatado": "11 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 10.01,
     "margem_pdv": "49.7%",
@@ -16634,9 +16634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 826,
+    "estoque_raw": 826,
+    "estoque_formatado": "826 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 5.82,
     "margem_pdv": "47.0%",
@@ -16645,8 +16645,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 5.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16659,9 +16659,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 417,
+    "estoque_raw": 417,
+    "estoque_formatado": "417 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 5.28,
     "margem_pdv": "33.8%",
@@ -16670,8 +16670,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 7.5,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16709,9 +16709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 19,
-    "estoque_raw": 19,
-    "estoque_formatado": "19 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 5.0,
     "margem_pdv": "49.9%",
@@ -16720,8 +16720,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 0.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16759,9 +16759,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 18,
-    "estoque_raw": 18,
-    "estoque_formatado": "18 un",
+    "estoque": 19,
+    "estoque_raw": 19,
+    "estoque_formatado": "19 un",
     "preco_venda": 11.9,
     "custo_liquido": 4.69,
     "margem_pdv": "60.6%",
@@ -16809,9 +16809,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 4,
-    "estoque_raw": 4,
-    "estoque_formatado": "4 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.16,
     "margem_pdv": "58.3%",
@@ -16820,8 +16820,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 12.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16834,9 +16834,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 2.86,
     "margem_pdv": "64.1%",
@@ -16845,8 +16845,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 8.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16859,9 +16859,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 29,
-    "estoque_raw": 29,
-    "estoque_formatado": "29 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.33,
     "margem_pdv": "56.7%",
@@ -16870,8 +16870,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 24.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -16934,9 +16934,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": -18.373,
+    "estoque_raw": -18.373,
+    "estoque_formatado": "-18,373 kg",
     "preco_venda": 14.9,
     "custo_liquido": 6.96,
     "margem_pdv": "53.3%",
@@ -17034,9 +17034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 25.814,
-    "estoque_raw": 25.814,
-    "estoque_formatado": "25,814 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 21.9,
     "custo_liquido": 10.27,
     "margem_pdv": "53.1%",
@@ -17045,8 +17045,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 22.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -17234,9 +17234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 47.86,
-    "estoque_raw": 47.86,
-    "estoque_formatado": "47,860 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 19.979999999999997,
     "custo_liquido": 12.03,
     "margem_pdv": "39.8%",
@@ -17245,8 +17245,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 1.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -17284,9 +17284,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -1,
-    "estoque_raw": -1,
-    "estoque_formatado": "-1 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 6.98,
     "custo_liquido": 2.19,
     "margem_pdv": "68.6%",
@@ -17359,9 +17359,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 27,
-    "estoque_raw": 27,
-    "estoque_formatado": "27 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 8.74,
     "margem_pdv": "45.0%",
@@ -17370,8 +17370,8 @@
     "ult_compra_str": "25/08/2026 (61d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "62 Dias",
-    "dias_estoque": 16.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -17434,9 +17434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 un",
+    "estoque": 12,
+    "estoque_raw": 12,
+    "estoque_formatado": "12 un",
     "preco_venda": 25.9,
     "custo_liquido": 10.26,
     "margem_pdv": "60.4%",
@@ -17484,9 +17484,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 98,
+    "estoque_raw": 98,
+    "estoque_formatado": "98 bdj",
     "preco_venda": 9.99,
     "custo_liquido": 5.85,
     "margem_pdv": "41.5%",
@@ -17495,8 +17495,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 3.5,
     "data_coleta": "2026-11-08"
   },
   {
@@ -17934,9 +17934,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 167,
+    "estoque_raw": 167,
+    "estoque_formatado": "167 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.1,
     "margem_pdv": "18.9%",
@@ -17945,8 +17945,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "3 Dias",
+    "dias_estoque": 5.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18059,9 +18059,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 4.04,
     "margem_pdv": "55.0%",
@@ -18070,8 +18070,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 1.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18084,9 +18084,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -79,
-    "estoque_raw": -79,
-    "estoque_formatado": "-79 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 4.85,
     "margem_pdv": "51.4%",
@@ -18109,9 +18109,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 24,
-    "estoque_raw": 24,
-    "estoque_formatado": "24 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 4.0,
     "margem_pdv": "49.9%",
@@ -18120,8 +18120,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "5 Dias",
-    "dias_estoque": 9.5,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18134,9 +18134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 5.13,
     "margem_pdv": "60.5%",
@@ -18209,9 +18209,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 4.54,
     "margem_pdv": "49.4%",
@@ -18220,8 +18220,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 1.3,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18284,9 +18284,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 9,
-    "estoque_raw": 9,
-    "estoque_formatado": "9 un",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 un",
     "preco_venda": 14.98,
     "custo_liquido": 5.16,
     "margem_pdv": "65.6%",
@@ -18309,9 +18309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 2.55,
     "margem_pdv": "68.1%",
@@ -18320,8 +18320,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 2.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18434,9 +18434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -151,
-    "estoque_raw": -151,
-    "estoque_formatado": "-151 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 11.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -18534,9 +18534,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 12.98,
     "custo_liquido": 9.81,
     "margem_pdv": "24.4%",
@@ -18545,8 +18545,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "5 Dias",
-    "dias_estoque": 3.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18634,9 +18634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 74,
+    "estoque_raw": 74,
+    "estoque_formatado": "74 un",
     "preco_venda": 39.9,
     "custo_liquido": 27.5,
     "margem_pdv": "31.1%",
@@ -18645,8 +18645,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 8.5,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18809,9 +18809,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 29,
+    "estoque_raw": 29,
+    "estoque_formatado": "29 un",
     "preco_venda": 15.9,
     "custo_liquido": 8.5,
     "margem_pdv": "46.5%",
@@ -18820,8 +18820,8 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "7 Dias",
+    "dias_estoque": 8.3,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18884,9 +18884,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 12.98,
     "custo_liquido": 8.96,
     "margem_pdv": "31.0%",
@@ -18895,8 +18895,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 4.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -18934,9 +18934,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 327,
-    "estoque_raw": 327,
-    "estoque_formatado": "327 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 11.98,
     "custo_liquido": 5.99,
     "margem_pdv": "50.0%",
@@ -18945,8 +18945,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "5 Dias",
-    "dias_estoque": 4.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19059,9 +19059,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 11,
-    "estoque_raw": 11,
-    "estoque_formatado": "11 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -19070,8 +19070,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 3.3,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19084,9 +19084,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -5,
-    "estoque_raw": -5,
-    "estoque_formatado": "-5 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 6.25,
     "margem_pdv": "43.1%",
@@ -19559,9 +19559,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 un",
     "preco_venda": 12.98,
     "custo_liquido": 10.36,
     "margem_pdv": "20.2%",
@@ -19570,8 +19570,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 4.9,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19634,9 +19634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 bdj",
     "preco_venda": 9.98,
     "custo_liquido": 1.46,
     "margem_pdv": "39.5%",
@@ -19645,8 +19645,8 @@
     "ult_compra_str": "13/10/2026 (12d)",
     "dias_sem_venda": 6,
     "dias_sem_venda_str": "6 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "11 Dias",
+    "dias_estoque": 2.8,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19809,9 +19809,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 12.98,
     "custo_liquido": 3.45,
     "margem_pdv": "73.4%",
@@ -19821,7 +19821,7 @@
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
     "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "dias_estoque": 6.5,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19859,9 +19859,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 12.98,
     "custo_liquido": 5.34,
     "margem_pdv": "58.8%",
@@ -19884,9 +19884,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 un",
+    "estoque": 6,
+    "estoque_raw": 6,
+    "estoque_formatado": "6 un",
     "preco_venda": 9.99,
     "custo_liquido": 4.88,
     "margem_pdv": "51.2%",
@@ -19909,9 +19909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 9,
+    "estoque_raw": 9,
+    "estoque_formatado": "9 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 1.75,
     "margem_pdv": "64.9%",
@@ -19920,8 +19920,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 10.2,
     "data_coleta": "2026-11-08"
   },
   {
@@ -19934,9 +19934,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 1,
-    "estoque_raw": 1,
-    "estoque_formatado": "1 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 3.86,
     "margem_pdv": "51.7%",
@@ -19945,8 +19945,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 3.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -20009,9 +20009,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 3.77,
     "margem_pdv": "65.7%",
@@ -20020,8 +20020,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 3,
     "dias_sem_venda_str": "3 dias",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 0.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -20034,9 +20034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 123.905,
-    "estoque_raw": 123.905,
-    "estoque_formatado": "123,905 kg",
+    "estoque": 139.755,
+    "estoque_raw": 139.755,
+    "estoque_formatado": "139,755 kg",
     "preco_venda": 8.98,
     "custo_liquido": 4.18,
     "margem_pdv": "53.5%",
@@ -20384,9 +20384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 40,
-    "estoque_raw": 40,
-    "estoque_formatado": "40 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -20395,8 +20395,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 3.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -20434,9 +20434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 40,
-    "estoque_raw": 40,
-    "estoque_formatado": "40 un",
+    "estoque": 41,
+    "estoque_raw": 41,
+    "estoque_formatado": "41 un",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -20484,9 +20484,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 89,
-    "estoque_raw": 89,
-    "estoque_formatado": "89 bdj",
+    "estoque": 91,
+    "estoque_raw": 91,
+    "estoque_formatado": "91 bdj",
     "preco_venda": 13.98,
     "custo_liquido": 7.34,
     "margem_pdv": "47.5%",
@@ -20584,9 +20584,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 87,
-    "estoque_raw": 87,
-    "estoque_formatado": "87 un",
+    "estoque": 105,
+    "estoque_raw": 105,
+    "estoque_formatado": "105 un",
     "preco_venda": 6.98,
     "custo_liquido": 3.25,
     "margem_pdv": "53.4%",
@@ -20659,9 +20659,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 49,
-    "estoque_raw": 49,
-    "estoque_formatado": "49 un",
+    "estoque": 51,
+    "estoque_raw": 51,
+    "estoque_formatado": "51 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -20684,9 +20684,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 71.005,
-    "estoque_raw": 71.005,
-    "estoque_formatado": "71,005 kg",
+    "estoque": 72.17,
+    "estoque_raw": 72.17,
+    "estoque_formatado": "72,170 kg",
     "preco_venda": 29.91,
     "custo_liquido": 14.82,
     "margem_pdv": "50.5%",
@@ -21084,9 +21084,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -58.8,
-    "estoque_raw": -58.8,
-    "estoque_formatado": "-58,800 kg",
+    "estoque": -54.55,
+    "estoque_raw": -54.55,
+    "estoque_formatado": "-54,550 kg",
     "preco_venda": 10.98,
     "custo_liquido": 6.32,
     "margem_pdv": "42.5%",
@@ -21159,9 +21159,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 104.103,
+    "estoque_raw": 104.103,
+    "estoque_formatado": "104,103 kg",
     "preco_venda": 6.98,
     "custo_liquido": 3.38,
     "margem_pdv": "51.6%",
@@ -21170,8 +21170,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "4 Dias",
+    "dias_estoque": 20.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -21234,9 +21234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 41.135,
+    "estoque_raw": 41.135,
+    "estoque_formatado": "41,135 kg",
     "preco_venda": 7.98,
     "custo_liquido": 4.12,
     "margem_pdv": "48.4%",
@@ -21245,8 +21245,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "5 Dias",
+    "dias_estoque": 10.8,
     "data_coleta": "2026-11-08"
   },
   {
@@ -21509,9 +21509,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 252.734,
-    "estoque_raw": 252.734,
-    "estoque_formatado": "252,734 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 3.21,
     "custo_liquido": 1.63,
     "margem_pdv": "49.3%",
@@ -21784,9 +21784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 5.98,
     "custo_liquido": 2.72,
     "margem_pdv": "54.5%",
@@ -21795,8 +21795,8 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "7 Dias",
+    "dias_estoque": 6.2,
     "data_coleta": "2026-11-08"
   },
   {
@@ -23309,9 +23309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 bdj",
     "preco_venda": 11.9,
     "custo_liquido": 5.78,
     "margem_pdv": "51.4%",
@@ -23320,8 +23320,8 @@
     "ult_compra_str": "30/09/2026 (25d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "36 Dias",
+    "dias_estoque": 131.3,
     "data_coleta": "2026-11-08"
   },
   {
@@ -23609,9 +23609,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 279,
-    "estoque_raw": 279,
-    "estoque_formatado": "279 bdj",
+    "estoque": 287,
+    "estoque_raw": 287,
+    "estoque_formatado": "287 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 5.41,
     "margem_pdv": "50.8%",
@@ -23634,9 +23634,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 16,
+    "estoque_raw": 16,
+    "estoque_formatado": "16 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 5.28,
     "margem_pdv": "33.9%",
@@ -24209,9 +24209,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 14.925,
-    "estoque_raw": 14.925,
-    "estoque_formatado": "14,925 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 19.979999999999997,
     "custo_liquido": 12.03,
     "margem_pdv": "39.8%",
@@ -24220,8 +24220,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 2.5,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -24309,9 +24309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 48,
+    "estoque_raw": 48,
+    "estoque_formatado": "48 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 5.11,
     "margem_pdv": "43.1%",
@@ -24320,8 +24320,8 @@
     "ult_compra_str": "19/09/2026 (36d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "35 Dias",
+    "dias_estoque": 171.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -25109,9 +25109,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 bdj",
     "preco_venda": 4.98,
     "custo_liquido": 2.49,
     "margem_pdv": "49.9%",
@@ -25120,8 +25120,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 5,
     "dias_sem_venda_str": "5 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "5 Dias",
+    "dias_estoque": 11.9,
     "data_coleta": "2026-11-08"
   },
   {
@@ -25784,9 +25784,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 4,
-    "estoque_raw": 4,
-    "estoque_formatado": "4 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 15.9,
     "custo_liquido": 8.5,
     "margem_pdv": "46.5%",
@@ -25795,8 +25795,8 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 38.6,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -25959,9 +25959,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 96,
+    "estoque_raw": 96,
+    "estoque_formatado": "96 bdj",
     "preco_venda": 15.98,
     "custo_liquido": 6.65,
     "margem_pdv": "58.4%",
@@ -25970,8 +25970,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "41 Dias",
+    "dias_estoque": 178.6,
     "data_coleta": "2026-11-08"
   },
   {
@@ -26134,9 +26134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 21,
-    "estoque_raw": 21,
-    "estoque_formatado": "21 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 12.01,
     "margem_pdv": "39.6%",
@@ -26159,9 +26159,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 5,
-    "estoque_raw": 5,
-    "estoque_formatado": "5 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 49.9,
     "custo_liquido": 30.05,
     "margem_pdv": "39.8%",
@@ -27784,9 +27784,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -1.27,
-    "estoque_raw": -1.27,
-    "estoque_formatado": "-1,270 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 8.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -28234,9 +28234,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 77.645,
+    "estoque_raw": 77.645,
+    "estoque_formatado": "77,645 kg",
     "preco_venda": 7.98,
     "custo_liquido": 4.42,
     "margem_pdv": "44.6%",
@@ -28245,8 +28245,8 @@
     "ult_compra_str": "14/10/2026 (11d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "14 Dias",
+    "dias_estoque": 6.7,
     "data_coleta": "2026-11-08"
   },
   {
@@ -28259,9 +28259,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 41.01,
+    "estoque_raw": 41.01,
+    "estoque_formatado": "41,010 kg",
     "preco_venda": 16.979999999999997,
     "custo_liquido": 9.93,
     "margem_pdv": "41.5%",
@@ -28270,8 +28270,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "7 Dias",
+    "dias_estoque": 22.6,
     "data_coleta": "2026-11-08"
   },
   {
@@ -29359,9 +29359,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 3.48,
     "custo_liquido": 1.75,
     "margem_pdv": "49.7%",
@@ -29370,8 +29370,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 4.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -29809,9 +29809,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 2,
-    "estoque_raw": 2,
-    "estoque_formatado": "2 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.55,
     "margem_pdv": "64.9%",
@@ -29820,8 +29820,8 @@
     "ult_compra_str": "16/10/2026 (9d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "9 Dias",
-    "dias_estoque": 11.2,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -30134,9 +30134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 48,
+    "estoque_raw": 48,
+    "estoque_formatado": "48 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.8,
     "margem_pdv": "63.0%",
@@ -30145,8 +30145,8 @@
     "ult_compra_str": "16/10/2026 (9d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "12 Dias",
+    "dias_estoque": 91.9,
     "data_coleta": "2026-11-08"
   },
   {
@@ -30684,9 +30684,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 733.114,
-    "estoque_raw": 733.114,
-    "estoque_formatado": "733,114 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 9.98,
     "custo_liquido": 5.5,
     "margem_pdv": "44.9%",
@@ -30695,8 +30695,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 6.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -30734,9 +30734,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 98.753,
-    "estoque_raw": 98.753,
-    "estoque_formatado": "98,753 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 8.98,
     "custo_liquido": 3.47,
     "margem_pdv": "61.4%",
@@ -30745,8 +30745,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "5 Dias",
-    "dias_estoque": 9.5,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -30884,9 +30884,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 124.257,
-    "estoque_raw": 124.257,
-    "estoque_formatado": "124,257 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 14.89,
     "custo_liquido": 6.95,
     "margem_pdv": "53.3%",
@@ -30895,8 +30895,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 3.2,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -31434,9 +31434,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 102,
-    "estoque_raw": 102,
-    "estoque_formatado": "102 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 9.99,
     "custo_liquido": 5.88,
     "margem_pdv": "41.1%",
@@ -31445,8 +31445,8 @@
     "ult_compra_str": "20/10/2026 (5d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "4 Dias",
-    "dias_estoque": 7.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -31709,9 +31709,9 @@
     "unidade_rotulo": "Pacote",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 429,
-    "estoque_raw": 429,
-    "estoque_formatado": "429 pct",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 pct",
     "preco_venda": 9.98,
     "custo_liquido": 6.71,
     "margem_pdv": "32.8%",
@@ -31720,8 +31720,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 3.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -31884,9 +31884,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 1647,
-    "estoque_raw": 1647,
-    "estoque_formatado": "1.647 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.07,
     "margem_pdv": "19.1%",
@@ -31895,8 +31895,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 5.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -31984,9 +31984,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 1,
+    "estoque_raw": 1,
+    "estoque_formatado": "1 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.0,
     "margem_pdv": "61.5%",
@@ -31995,8 +31995,8 @@
     "ult_compra_str": "30/09/2026 (25d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "24 Dias",
+    "dias_estoque": 2.8,
     "data_coleta": "2026-11-08"
   },
   {
@@ -32384,9 +32384,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 10,
-    "estoque_raw": 10,
-    "estoque_formatado": "10 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 12.98,
     "custo_liquido": 7.17,
     "margem_pdv": "44.8%",
@@ -32395,8 +32395,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "14 Dias",
-    "dias_estoque": 19.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -32434,9 +32434,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 17,
+    "estoque_raw": 17,
+    "estoque_formatado": "17 un",
     "preco_venda": 29.9,
     "custo_liquido": 15.34,
     "margem_pdv": "48.7%",
@@ -32445,8 +32445,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 2,
     "dias_sem_venda_str": "2 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "8 Dias",
+    "dias_estoque": 24.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -32559,9 +32559,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 82,
-    "estoque_raw": 82,
-    "estoque_formatado": "82 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 9.98,
     "custo_liquido": 8.0,
     "margem_pdv": "19.8%",
@@ -32570,8 +32570,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "3 Dias",
-    "dias_estoque": 4.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -32584,9 +32584,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 14,
-    "estoque_raw": 14,
-    "estoque_formatado": "14 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 39.9,
     "custo_liquido": 27.5,
     "margem_pdv": "31.1%",
@@ -32595,8 +32595,8 @@
     "ult_compra_str": "17/10/2026 (8d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "7 Dias",
-    "dias_estoque": 4.0,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -34109,9 +34109,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0.0,
-    "estoque_raw": 0.0,
-    "estoque_formatado": "0,000 kg",
+    "estoque": 22.778,
+    "estoque_raw": 22.778,
+    "estoque_formatado": "22,778 kg",
     "preco_venda": 9.97,
     "custo_liquido": 3.53,
     "margem_pdv": "64.6%",
@@ -34120,8 +34120,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 5.6,
     "data_coleta": "2026-11-08"
   },
   {
@@ -34684,9 +34684,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 3,
+    "estoque_raw": 3,
+    "estoque_formatado": "3 un",
     "preco_venda": 49.0,
     "custo_liquido": 24.33,
     "margem_pdv": "50.4%",
@@ -35009,9 +35009,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 1091.854,
-    "estoque_raw": 1091.854,
-    "estoque_formatado": "1.091,854 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 7.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -35020,7 +35020,7 @@
     "ult_compra_str": "-",
     "dias_sem_venda": null,
     "dias_sem_venda_str": "Sem Venda",
-    "idade_estoque": "",
+    "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
@@ -35034,9 +35034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": -74.39,
-    "estoque_raw": -74.39,
-    "estoque_formatado": "-74,390 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 10.98,
     "custo_liquido": 0.0,
     "margem_pdv": "-",
@@ -35609,9 +35609,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 38,
-    "estoque_raw": 38,
-    "estoque_formatado": "38 bdj",
+    "estoque": 40,
+    "estoque_raw": 40,
+    "estoque_formatado": "40 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 8.07,
     "margem_pdv": "37.8%",
@@ -35634,9 +35634,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 23,
-    "estoque_raw": 23,
-    "estoque_formatado": "23 un",
+    "estoque": 25,
+    "estoque_raw": 25,
+    "estoque_formatado": "25 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -35834,9 +35834,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": -2,
+    "estoque_raw": -2,
+    "estoque_formatado": "-2 un",
     "preco_venda": 4.98,
     "custo_liquido": 2.5,
     "margem_pdv": "49.8%",
@@ -35859,9 +35859,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 223,
-    "estoque_raw": 223,
-    "estoque_formatado": "223 un",
+    "estoque": 229,
+    "estoque_raw": 229,
+    "estoque_formatado": "229 un",
     "preco_venda": 8.98,
     "custo_liquido": 4.06,
     "margem_pdv": "54.8%",
@@ -36434,9 +36434,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 3.555,
-    "estoque_raw": 3.555,
-    "estoque_formatado": "3,555 kg",
+    "estoque": 3.815,
+    "estoque_raw": 3.815,
+    "estoque_formatado": "3,815 kg",
     "preco_venda": 3.98,
     "custo_liquido": 2.35,
     "margem_pdv": "41.0%",
@@ -37134,9 +37134,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 7,
-    "estoque_raw": 7,
-    "estoque_formatado": "7 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 5.04,
     "margem_pdv": "61.2%",
@@ -37145,8 +37145,8 @@
     "ult_compra_str": "30/09/2026 (25d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "26 Dias",
-    "dias_estoque": 28.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -37159,9 +37159,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 30,
+    "estoque_raw": 30,
+    "estoque_formatado": "30 un",
     "preco_venda": 3.98,
     "custo_liquido": 1.62,
     "margem_pdv": "59.2%",
@@ -37170,8 +37170,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 11,
     "dias_sem_venda_str": "11 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "29 Dias",
+    "dias_estoque": 25.9,
     "data_coleta": "2026-11-08"
   },
   {
@@ -37259,9 +37259,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 bdj",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 bdj",
     "preco_venda": 11.9,
     "custo_liquido": 5.82,
     "margem_pdv": "51.1%",
@@ -37270,8 +37270,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 10,
     "dias_sem_venda_str": "10 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "24 Dias",
+    "dias_estoque": 200.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -37984,9 +37984,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 4,
+    "estoque_raw": 4,
+    "estoque_formatado": "4 un",
     "preco_venda": 49.0,
     "custo_liquido": 25.09,
     "margem_pdv": "48.8%",
@@ -37995,8 +37995,8 @@
     "ult_compra_str": "16/10/2026 (9d)",
     "dias_sem_venda": 7,
     "dias_sem_venda_str": "7 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "8 Dias",
+    "dias_estoque": 16.7,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38034,9 +38034,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 69,
-    "estoque_raw": 69,
-    "estoque_formatado": "69 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 14.98,
     "custo_liquido": 7.33,
     "margem_pdv": "51.1%",
@@ -38045,8 +38045,8 @@
     "ult_compra_str": "19/10/2026 (6d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "12 Dias",
-    "dias_estoque": 157.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38084,9 +38084,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 12,
-    "estoque_raw": 12,
-    "estoque_formatado": "12 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 129.0,
     "custo_liquido": 56.74,
     "margem_pdv": "56.0%",
@@ -38095,8 +38095,8 @@
     "ult_compra_str": "16/10/2026 (9d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "21 Dias",
-    "dias_estoque": 30.8,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38234,9 +38234,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 88,
+    "estoque_raw": 88,
+    "estoque_formatado": "88 un",
     "preco_venda": 26.98,
     "custo_liquido": 15.37,
     "margem_pdv": "43.0%",
@@ -38259,9 +38259,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 31,
-    "estoque_raw": 31,
-    "estoque_formatado": "31 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 8.98,
     "custo_liquido": 5.11,
     "margem_pdv": "43.1%",
@@ -38270,8 +38270,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "35 Dias",
-    "dias_estoque": 56.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38309,9 +38309,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 53,
-    "estoque_raw": 53,
-    "estoque_formatado": "53 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 15.9,
     "custo_liquido": 7.99,
     "margem_pdv": "49.8%",
@@ -38320,8 +38320,8 @@
     "ult_compra_str": "21/10/2026 (4d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "63 Dias",
-    "dias_estoque": 17.6,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38584,9 +38584,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 39.0,
     "custo_liquido": 16.99,
     "margem_pdv": "56.4%",
@@ -38595,8 +38595,8 @@
     "ult_compra_str": "16/10/2026 (9d)",
     "dias_sem_venda": 31,
     "dias_sem_venda_str": "31 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "25 Dias",
+    "dias_estoque": 133.3,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38759,9 +38759,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 7,
+    "estoque_raw": 7,
+    "estoque_formatado": "7 un",
     "preco_venda": 34.9,
     "custo_liquido": 14.46,
     "margem_pdv": "58.6%",
@@ -38770,8 +38770,8 @@
     "ult_compra_str": "25/09/2026 (30d)",
     "dias_sem_venda": 17,
     "dias_sem_venda_str": "17 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "31 Dias",
+    "dias_estoque": 20.6,
     "data_coleta": "2026-11-08"
   },
   {
@@ -38934,9 +38934,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 3,
-    "estoque_raw": 3,
-    "estoque_formatado": "3 bdj",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 bdj",
     "preco_venda": 12.98,
     "custo_liquido": 4.7,
     "margem_pdv": "63.8%",
@@ -38945,8 +38945,8 @@
     "ult_compra_str": "12/08/2026 (74d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "73 Dias",
-    "dias_estoque": 73.9,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -39334,9 +39334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 5,
+    "estoque_raw": 5,
+    "estoque_formatado": "5 un",
     "preco_venda": 99.0,
     "custo_liquido": 5.13,
     "margem_pdv": "53.7%",
@@ -39345,8 +39345,8 @@
     "ult_compra_str": "10/06/2026 (137d)",
     "dias_sem_venda": 55,
     "dias_sem_venda_str": "55 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "136 Dias",
+    "dias_estoque": 500.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -39359,9 +39359,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 60,
-    "estoque_raw": 60,
-    "estoque_formatado": "60 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 11.98,
     "custo_liquido": 7.0,
     "margem_pdv": "41.6%",
@@ -39370,8 +39370,8 @@
     "ult_compra_str": "22/10/2026 (3d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 5.1,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -39559,9 +39559,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 57,
-    "estoque_raw": 57,
-    "estoque_formatado": "57 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 39.9,
     "custo_liquido": 27.5,
     "margem_pdv": "31.1%",
@@ -39570,8 +39570,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "1 Dias",
-    "dias_estoque": 7.2,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -39609,9 +39609,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 27,
-    "estoque_raw": 27,
-    "estoque_formatado": "27 bdj",
+    "estoque": 28,
+    "estoque_raw": 28,
+    "estoque_formatado": "28 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.68,
     "margem_pdv": "57.4%",
@@ -39709,9 +39709,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 34,
-    "estoque_raw": 34,
-    "estoque_formatado": "34 bdj",
+    "estoque": 36,
+    "estoque_raw": 36,
+    "estoque_formatado": "36 bdj",
     "preco_venda": 7.98,
     "custo_liquido": 4.0,
     "margem_pdv": "49.9%",
@@ -39734,9 +39734,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 26,
-    "estoque_raw": 26,
-    "estoque_formatado": "26 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 15.9,
     "custo_liquido": 8.5,
     "margem_pdv": "46.5%",
@@ -39745,8 +39745,8 @@
     "ult_compra_str": "24/10/2026 (1d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "10 Dias",
-    "dias_estoque": 16.4,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -40084,9 +40084,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 30,
-    "estoque_raw": 30,
-    "estoque_formatado": "30 bdj",
+    "estoque": 31,
+    "estoque_raw": 31,
+    "estoque_formatado": "31 bdj",
     "preco_venda": 19.9,
     "custo_liquido": 12.01,
     "margem_pdv": "39.6%",
@@ -40159,9 +40159,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 246,
-    "estoque_raw": 246,
-    "estoque_formatado": "246 bdj",
+    "estoque": 249,
+    "estoque_raw": 249,
+    "estoque_formatado": "249 bdj",
     "preco_venda": 15.98,
     "custo_liquido": 6.79,
     "margem_pdv": "57.5%",
@@ -40184,9 +40184,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 51,
-    "estoque_raw": 51,
-    "estoque_formatado": "51 bdj",
+    "estoque": 52,
+    "estoque_raw": 52,
+    "estoque_formatado": "52 bdj",
     "preco_venda": 10.98,
     "custo_liquido": 4.7,
     "margem_pdv": "57.2%",
@@ -40259,9 +40259,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "C",
     "giro": "BAIXO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 2,
+    "estoque_raw": 2,
+    "estoque_formatado": "2 un",
     "preco_venda": 159.0,
     "custo_liquido": 99.83,
     "margem_pdv": "37.2%",
@@ -40270,8 +40270,8 @@
     "ult_compra_str": "25/09/2026 (30d)",
     "dias_sem_venda": 157,
     "dias_sem_venda_str": "157 dias",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "29 Dias",
+    "dias_estoque": 200.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -40909,9 +40909,9 @@
     "unidade_rotulo": "Bandeja",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 8,
-    "estoque_raw": 8,
-    "estoque_formatado": "8 bdj",
+    "estoque": 10,
+    "estoque_raw": 10,
+    "estoque_formatado": "10 bdj",
     "preco_venda": 3.98,
     "custo_liquido": 1.43,
     "margem_pdv": "64.2%",
@@ -41034,9 +41034,9 @@
     "unidade_rotulo": "Quilo",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": -0.504,
-    "estoque_raw": -0.504,
-    "estoque_formatado": "-0,504 kg",
+    "estoque": 0.0,
+    "estoque_raw": 0.0,
+    "estoque_formatado": "0,000 kg",
     "preco_venda": 8.98,
     "custo_liquido": 4.15,
     "margem_pdv": "53.8%",
@@ -41109,9 +41109,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "B",
     "giro": "MEDIO",
-    "estoque": 6,
-    "estoque_raw": 6,
-    "estoque_formatado": "6 un",
+    "estoque": 0,
+    "estoque_raw": 0,
+    "estoque_formatado": "0 un",
     "preco_venda": 9.99,
     "custo_liquido": 4.63,
     "margem_pdv": "53.6%",
@@ -41120,8 +41120,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "2 Dias",
-    "dias_estoque": 7.7,
+    "idade_estoque": "0 Dias",
+    "dias_estoque": 0.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -41309,9 +41309,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 106,
+    "estoque_raw": 106,
+    "estoque_formatado": "106 un",
     "preco_venda": 5.98,
     "custo_liquido": 3.5,
     "margem_pdv": "41.5%",
@@ -41320,8 +41320,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "2 Dias",
+    "dias_estoque": 6.0,
     "data_coleta": "2026-11-08"
   },
   {
@@ -41334,9 +41334,9 @@
     "unidade_rotulo": "Unidade",
     "curva": "A",
     "giro": "ALTO",
-    "estoque": 0,
-    "estoque_raw": 0,
-    "estoque_formatado": "0 un",
+    "estoque": 215,
+    "estoque_raw": 215,
+    "estoque_formatado": "215 un",
     "preco_venda": 5.48,
     "custo_liquido": 2.75,
     "margem_pdv": "49.8%",
@@ -41345,8 +41345,8 @@
     "ult_compra_str": "23/10/2026 (2d)",
     "dias_sem_venda": 1,
     "dias_sem_venda_str": "1 dia",
-    "idade_estoque": "0 Dias",
-    "dias_estoque": 0.0,
+    "idade_estoque": "1 Dias",
+    "dias_estoque": 4.4,
     "data_coleta": "2026-11-08"
   },
   {
@@ -41872,7 +41872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -41897,7 +41897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -41922,7 +41922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -41947,7 +41947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -41972,7 +41972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -41997,7 +41997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42022,7 +42022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42047,7 +42047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42072,7 +42072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42097,7 +42097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42122,7 +42122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42147,7 +42147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42172,7 +42172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42197,7 +42197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42222,7 +42222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42247,7 +42247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42272,7 +42272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42297,7 +42297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42322,7 +42322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42347,7 +42347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42372,7 +42372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42397,7 +42397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42422,7 +42422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42447,7 +42447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42472,7 +42472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42497,7 +42497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42522,7 +42522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42547,7 +42547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42572,7 +42572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42597,7 +42597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42622,7 +42622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42647,7 +42647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42672,7 +42672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42697,7 +42697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42722,7 +42722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42747,7 +42747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42772,7 +42772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42797,7 +42797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42822,7 +42822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42847,7 +42847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42872,7 +42872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42897,7 +42897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42922,7 +42922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42947,7 +42947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42972,7 +42972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -42997,7 +42997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43022,7 +43022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43047,7 +43047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43072,7 +43072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43097,7 +43097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43122,7 +43122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43147,7 +43147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43172,7 +43172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43197,7 +43197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43222,7 +43222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43247,7 +43247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43272,7 +43272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43297,7 +43297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43322,7 +43322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43347,7 +43347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43372,7 +43372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43397,7 +43397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43422,7 +43422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43447,7 +43447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43472,7 +43472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43497,7 +43497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43522,7 +43522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43547,7 +43547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43572,7 +43572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43597,7 +43597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43622,7 +43622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43647,7 +43647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43672,7 +43672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43697,7 +43697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43722,7 +43722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43747,7 +43747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43772,7 +43772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43797,7 +43797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43822,7 +43822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43847,7 +43847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43872,7 +43872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43897,7 +43897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43922,7 +43922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43947,7 +43947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43972,7 +43972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -43997,7 +43997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44022,7 +44022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44047,7 +44047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44072,7 +44072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44097,7 +44097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44122,7 +44122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44147,7 +44147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44172,7 +44172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44197,7 +44197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44222,7 +44222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44247,7 +44247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44272,7 +44272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44297,7 +44297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44322,7 +44322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44347,7 +44347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44372,7 +44372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44397,7 +44397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44422,7 +44422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44447,7 +44447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44472,7 +44472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44497,7 +44497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44522,7 +44522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44547,7 +44547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44572,7 +44572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44597,7 +44597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44622,7 +44622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44647,7 +44647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44672,7 +44672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44697,7 +44697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44722,7 +44722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44747,7 +44747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44772,7 +44772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44797,7 +44797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44822,7 +44822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44847,7 +44847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44872,7 +44872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44897,7 +44897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44922,7 +44922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44947,7 +44947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44972,7 +44972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -44997,7 +44997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45022,7 +45022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45047,7 +45047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45072,7 +45072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45097,7 +45097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45122,7 +45122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45147,7 +45147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45172,7 +45172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45197,7 +45197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45222,7 +45222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45247,7 +45247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45272,7 +45272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45297,7 +45297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45322,7 +45322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45347,7 +45347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45372,7 +45372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45397,7 +45397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45422,7 +45422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45447,7 +45447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45472,7 +45472,7 @@
     "dias_sem_venda_str": "Hoje (0 dias)",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45497,7 +45497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45522,7 +45522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45547,7 +45547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45572,7 +45572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45597,7 +45597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45622,7 +45622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45647,7 +45647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45672,7 +45672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45697,7 +45697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45722,7 +45722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45747,7 +45747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45772,7 +45772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45797,7 +45797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45822,7 +45822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45847,7 +45847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45872,7 +45872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45897,7 +45897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45922,7 +45922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45947,7 +45947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45972,7 +45972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -45997,7 +45997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46022,7 +46022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46047,7 +46047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46072,7 +46072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46097,7 +46097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46122,7 +46122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46147,7 +46147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46172,7 +46172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46197,7 +46197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46222,7 +46222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46247,7 +46247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46272,7 +46272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46297,7 +46297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46322,7 +46322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46347,7 +46347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46372,7 +46372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46397,7 +46397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46422,7 +46422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46447,7 +46447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46472,7 +46472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46497,7 +46497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46522,7 +46522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46547,7 +46547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46572,7 +46572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46597,7 +46597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46622,7 +46622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46647,7 +46647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46672,7 +46672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46697,7 +46697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46722,7 +46722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46747,7 +46747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46772,7 +46772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46797,7 +46797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46822,7 +46822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46847,7 +46847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46872,7 +46872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46897,7 +46897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46922,7 +46922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46947,7 +46947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46972,7 +46972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -46997,7 +46997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47022,7 +47022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47047,7 +47047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47072,7 +47072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47097,7 +47097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47122,7 +47122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47147,7 +47147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47172,7 +47172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47197,7 +47197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47222,7 +47222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47247,7 +47247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47272,7 +47272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47297,7 +47297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47322,7 +47322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47347,7 +47347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47372,7 +47372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47397,7 +47397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47422,7 +47422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47447,7 +47447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47472,7 +47472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47497,7 +47497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47522,7 +47522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47547,7 +47547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47572,7 +47572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47597,7 +47597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47622,7 +47622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47647,7 +47647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47672,7 +47672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47697,7 +47697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47722,7 +47722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47747,7 +47747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47772,7 +47772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47797,7 +47797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47822,7 +47822,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47847,7 +47847,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47872,7 +47872,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47897,7 +47897,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47922,7 +47922,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47947,7 +47947,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47972,7 +47972,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -47997,7 +47997,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48022,7 +48022,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48047,7 +48047,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48072,7 +48072,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48097,7 +48097,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48122,7 +48122,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48147,7 +48147,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48172,7 +48172,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48197,7 +48197,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48222,7 +48222,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48247,7 +48247,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48272,7 +48272,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48297,7 +48297,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48322,7 +48322,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48347,7 +48347,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48372,7 +48372,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48397,7 +48397,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48422,7 +48422,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48447,7 +48447,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48472,7 +48472,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48497,7 +48497,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48522,7 +48522,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48547,7 +48547,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48572,7 +48572,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48597,7 +48597,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48622,7 +48622,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48647,7 +48647,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48672,7 +48672,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48697,7 +48697,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48722,7 +48722,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48747,7 +48747,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48772,7 +48772,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48797,7 +48797,7 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   },
   {
     "loja": "10 CNT",
@@ -48822,6 +48822,6 @@
     "dias_sem_venda_str": "Sem Venda",
     "idade_estoque": "0 Dias",
     "dias_estoque": 0.0,
-    "data_coleta": "2026-11-07"
+    "data_coleta": "2026-11-08"
   }
 ]
